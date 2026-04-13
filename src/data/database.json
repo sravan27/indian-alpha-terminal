@@ -1,0 +1,74 @@
+{
+  "episodes": [
+    {
+      "id": "k1",
+      "host": "Kamath Alpha",
+      "video_title": "WTF is Really A.I.? ft. Yann LeCun",
+      "framework": [
+        "1. Identify deterministic tasks currently done by entry-level knowledge workers.",
+        "2. Implement open-source models (like Llama) internally instead of relying on closed APIs.",
+        "3. Build a fine-tuned RAG layer over proprietary company data to create an 'expert' agent."
+      ],
+      "market_gap": "Nobody in India is building localized, vertical-specific foundation models tailored for regional vernaculars; relying on Western LLMs for Indian context is a huge opportunity gap.",
+      "resource": "Meta's Llama 3 weights, Yann LeCun's Joint Embedding Predictive Architecture (JEPA)",
+      "timestamp_url": "https://youtu.be/example1?t=1240",
+      "category": "Technology"
+    },
+    {
+      "id": "k2",
+      "host": "Kamath Alpha",
+      "video_title": "WTF is the Future of Real Estate in India?",
+      "framework": [
+        "1. Target fractional ownership in commercial real estate over residential.",
+        "2. Use REIT structures and tech platforms to lower the minimum investment threshold.",
+        "3. Focus on Tier-2 cities where IT hubs are migrating due to cost of living."
+      ],
+      "market_gap": "There is a massive lack of transparent secondary markets for fractional commercial real estate ownership in India.",
+      "resource": "Indian REIT (Real Estate Investment Trust) guidelines, SEBI regulations",
+      "timestamp_url": "https://youtu.be/example2?t=850",
+      "category": "Real Estate"
+    },
+    {
+      "id": "d1",
+      "host": "Deshpande Ops",
+      "video_title": "Building a Barbershop Empire | Service Business Masterclass",
+      "framework": [
+        "1. Standardize the training protocol: creating a 'university' for talent before they hit the floor.",
+        "2. Implement a subscription model to turn a transactional service into recurring revenue.",
+        "3. Use micro-influencer marketing hyper-locally (within a 3km radius)."
+      ],
+      "market_gap": "There's no operating system (SaaS) built specifically for Indian salon and spa chains to manage subscriptions and talent retention.",
+      "resource": "Zenoti, The E-Myth Revisited by Michael E. Gerber",
+      "timestamp_url": "https://youtu.be/example3?t=430",
+      "category": "Service Economy"
+    },
+    {
+      "id": "s1",
+      "host": "Shamani Hustle",
+      "video_title": "How to Build a 100 Crore FMCG Brand from Scratch",
+      "framework": [
+        "1. Start with white-label manufacturing to test market fit without CapEx.",
+        "2. Build distribution through quick-commerce (Zepto, Blinkit) rather than traditional retail first.",
+        "3. Optimize packaging for the 'thumbnail scale' - it must look premium and distinct on a mobile screen."
+      ],
+      "market_gap": "Nobody is doing hyper-local, health-focused snacks optimized purely for 10-minute delivery apps; traditional FMCGs are too slow to adapt.",
+      "resource": "Blinkit Seller Hub, Zepto Ads platform",
+      "timestamp_url": "https://youtu.be/example4?t=1520",
+      "category": "FMCG"
+    },
+    {
+      "id": "s2",
+      "host": "Shamani Hustle",
+      "video_title": "The D2C Playbook: Scaling with Facebook Ads",
+      "framework": [
+        "1. Create 5 variations of UGC (User-Generated Content) video hooks.",
+        "2. Run ABO (Ad Set Budget Optimization) tests at low budgets to isolate the winning hook.",
+        "3. Scale the winner vertically while building an email list for retargeting."
+      ],
+      "market_gap": "Indian D2C brands heavily underestimate WhatsApp marketing; building an automated WhatsApp checkout flow is a massive conversion opportunity.",
+      "resource": "Shopify, Meta Business Manager, Interakt (WhatsApp API)",
+      "timestamp_url": "https://youtu.be/example5?t=1115",
+      "category": "D2C Marketing"
+    }
+  ]
+}
