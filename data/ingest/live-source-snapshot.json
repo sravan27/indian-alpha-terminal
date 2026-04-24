@@ -1,0 +1,329 @@
+{
+  "generatedAt": "2026-04-17T15:46:07.754147+00:00",
+  "records": [
+    {
+      "episodeId": "n-01",
+      "creatorId": "nikhil-kamath",
+      "videoId": "tWzalcN_Inc",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-01/transcript.json",
+      "segmentCount": 339,
+      "wordCount": 12150
+    },
+    {
+      "episodeId": "n-02",
+      "creatorId": "nikhil-kamath",
+      "videoId": "SkU3J2vWUK8",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-02/transcript.json",
+      "segmentCount": 751,
+      "wordCount": 28095
+    },
+    {
+      "episodeId": "n-03",
+      "creatorId": "nikhil-kamath",
+      "videoId": "UKag4LVAEdU",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-03/transcript.json",
+      "segmentCount": 580,
+      "wordCount": 20560
+    },
+    {
+      "episodeId": "n-04",
+      "creatorId": "nikhil-kamath",
+      "videoId": "-HkBwSazZsM",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-04/transcript.json",
+      "segmentCount": 745,
+      "wordCount": 26929
+    },
+    {
+      "episodeId": "n-05",
+      "creatorId": "nikhil-kamath",
+      "videoId": "01qfxLY2rhQ",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-05/transcript.json",
+      "segmentCount": 618,
+      "wordCount": 22775
+    },
+    {
+      "episodeId": "n-06",
+      "creatorId": "nikhil-kamath",
+      "videoId": "6HE6d0lKh4o",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-06/transcript.json",
+      "segmentCount": 644,
+      "wordCount": 24130
+    },
+    {
+      "episodeId": "n-07",
+      "creatorId": "nikhil-kamath",
+      "videoId": "58i057QXl1A",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-07/transcript.json",
+      "segmentCount": 492,
+      "wordCount": 18222
+    },
+    {
+      "episodeId": "n-08",
+      "creatorId": "nikhil-kamath",
+      "videoId": "hNV6urpwrk8",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-08/transcript.json",
+      "segmentCount": 620,
+      "wordCount": 22342
+    },
+    {
+      "episodeId": "n-09",
+      "creatorId": "nikhil-kamath",
+      "videoId": "zCTm1wHcfkI",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-09/transcript.json",
+      "segmentCount": 710,
+      "wordCount": 25415
+    },
+    {
+      "episodeId": "n-10",
+      "creatorId": "nikhil-kamath",
+      "videoId": "nGpir4oUfJI",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-10/transcript.json",
+      "segmentCount": 785,
+      "wordCount": 29361
+    },
+    {
+      "episodeId": "n-11",
+      "creatorId": "nikhil-kamath",
+      "videoId": "hjiZ11lKCrU",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-11/transcript.json",
+      "segmentCount": 1060,
+      "wordCount": 39636
+    },
+    {
+      "episodeId": "n-12",
+      "creatorId": "nikhil-kamath",
+      "videoId": "M72Wu2rZE7Y",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-12/transcript.json",
+      "segmentCount": 980,
+      "wordCount": 36652
+    },
+    {
+      "episodeId": "n-13",
+      "creatorId": "nikhil-kamath",
+      "videoId": "JjDjDvNgkFo",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-13/transcript.json",
+      "segmentCount": 993,
+      "wordCount": 36815
+    },
+    {
+      "episodeId": "n-14",
+      "creatorId": "nikhil-kamath",
+      "videoId": "iuyy1bIgR1s",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-14/transcript.json",
+      "segmentCount": 921,
+      "wordCount": 33924
+    },
+    {
+      "episodeId": "n-15",
+      "creatorId": "nikhil-kamath",
+      "videoId": "2q7-cTPwf-g",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-15/transcript.json",
+      "segmentCount": 825,
+      "wordCount": 30400
+    },
+    {
+      "episodeId": "n-16",
+      "creatorId": "nikhil-kamath",
+      "videoId": "FPV5fAkqyBs",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-16/transcript.json",
+      "segmentCount": 1153,
+      "wordCount": 42691
+    },
+    {
+      "episodeId": "n-17",
+      "creatorId": "nikhil-kamath",
+      "videoId": "VIlfHB7Jk2s",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-17/transcript.json",
+      "segmentCount": 754,
+      "wordCount": 28196
+    },
+    {
+      "episodeId": "n-18",
+      "creatorId": "nikhil-kamath",
+      "videoId": "0JDsFpU6pGQ",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-18/transcript.json",
+      "segmentCount": 909,
+      "wordCount": 34093
+    },
+    {
+      "episodeId": "n-19",
+      "creatorId": "nikhil-kamath",
+      "videoId": "2_yA6GoqUnY",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-19/transcript.json",
+      "segmentCount": 671,
+      "wordCount": 24260
+    },
+    {
+      "episodeId": "n-20",
+      "creatorId": "nikhil-kamath",
+      "videoId": "LqSEfz4YUFA",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-20/transcript.json",
+      "segmentCount": 911,
+      "wordCount": 34304
+    },
+    {
+      "episodeId": "n-21",
+      "creatorId": "nikhil-kamath",
+      "videoId": "fEUoJSTYtyc",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-21/transcript.json",
+      "segmentCount": 941,
+      "wordCount": 34897
+    },
+    {
+      "episodeId": "n-22",
+      "creatorId": "nikhil-kamath",
+      "videoId": "wHQiewz8k9g",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-22/transcript.json",
+      "segmentCount": 979,
+      "wordCount": 36577
+    },
+    {
+      "episodeId": "n-23",
+      "creatorId": "nikhil-kamath",
+      "videoId": "lRjprPQHuXw",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-23/transcript.json",
+      "segmentCount": 789,
+      "wordCount": 28927
+    },
+    {
+      "episodeId": "n-24",
+      "creatorId": "nikhil-kamath",
+      "videoId": "g0CjWbgsdTQ",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-24/transcript.json",
+      "segmentCount": 860,
+      "wordCount": 31289
+    },
+    {
+      "episodeId": "n-25",
+      "creatorId": "nikhil-kamath",
+      "videoId": "AdI_XWv-ZTk",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/nikhil-kamath/n-25/transcript.json",
+      "segmentCount": 1131,
+      "wordCount": 41667
+    },
+    {
+      "episodeId": "s-01",
+      "creatorId": "shantanu-deshpande",
+      "videoId": "5EXdVDEpWIs",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/shantanu-deshpande/s-01/transcript.json",
+      "segmentCount": 374,
+      "wordCount": 13107
+    },
+    {
+      "episodeId": "s-02",
+      "creatorId": "shantanu-deshpande",
+      "videoId": "gIhdMxEce0M",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/shantanu-deshpande/s-02/transcript.json",
+      "segmentCount": 363,
+      "wordCount": 13723
+    },
+    {
+      "episodeId": "s-03",
+      "creatorId": "shantanu-deshpande",
+      "videoId": "VwEG4LYf0ag",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/shantanu-deshpande/s-03/transcript.json",
+      "segmentCount": 385,
+      "wordCount": 13736
+    },
+    {
+      "episodeId": "s-04",
+      "creatorId": "shantanu-deshpande",
+      "videoId": "7Hgjat4MVeM",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/shantanu-deshpande/s-04/transcript.json",
+      "segmentCount": 373,
+      "wordCount": 13011
+    },
+    {
+      "episodeId": "s-05",
+      "creatorId": "shantanu-deshpande",
+      "videoId": "5HLxbOMXCck",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/shantanu-deshpande/s-05/transcript.json",
+      "segmentCount": 540,
+      "wordCount": 19437
+    },
+    {
+      "episodeId": "s-06",
+      "creatorId": "shantanu-deshpande",
+      "videoId": "xjuvJK5Jm44",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/shantanu-deshpande/s-06/transcript.json",
+      "segmentCount": 621,
+      "wordCount": 23386
+    },
+    {
+      "episodeId": "s-07",
+      "creatorId": "shantanu-deshpande",
+      "videoId": "h-TJU3LenZk",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/shantanu-deshpande/s-07/transcript.json",
+      "segmentCount": 354,
+      "wordCount": 13060
+    },
+    {
+      "episodeId": "s-08",
+      "creatorId": "shantanu-deshpande",
+      "videoId": "iTeZ_lEGfi8",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/shantanu-deshpande/s-08/transcript.json",
+      "segmentCount": 314,
+      "wordCount": 11267
+    },
+    {
+      "episodeId": "s-09",
+      "creatorId": "shantanu-deshpande",
+      "videoId": "DvL1bJMB_p4",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/shantanu-deshpande/s-09/transcript.json",
+      "segmentCount": 333,
+      "wordCount": 12092
+    },
+    {
+      "episodeId": "s-10",
+      "creatorId": "shantanu-deshpande",
+      "videoId": "UbRzbCIMXdI",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/shantanu-deshpande/s-10/transcript.json",
+      "segmentCount": 284,
+      "wordCount": 10450
+    },
+    {
+      "episodeId": "s-11",
+      "creatorId": "shantanu-deshpande",
+      "videoId": "C1pQE1aLX7A",
+      "subtitleStatus": "cached",
+      "transcriptPath": "data/transcripts/shantanu-deshpande/s-11/transcript.json",
+      "segmentCount": 662,
+      "wordCount": 24644
+    }
+  ]
+}

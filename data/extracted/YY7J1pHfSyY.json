@@ -1,0 +1,81 @@
+{
+  "video_id": "YY7J1pHfSyY",
+  "title": "Bill Gates x Nikhil Kamath Part 2 | People by WTF | Ep.8",
+  "word_count": 5799,
+  "entities": {
+    "PERSON": [
+      "Bill",
+      "Bill Gates",
+      "Dad",
+      "Elon Musk",
+      "John Maynard",
+      "Kennedy",
+      "Kent Evans",
+      "Mark",
+      "Mark Zuckerberg",
+      "Paul Allen",
+      "Sachin",
+      "Satcha",
+      "Steve",
+      "Steve Jobs",
+      "Ted Turner",
+      "Warren Buffett"
+    ],
+    "ORG": [
+      "AI",
+      "Android",
+      "Apple",
+      "Forbes",
+      "Google",
+      "Harvard",
+      "Microsoft",
+      "Microsoft Office",
+      "WTF",
+      "non-Apple"
+    ],
+    "PRODUCT": [],
+    "MONEY": [],
+    "GPE": [
+      "AI",
+      "Egypt",
+      "India",
+      "South Africa",
+      "Switzerland",
+      "US"
+    ]
+  },
+  "intelligence": {
+    "category": "Capital",
+    "guests": [
+      "Bill Gates",
+      "Nikhil Kamath"
+    ],
+    "key_insights": [
+      "The ability to focus and work long hours without distractions may be a genetic trait.",
+      "Successful entrepreneurs often have a strong sense of self-motivation and drive, which can be influenced by their childhood experiences.",
+      "In the future, with AI replacing many jobs, humans will need to find new ways to spend their time and create meaning in their lives."
+    ],
+    "market_gaps": [
+      "The potential for AI to provide medical intelligence and reduce the shortage of doctors and other healthcare professionals.",
+      "The need for a philosophical rethink on how to allocate time and resources in a world where work is no longer necessary."
+    ],
+    "companies_discussed": [
+      "Microsoft",
+      "Apple"
+    ],
+    "books_mentioned": [],
+    "tools_mentioned": [],
+    "strategies": [
+      "Motivational pluralism: being motivated by different things at different points in time.",
+      "Focusing on creating value and making a positive impact, rather than just accumulating wealth."
+    ],
+    "quotable_moments": [
+      "The real question is what will the world do if one did not have to work. If you had that your whole life, it's different than being able to retire early.",
+      "Even giving away money can be very egotistical. There's certainly ego involved."
+    ],
+    "target_audience": [
+      "Entrepreneurs, Business leaders, Investors"
+    ]
+  },
+  "extraction_method": "spacy+ollama"
+}

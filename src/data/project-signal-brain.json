@@ -1,0 +1,5695 @@
+{
+  "meta": {
+    "productName": "India Alpha",
+    "generatedAt": "2026-04-19",
+    "indexedEpisodeCount": 24,
+    "deepExtractedCount": 24,
+    "resourceCount": 41,
+    "creatorCount": 2,
+    "guestCount": 48,
+    "categoryCount": 13,
+    "playbookCount": 5,
+    "crossShowGuestCount": 0,
+    "totalWordsProcessed": 373129,
+    "extractionMethod": "youtube-transcript-api + spaCy NER + Ollama llama3.1:8b",
+    "note": "Real transcripts extracted from YouTube. Intelligence generated locally via Ollama. 7 WTF episodes + 17 BarberShop episodes."
+  },
+  "creators": [
+    {
+      "id": "nikhil-kamath",
+      "name": "Nikhil Kamath",
+      "show": "WTF with Nikhil Kamath",
+      "handle": "WTF",
+      "description": "Long-form conversations across venture, distribution, health, consumer brands, and future sectors.",
+      "sourceUrl": "https://www.youtube.com/@nikhil.kamath"
+    },
+    {
+      "id": "shantanu-deshpande",
+      "name": "Shantanu Deshpande",
+      "show": "The BarberShop with Shantanu",
+      "handle": "The BarberShop",
+      "description": "Operator-grade founder conversations on D2C, psychology, wealth, investing, and durable brands.",
+      "sourceUrl": "https://www.youtube.com/@thebarbershopwithshantanu6670"
+    }
+  ],
+  "topicClusters": [
+    {
+      "id": "cluster-entertainment",
+      "category": "Entertainment",
+      "episodeCount": 1,
+      "episodeIds": [
+        "ohjXRswUYqM"
+      ],
+      "guests": [
+        "A.R. Rahman",
+        "Nikhil Kamath"
+      ],
+      "guestCount": 2,
+      "topStrategies": [
+        "The importance of learning and practicing music, rather than relying on technology."
+      ],
+      "marketGaps": [
+        "The lack of Indian-made musical instruments and keyboards."
+      ],
+      "resources": [
+        "Facebook",
+        "Meta"
+      ],
+      "founderTools": [],
+      "color": "#f97316"
+    },
+    {
+      "id": "cluster-capital",
+      "category": "Capital",
+      "episodeCount": 4,
+      "episodeIds": [
+        "YY7J1pHfSyY",
+        "Kt6YqZLV1Fo",
+        "7ka9jrX-M5U",
+        "GYW7MeU5Lfc"
+      ],
+      "guests": [
+        "Arjul",
+        "Arjun",
+        "Aseem Dhru",
+        "Ashu Suyash",
+        "Bill Gates",
+        "Divya Sampath",
+        "Madura",
+        "Nikhil Kamath",
+        "Shantanu Desh Pande",
+        "Shantanu Deshpande",
+        "Toshan",
+        "Toshin"
+      ],
+      "guestCount": 12,
+      "topStrategies": [
+        "The ability to focus and work long hours without distractions may be a genetic trait.",
+        "Get really good at something, and everything else will fall into place.",
+        "The importance of having a clear and focused vision for the company.",
+        "The importance of building a sustainable business model, rather than relying on external funding."
+      ],
+      "marketGaps": [
+        "The potential for AI to provide medical intelligence and reduce the shortage of doctors and other healthcare professionals.",
+        "The middle class in India is getting stretched from all sides and bears the brunt of inflation and taxation.",
+        "The lack of accessible data on road conditions and infrastructure in India, which can be used by businesses and individuals alike."
+      ],
+      "resources": [
+        "Apple",
+        "Aspire for Her",
+        "Bombay Shaving Company",
+        "Colossa Ventures",
+        "DHFL",
+        "HDFC Bank",
+        "Microsoft",
+        "SBFC Finance"
+      ],
+      "founderTools": [
+        {
+          "name": "LetsVenture",
+          "url": "https://www.letsventure.com/",
+          "description": "Indian angel investing platform"
+        },
+        {
+          "name": "Qapita",
+          "url": "https://www.qapita.com/",
+          "description": "Cap table management and ESOP administration"
+        },
+        {
+          "name": "Tracxn",
+          "url": "https://tracxn.com/",
+          "description": "Startup intelligence \u2014 research investors and competitors"
+        },
+        {
+          "name": "Blume Ventures",
+          "url": "https://blume.vc/",
+          "description": "Early-stage VC \u2014 portfolio includes Unacademy, slice, Purplle"
+        },
+        {
+          "name": "Peak XV Partners",
+          "url": "https://www.peakxv.com/",
+          "description": "Formerly Sequoia India \u2014 largest India-focused VC fund"
+        }
+      ],
+      "color": "#a855f7"
+    },
+    {
+      "id": "cluster-general",
+      "category": "General",
+      "episodeCount": 3,
+      "episodeIds": [
+        "UKag4LVAEdU",
+        "2_yA6GoqUnY",
+        "STV4s8_QqVw"
+      ],
+      "guests": [],
+      "guestCount": 0,
+      "topStrategies": [],
+      "marketGaps": [],
+      "resources": [],
+      "founderTools": [],
+      "color": "#64748b"
+    },
+    {
+      "id": "cluster-consumer-electronics",
+      "category": "Consumer Electronics",
+      "episodeCount": 1,
+      "episodeIds": [
+        "lRjprPQHuXw"
+      ],
+      "guests": [
+        "Amit Khatri",
+        "Carl Pei",
+        "Nikhil",
+        "Rahul Sharma"
+      ],
+      "guestCount": 4,
+      "topStrategies": [
+        "Conduct thorough research before entering a new market or space"
+      ],
+      "marketGaps": [],
+      "resources": [
+        "Meizu",
+        "Nothing",
+        "Xiaomi"
+      ],
+      "founderTools": [],
+      "color": "#64748b"
+    },
+    {
+      "id": "cluster-metaverse",
+      "category": "Metaverse",
+      "episodeCount": 1,
+      "episodeIds": [
+        "tWzalcN_Inc"
+      ],
+      "guests": [
+        "Aprameya Radhakrishna",
+        "Tanmay Bhat",
+        "Umang Bedi"
+      ],
+      "guestCount": 3,
+      "topStrategies": [
+        "The metaverse will be about control, not just making money."
+      ],
+      "marketGaps": [],
+      "resources": [
+        "Meta",
+        "Microsoft",
+        "Unreal Engine"
+      ],
+      "founderTools": [],
+      "color": "#64748b"
+    },
+    {
+      "id": "cluster-founders",
+      "category": "Founders",
+      "episodeCount": 5,
+      "episodeIds": [
+        "lJ3Wt-ng1Ls",
+        "xjuvJK5Jm44",
+        "wnK8Ymzp0rQ",
+        "DvL1bJMB_p4",
+        "gpv6X6E3Qxw"
+      ],
+      "guests": [
+        "Abhishek",
+        "Arjun",
+        "Aruchi",
+        "Ashish",
+        "Bhavna Suresh",
+        "Dr. Janti",
+        "Kunal",
+        "Prashant",
+        "Rohit",
+        "Rohit Bansal",
+        "Sashant",
+        "Sham"
+      ],
+      "guestCount": 12,
+      "topStrategies": [
+        "The importance of contextual understanding in solving complex problems, such as cyber security.",
+        "Building a brand requires understanding consumer behavior and willingness to pay.",
+        "The importance of understanding the world as an input into what you're doing when building a business.",
+        "Don't let fear of failure hold you back from pursuing your entrepreneurial dreams.",
+        "The moment you call it selling, you're coming from your point of view; give someone something they want."
+      ],
+      "marketGaps": [
+        "A lack of standardization in payment processing between AI applications and merchants.",
+        "Creating a million jobs per month in India",
+        "The need for India-specific solutions in the B2B space"
+      ],
+      "resources": [
+        "10 Club",
+        "Astray Service",
+        "Bloom Rehab",
+        "BookMyShow",
+        "Decathlon",
+        "Gillette",
+        "Ikea",
+        "OBSO"
+      ],
+      "founderTools": [
+        {
+          "name": "Amaha",
+          "url": "https://www.amahahealth.com/",
+          "description": "Online therapy \u2014 founder burnout support"
+        },
+        {
+          "name": "Y Combinator Library",
+          "url": "https://www.ycombinator.com/library",
+          "description": "Free founder education and essays"
+        },
+        {
+          "name": "First Round Review",
+          "url": "https://review.firstround.com/",
+          "description": "Tactical advice from experienced operators"
+        }
+      ],
+      "color": "#ef4444"
+    },
+    {
+      "id": "cluster-business",
+      "category": "Business",
+      "episodeCount": 1,
+      "episodeIds": [
+        "HRWOycI1YTw"
+      ],
+      "guests": [
+        "Sukhleen Aneja"
+      ],
+      "guestCount": 1,
+      "topStrategies": [
+        "Building a brand takes time and effort, but it's worth it."
+      ],
+      "marketGaps": [],
+      "resources": [
+        "Durex",
+        "Lakm\u00e9",
+        "Veet"
+      ],
+      "founderTools": [],
+      "color": "#64748b"
+    },
+    {
+      "id": "cluster-founders,-capital",
+      "category": "Founders, Capital",
+      "episodeCount": 1,
+      "episodeIds": [
+        "ezaFpL_EMEk"
+      ],
+      "guests": [
+        "Kunal",
+        "Nikita",
+        "Prachi",
+        "Twinkle"
+      ],
+      "guestCount": 4,
+      "topStrategies": [
+        "Raising capital should be done when you really need it to grow your business."
+      ],
+      "marketGaps": [],
+      "resources": [
+        "Google",
+        "Kiva",
+        "Moxie"
+      ],
+      "founderTools": [],
+      "color": "#64748b"
+    },
+    {
+      "id": "cluster-content",
+      "category": "Content",
+      "episodeCount": 2,
+      "episodeIds": [
+        "APU6KeQAANU",
+        "RHi26oDdKQI"
+      ],
+      "guests": [
+        "Piyush Pandey",
+        "Revant",
+        "Sahiba",
+        "Shantanu",
+        "Shashank",
+        "Tanmay"
+      ],
+      "guestCount": 6,
+      "topStrategies": [
+        "Telling stories is a powerful way to engage consumers and build brand love.",
+        "Creating content that appeals to a specific audience can lead to significant sales and growth."
+      ],
+      "marketGaps": [
+        "There is a gap between the demand for premium products and the limited reach of traditional advertising methods."
+      ],
+      "resources": [
+        "Bombay Shaving Company",
+        "Gillette",
+        "Hotstar",
+        "Philips",
+        "WTF (What The F*ck)"
+      ],
+      "founderTools": [
+        {
+          "name": "YouTube Studio",
+          "url": "https://studio.youtube.com/",
+          "description": "Analytics and content management for creators"
+        },
+        {
+          "name": "Notion",
+          "url": "https://www.notion.so/",
+          "description": "All-in-one workspace for content planning"
+        },
+        {
+          "name": "ConvertKit",
+          "url": "https://convertkit.com/",
+          "description": "Email marketing for creators"
+        },
+        {
+          "name": "Graphy",
+          "url": "https://graphy.com/",
+          "description": "Launch and sell courses \u2014 Unacademy's creator platform"
+        }
+      ],
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "cluster-consumer",
+      "category": "Consumer",
+      "episodeCount": 1,
+      "episodeIds": [
+        "Saymmw8_Gv0"
+      ],
+      "guests": [
+        "Suhasini Sampath"
+      ],
+      "guestCount": 1,
+      "topStrategies": [
+        "The only reason you're buying it from me is because of my scale"
+      ],
+      "marketGaps": [],
+      "resources": [
+        "ITC",
+        "Yoga Bar"
+      ],
+      "founderTools": [
+        {
+          "name": "Amazon Brand Analytics",
+          "url": "https://brandservices.amazon.in/",
+          "description": "Search data and demand insights for marketplace sellers"
+        },
+        {
+          "name": "Flipkart Seller Hub",
+          "url": "https://seller.flipkart.com/",
+          "description": "India's largest domestic marketplace for consumer brands"
+        },
+        {
+          "name": "Zoho CRM",
+          "url": "https://www.zoho.com/crm/",
+          "description": "Indian-built CRM with regional language support"
+        },
+        {
+          "name": "Google Trends India",
+          "url": "https://trends.google.co.in/",
+          "description": "Free demand sensing tool \u2014 track category interest over time"
+        }
+      ],
+      "color": "#f59e0b"
+    },
+    {
+      "id": "cluster-d2c",
+      "category": "D2C",
+      "episodeCount": 2,
+      "episodeIds": [
+        "kZ25RkCmeqQ",
+        "9Hlv4BMmxPU"
+      ],
+      "guests": [
+        "Aditya",
+        "Arjun",
+        "Founder of Foxtale"
+      ],
+      "guestCount": 3,
+      "topStrategies": [
+        "Use AI to optimize business growth and hit a \u20b9500 Cr goal",
+        "The sense of belonging needed to create impact comes from within."
+      ],
+      "marketGaps": [
+        "The organized sector in the pickle market is still highly unorganized, with a huge scope for growth"
+      ],
+      "resources": [
+        "Amazon",
+        "Flipkart",
+        "Foxtale",
+        "Little Farm Co.",
+        "Walmart"
+      ],
+      "founderTools": [
+        {
+          "name": "Shopify India",
+          "url": "https://www.shopify.com/in",
+          "description": "D2C storefront builder \u2014 most Indian D2C brands start here"
+        },
+        {
+          "name": "Razorpay",
+          "url": "https://razorpay.com/",
+          "description": "Payment gateway used by 8M+ Indian businesses"
+        },
+        {
+          "name": "Shiprocket",
+          "url": "https://www.shiprocket.in/",
+          "description": "Multi-carrier shipping aggregator for D2C logistics"
+        },
+        {
+          "name": "Unicommerce",
+          "url": "https://unicommerce.com/",
+          "description": "Warehouse and inventory management for omnichannel brands"
+        },
+        {
+          "name": "Meesho Supplier Hub",
+          "url": "https://supplier.meesho.com/",
+          "description": "Tier-2/3 marketplace \u2014 zero commission model"
+        }
+      ],
+      "color": "#3b82f6"
+    },
+    {
+      "id": "cluster-hustle-culture",
+      "category": "Hustle Culture",
+      "episodeCount": 1,
+      "episodeIds": [
+        "jVax4DCqKT4"
+      ],
+      "guests": [
+        "Damodar",
+        "Gauri Khan",
+        "Radhika Apte"
+      ],
+      "guestCount": 3,
+      "topStrategies": [
+        "The definition of hustle culture has changed over time, and it's not just about working long hours."
+      ],
+      "marketGaps": [
+        "The gap between what employees want and what employers expect from them"
+      ],
+      "resources": [
+        "Bombay Dyeing",
+        "Myntra"
+      ],
+      "founderTools": [],
+      "color": "#64748b"
+    },
+    {
+      "id": "cluster-founders,-entrepreneurship,-realestate",
+      "category": "Founders, Entrepreneurship, RealEstate",
+      "episodeCount": 1,
+      "episodeIds": [
+        "wo_8CxZNXkM"
+      ],
+      "guests": [
+        "Sunil Shetty"
+      ],
+      "guestCount": 1,
+      "topStrategies": [
+        "The first 18 years of your life shape you more than the most recent seven years of your life."
+      ],
+      "marketGaps": [
+        "The need for infrastructure development in India, particularly in areas like transportation and communication."
+      ],
+      "resources": [
+        "Mischief",
+        "Weirdo",
+        "Why You"
+      ],
+      "founderTools": [],
+      "color": "#64748b"
+    }
+  ],
+  "guestNetwork": [
+    {
+      "id": "guest-77bec388",
+      "name": "Arjun",
+      "episodeIds": [
+        "gpv6X6E3Qxw",
+        "kZ25RkCmeqQ",
+        "GYW7MeU5Lfc"
+      ],
+      "episodeCount": 3,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Capital",
+        "D2C",
+        "Founders"
+      ],
+      "coGuests": [
+        "Aditya",
+        "Ashu Suyash",
+        "Divya Sampath",
+        "Madura",
+        "Rohit",
+        "Shantanu Deshpande",
+        "Toshin"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-1eaa9803",
+      "name": "Nikhil Kamath",
+      "episodeIds": [
+        "ohjXRswUYqM",
+        "YY7J1pHfSyY"
+      ],
+      "episodeCount": 2,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Capital",
+        "Entertainment"
+      ],
+      "coGuests": [
+        "A.R. Rahman",
+        "Bill Gates"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-0cabe9fe",
+      "name": "Kunal",
+      "episodeIds": [
+        "ezaFpL_EMEk",
+        "DvL1bJMB_p4"
+      ],
+      "episodeCount": 2,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Founders",
+        "Founders, Capital"
+      ],
+      "coGuests": [
+        "Nikita",
+        "Prachi",
+        "Rohit Bansal",
+        "Twinkle"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-3ba2ca99",
+      "name": "Ashu Suyash",
+      "episodeIds": [
+        "7ka9jrX-M5U",
+        "GYW7MeU5Lfc"
+      ],
+      "episodeCount": 2,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Capital"
+      ],
+      "coGuests": [
+        "Arjul",
+        "Arjun",
+        "Divya Sampath",
+        "Madura",
+        "Shantanu Desh Pande",
+        "Shantanu Deshpande",
+        "Toshan",
+        "Toshin"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-69cfa82b",
+      "name": "A.R. Rahman",
+      "episodeIds": [
+        "ohjXRswUYqM"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Entertainment"
+      ],
+      "coGuests": [
+        "Nikhil Kamath"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-be917358",
+      "name": "Bill Gates",
+      "episodeIds": [
+        "YY7J1pHfSyY"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Capital"
+      ],
+      "coGuests": [
+        "Nikhil Kamath"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-8d215820",
+      "name": "Nikhil",
+      "episodeIds": [
+        "lRjprPQHuXw"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Consumer Electronics"
+      ],
+      "coGuests": [
+        "Amit Khatri",
+        "Carl Pei",
+        "Rahul Sharma"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-4cf9f9d4",
+      "name": "Carl Pei",
+      "episodeIds": [
+        "lRjprPQHuXw"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Consumer Electronics"
+      ],
+      "coGuests": [
+        "Amit Khatri",
+        "Nikhil",
+        "Rahul Sharma"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-0fdee569",
+      "name": "Rahul Sharma",
+      "episodeIds": [
+        "lRjprPQHuXw"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Consumer Electronics"
+      ],
+      "coGuests": [
+        "Amit Khatri",
+        "Carl Pei",
+        "Nikhil"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-a721ba13",
+      "name": "Amit Khatri",
+      "episodeIds": [
+        "lRjprPQHuXw"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Consumer Electronics"
+      ],
+      "coGuests": [
+        "Carl Pei",
+        "Nikhil",
+        "Rahul Sharma"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-d904a5d9",
+      "name": "Tanmay Bhat",
+      "episodeIds": [
+        "tWzalcN_Inc"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Metaverse"
+      ],
+      "coGuests": [
+        "Aprameya Radhakrishna",
+        "Umang Bedi"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-3c56ec61",
+      "name": "Umang Bedi",
+      "episodeIds": [
+        "tWzalcN_Inc"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Metaverse"
+      ],
+      "coGuests": [
+        "Aprameya Radhakrishna",
+        "Tanmay Bhat"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-7873a493",
+      "name": "Aprameya Radhakrishna",
+      "episodeIds": [
+        "tWzalcN_Inc"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Metaverse"
+      ],
+      "coGuests": [
+        "Tanmay Bhat",
+        "Umang Bedi"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-b9d980f9",
+      "name": "Sashant",
+      "episodeIds": [
+        "lJ3Wt-ng1Ls"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Founders"
+      ],
+      "coGuests": [
+        "Abhishek",
+        "Dr. Janti",
+        "Prashant",
+        "Sham"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-3dee7359",
+      "name": "Sham",
+      "episodeIds": [
+        "lJ3Wt-ng1Ls"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Founders"
+      ],
+      "coGuests": [
+        "Abhishek",
+        "Dr. Janti",
+        "Prashant",
+        "Sashant"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-275aac7e",
+      "name": "Dr. Janti",
+      "episodeIds": [
+        "lJ3Wt-ng1Ls"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Founders"
+      ],
+      "coGuests": [
+        "Abhishek",
+        "Prashant",
+        "Sashant",
+        "Sham"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-f9afd139",
+      "name": "Prashant",
+      "episodeIds": [
+        "lJ3Wt-ng1Ls"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Founders"
+      ],
+      "coGuests": [
+        "Abhishek",
+        "Dr. Janti",
+        "Sashant",
+        "Sham"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-3bc8471b",
+      "name": "Abhishek",
+      "episodeIds": [
+        "lJ3Wt-ng1Ls"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Founders"
+      ],
+      "coGuests": [
+        "Dr. Janti",
+        "Prashant",
+        "Sashant",
+        "Sham"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-de50cf1a",
+      "name": "Bhavna Suresh",
+      "episodeIds": [
+        "xjuvJK5Jm44"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Founders"
+      ],
+      "coGuests": [],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-ad56be32",
+      "name": "Sukhleen Aneja",
+      "episodeIds": [
+        "HRWOycI1YTw"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Business"
+      ],
+      "coGuests": [],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-23f2f6c4",
+      "name": "Aseem Dhru",
+      "episodeIds": [
+        "Kt6YqZLV1Fo"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Capital"
+      ],
+      "coGuests": [],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-f8cf7194",
+      "name": "Nikita",
+      "episodeIds": [
+        "ezaFpL_EMEk"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Founders, Capital"
+      ],
+      "coGuests": [
+        "Kunal",
+        "Prachi",
+        "Twinkle"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-026b8337",
+      "name": "Twinkle",
+      "episodeIds": [
+        "ezaFpL_EMEk"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Founders, Capital"
+      ],
+      "coGuests": [
+        "Kunal",
+        "Nikita",
+        "Prachi"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-d8283feb",
+      "name": "Prachi",
+      "episodeIds": [
+        "ezaFpL_EMEk"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Founders, Capital"
+      ],
+      "coGuests": [
+        "Kunal",
+        "Nikita",
+        "Twinkle"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-1cafeb58",
+      "name": "Piyush Pandey",
+      "episodeIds": [
+        "APU6KeQAANU"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Content"
+      ],
+      "coGuests": [],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-5d9e0a96",
+      "name": "Aruchi",
+      "episodeIds": [
+        "wnK8Ymzp0rQ"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Founders"
+      ],
+      "coGuests": [
+        "Ashish"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-633a612a",
+      "name": "Ashish",
+      "episodeIds": [
+        "wnK8Ymzp0rQ"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Founders"
+      ],
+      "coGuests": [
+        "Aruchi"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-746685f7",
+      "name": "Rohit Bansal",
+      "episodeIds": [
+        "DvL1bJMB_p4"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Founders"
+      ],
+      "coGuests": [
+        "Kunal"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-11af2612",
+      "name": "Rohit",
+      "episodeIds": [
+        "gpv6X6E3Qxw"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Founders"
+      ],
+      "coGuests": [
+        "Arjun"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-4ce4086a",
+      "name": "Suhasini Sampath",
+      "episodeIds": [
+        "Saymmw8_Gv0"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Consumer"
+      ],
+      "coGuests": [],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-0bfb3316",
+      "name": "Aditya",
+      "episodeIds": [
+        "kZ25RkCmeqQ"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "D2C"
+      ],
+      "coGuests": [
+        "Arjun"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-2e3cc44e",
+      "name": "Shantanu Desh Pande",
+      "episodeIds": [
+        "7ka9jrX-M5U"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Capital"
+      ],
+      "coGuests": [
+        "Arjul",
+        "Ashu Suyash",
+        "Toshan"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-17b17aa6",
+      "name": "Toshan",
+      "episodeIds": [
+        "7ka9jrX-M5U"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Capital"
+      ],
+      "coGuests": [
+        "Arjul",
+        "Ashu Suyash",
+        "Shantanu Desh Pande"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-37ac6b7a",
+      "name": "Arjul",
+      "episodeIds": [
+        "7ka9jrX-M5U"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Capital"
+      ],
+      "coGuests": [
+        "Ashu Suyash",
+        "Shantanu Desh Pande",
+        "Toshan"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-b5d468a4",
+      "name": "Divya Sampath",
+      "episodeIds": [
+        "GYW7MeU5Lfc"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Capital"
+      ],
+      "coGuests": [
+        "Arjun",
+        "Ashu Suyash",
+        "Madura",
+        "Shantanu Deshpande",
+        "Toshin"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-0a84a0aa",
+      "name": "Madura",
+      "episodeIds": [
+        "GYW7MeU5Lfc"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Capital"
+      ],
+      "coGuests": [
+        "Arjun",
+        "Ashu Suyash",
+        "Divya Sampath",
+        "Shantanu Deshpande",
+        "Toshin"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-73894479",
+      "name": "Shantanu Deshpande",
+      "episodeIds": [
+        "GYW7MeU5Lfc"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Capital"
+      ],
+      "coGuests": [
+        "Arjun",
+        "Ashu Suyash",
+        "Divya Sampath",
+        "Madura",
+        "Toshin"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-c0def3b6",
+      "name": "Toshin",
+      "episodeIds": [
+        "GYW7MeU5Lfc"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Capital"
+      ],
+      "coGuests": [
+        "Arjun",
+        "Ashu Suyash",
+        "Divya Sampath",
+        "Madura",
+        "Shantanu Deshpande"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-f55ae442",
+      "name": "Founder of Foxtale",
+      "episodeIds": [
+        "9Hlv4BMmxPU"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "D2C"
+      ],
+      "coGuests": [],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-e821278c",
+      "name": "Radhika Apte",
+      "episodeIds": [
+        "jVax4DCqKT4"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Hustle Culture"
+      ],
+      "coGuests": [
+        "Damodar",
+        "Gauri Khan"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-3820be72",
+      "name": "Gauri Khan",
+      "episodeIds": [
+        "jVax4DCqKT4"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Hustle Culture"
+      ],
+      "coGuests": [
+        "Damodar",
+        "Radhika Apte"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-0a6da9f8",
+      "name": "Damodar",
+      "episodeIds": [
+        "jVax4DCqKT4"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Hustle Culture"
+      ],
+      "coGuests": [
+        "Gauri Khan",
+        "Radhika Apte"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-52249520",
+      "name": "Sunil Shetty",
+      "episodeIds": [
+        "wo_8CxZNXkM"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Founders, Entrepreneurship, RealEstate"
+      ],
+      "coGuests": [],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-4f3b36a4",
+      "name": "Tanmay",
+      "episodeIds": [
+        "RHi26oDdKQI"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Content"
+      ],
+      "coGuests": [
+        "Revant",
+        "Sahiba",
+        "Shantanu",
+        "Shashank"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-79bed136",
+      "name": "Sahiba",
+      "episodeIds": [
+        "RHi26oDdKQI"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Content"
+      ],
+      "coGuests": [
+        "Revant",
+        "Shantanu",
+        "Shashank",
+        "Tanmay"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-6aafde55",
+      "name": "Revant",
+      "episodeIds": [
+        "RHi26oDdKQI"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Content"
+      ],
+      "coGuests": [
+        "Sahiba",
+        "Shantanu",
+        "Shashank",
+        "Tanmay"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-15733c23",
+      "name": "Shashank",
+      "episodeIds": [
+        "RHi26oDdKQI"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Content"
+      ],
+      "coGuests": [
+        "Revant",
+        "Sahiba",
+        "Shantanu",
+        "Tanmay"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-616b4fc2",
+      "name": "Shantanu",
+      "episodeIds": [
+        "RHi26oDdKQI"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Content"
+      ],
+      "coGuests": [
+        "Revant",
+        "Sahiba",
+        "Shashank",
+        "Tanmay"
+      ],
+      "isCrossShow": false
+    }
+  ],
+  "masterPlaybooks": [
+    {
+      "title": "The Indian Founders Playbook",
+      "subtitle": "Synthesized from 5 episodes",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Understand Contextual Problems and Market Gaps",
+          "detail": "Identify complex problems in your market, such as cyber security or payment processing. Analyze the motivations of buyers and understand their needs to create effective solutions."
+        },
+        {
+          "step": 2,
+          "title": "Focus on a Few Key Products and Build Strong Brands",
+          "detail": "Conduct thorough research on consumer behavior and willingness to pay. Focus on building a strong brand by launching a few key products that meet the needs of your target audience."
+        },
+        {
+          "step": 3,
+          "title": "Create India-Specific Solutions for B2B Markets",
+          "detail": "Recognize the need for India-specific solutions in the B2B space. Develop innovative products and services that cater to the unique requirements of Indian businesses."
+        },
+        {
+          "step": 4,
+          "title": "Build a Strong Support System and Be Open to Change",
+          "detail": "Surround yourself with a strong support system, including family and friends who understand and encourage your entrepreneurial endeavors. Be willing to pivot and iterate in response to changing market conditions."
+        },
+        {
+          "step": 5,
+          "title": "Develop Effective Storytelling and Communication Skills",
+          "detail": "Cultivate effective storytelling and communication skills to convey the value of your products or services. Use authentic language that resonates with your target audience."
+        }
+      ],
+      "id": "playbook-founders",
+      "episodeIds": [
+        "lJ3Wt-ng1Ls",
+        "xjuvJK5Jm44",
+        "wnK8Ymzp0rQ",
+        "DvL1bJMB_p4",
+        "gpv6X6E3Qxw"
+      ],
+      "resources": [
+        {
+          "name": "Amaha",
+          "url": "https://www.amahahealth.com/",
+          "description": "Online therapy \u2014 founder burnout support"
+        },
+        {
+          "name": "Y Combinator Library",
+          "url": "https://www.ycombinator.com/library",
+          "description": "Free founder education and essays"
+        },
+        {
+          "name": "First Round Review",
+          "url": "https://review.firstround.com/",
+          "description": "Tactical advice from experienced operators"
+        }
+      ]
+    },
+    {
+      "title": "The Indian Capital Playbook",
+      "subtitle": "Synthesized from 4 episodes",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Focus on Your Strengths and Develop Self-Motivation",
+          "detail": "As a founder, it's essential to focus on your strengths and work long hours without distractions. Successful entrepreneurs often have a strong sense of self-motivation and drive, which can be influenced by their childhood experiences."
+        },
+        {
+          "step": 2,
+          "title": "Develop a Clear Vision for Your Company",
+          "detail": "Having a clear and focused vision is crucial for the success of your company. This will help you stay on track and make informed decisions about your business."
+        },
+        {
+          "step": 3,
+          "title": "Understand Market Gaps and Develop Solutions",
+          "detail": "Identify market gaps in India, such as the lack of accessible data on road conditions and infrastructure, or the underutilization of women's potential in the economy. Develop solutions to address these gaps and create value for your customers."
+        },
+        {
+          "step": 4,
+          "title": "Build a Sustainable Business Model",
+          "detail": "Focus on building a sustainable business model rather than relying on external funding. This will help you stay financially stable and make informed decisions about your business."
+        },
+        {
+          "step": 5,
+          "title": "Prioritize DEI Initiatives Internally",
+          "detail": "Prioritize diversity, equity, and inclusion (DEI) initiatives internally rather than outsourcing them. This will help you create a more inclusive and equitable work environment for your employees."
+        },
+        {
+          "step": 6,
+          "title": "Develop a Team with Diverse Backgrounds and Expertise",
+          "detail": "Assemble a team with diverse backgrounds and expertise to bring different perspectives and ideas to the table. This will help you stay adaptable and responsive to changing market conditions."
+        }
+      ],
+      "id": "playbook-capital",
+      "episodeIds": [
+        "YY7J1pHfSyY",
+        "Kt6YqZLV1Fo",
+        "7ka9jrX-M5U",
+        "GYW7MeU5Lfc"
+      ],
+      "resources": [
+        {
+          "name": "LetsVenture",
+          "url": "https://www.letsventure.com/",
+          "description": "Indian angel investing platform"
+        },
+        {
+          "name": "Qapita",
+          "url": "https://www.qapita.com/",
+          "description": "Cap table management and ESOP administration"
+        },
+        {
+          "name": "Tracxn",
+          "url": "https://tracxn.com/",
+          "description": "Startup intelligence \u2014 research investors and competitors"
+        },
+        {
+          "name": "Blume Ventures",
+          "url": "https://blume.vc/",
+          "description": "Early-stage VC \u2014 portfolio includes Unacademy, slice, Purplle"
+        },
+        {
+          "name": "Peak XV Partners",
+          "url": "https://www.peakxv.com/",
+          "description": "Formerly Sequoia India \u2014 largest India-focused VC fund"
+        }
+      ]
+    },
+    {
+      "title": "The Indian General Playbook",
+      "subtitle": "Synthesized from 3 episodes",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Understand What Sells in E-commerce",
+          "detail": "Kishore Biyani's experience suggests that understanding what sells and what doesn't is crucial for success in e-commerce. Focus on products with high demand and low competition."
+        },
+        {
+          "step": 2,
+          "title": "Identify Your Niche",
+          "detail": "The founders of Udaan and Meesho emphasize the importance of identifying a specific niche or target audience to cater to their needs effectively."
+        },
+        {
+          "step": 3,
+          "title": "Be Authentic in an Offbeat Career",
+          "detail": "Nikhil Kamath's conversation with Kriti Sanon, Badshah, and KL Rahul highlights the value of being authentic and true to oneself, even in unconventional career choices."
+        },
+        {
+          "step": 4,
+          "title": "Explore Alternative Business Models",
+          "detail": "The concept of a marketplace where startups can be bought or sold suggests that exploring alternative business models can lead to innovative solutions."
+        },
+        {
+          "step": 5,
+          "title": "Stay Adaptable and Open-Minded",
+          "detail": "Kishore Biyani's experience in e-commerce and the founders' discussions on offbeat careers emphasize the importance of staying adaptable and open-minded to new ideas and opportunities."
+        },
+        {
+          "step": 6,
+          "title": "Leverage Expertise and Networks",
+          "detail": "Nikhil Kamath's conversation with industry experts suggests that leveraging expertise and networks can be beneficial for navigating complex career choices and business decisions."
+        }
+      ],
+      "id": "playbook-general",
+      "episodeIds": [
+        "UKag4LVAEdU",
+        "2_yA6GoqUnY",
+        "STV4s8_QqVw"
+      ],
+      "resources": []
+    },
+    {
+      "title": "The Indian Content Playbook",
+      "subtitle": "Synthesized from 2 episodes",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Tell Stories to Engage Consumers and Build Brand Love",
+          "detail": "Use storytelling as a powerful way to engage consumers and build brand love, as emphasized by Piyush Pandey. This can be achieved through advertising campaigns that impact people emotionally."
+        },
+        {
+          "step": 2,
+          "title": "Focus on Long-Term Thinking for Business Success",
+          "detail": "Prioritize long-term thinking over short-term gains to build a successful business, as advised by Piyush Pandey. This will help you avoid myopia and make informed decisions."
+        },
+        {
+          "step": 3,
+          "title": "Create High-Quality Content for Audience Engagement",
+          "detail": "Focus on creating high-quality, engaging content that appeals to a specific audience, as highlighted in the Content Creation Masterclass. This can lead to significant sales and growth."
+        },
+        {
+          "step": 4,
+          "title": "Build a Loyal Community through High-Quality Content",
+          "detail": "Focus on building a loyal community by creating high-quality content that resonates with your audience, as emphasized in the Content Creation Masterclass. This will help you establish credibility and brand awareness."
+        },
+        {
+          "step": 5,
+          "title": "Identify Market Gaps for Premium Products",
+          "detail": "Recognize the gap between demand for premium products and limited reach of traditional advertising methods, as identified in the Content Creation Masterclass. This can help you create innovative solutions to meet this demand."
+        },
+        {
+          "step": 6,
+          "title": "Monetize Content through Brand Awareness and Credibility",
+          "detail": "Focus on building brand awareness and credibility before monetizing your content, as highlighted in the Content Creation Masterclass. This will help you establish a loyal community and increase revenue."
+        }
+      ],
+      "id": "playbook-content",
+      "episodeIds": [
+        "APU6KeQAANU",
+        "RHi26oDdKQI"
+      ],
+      "resources": [
+        {
+          "name": "YouTube Studio",
+          "url": "https://studio.youtube.com/",
+          "description": "Analytics and content management for creators"
+        },
+        {
+          "name": "Notion",
+          "url": "https://www.notion.so/",
+          "description": "All-in-one workspace for content planning"
+        },
+        {
+          "name": "ConvertKit",
+          "url": "https://convertkit.com/",
+          "description": "Email marketing for creators"
+        },
+        {
+          "name": "Graphy",
+          "url": "https://graphy.com/",
+          "description": "Launch and sell courses \u2014 Unacademy's creator platform"
+        }
+      ]
+    },
+    {
+      "title": "The Indian D2C Playbook",
+      "subtitle": "Synthesized from 2 episodes",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Use AI to Optimize Business Growth",
+          "detail": "Leverage AI to optimize business growth and hit a \u20b9500 Cr goal. Focus on accurate forecasting and inventory management to improve supply chain efficiency."
+        },
+        {
+          "step": 2,
+          "title": "Build Strong Relationships with Mentors and Partners",
+          "detail": "Focus on building strong relationships with mentors and partners for guidance and support to overcome challenges."
+        },
+        {
+          "step": 3,
+          "title": "Identify Market Gaps",
+          "detail": "Identify market gaps in the organized sector, such as the pickle market, which has a huge scope for growth."
+        },
+        {
+          "step": 4,
+          "title": "Prioritize Resilience and Humility",
+          "detail": "Develop resilience by being able to move on when you feel well enough, and cultivate humility to create impact."
+        },
+        {
+          "step": 5,
+          "title": "Focus on Building a Strong Team Culture",
+          "detail": "Create a sense of belonging within your team by prioritizing vulnerability and humility, which are essential for creating impact."
+        },
+        {
+          "step": 6,
+          "title": "Set Ambitious Goals",
+          "detail": "Set ambitious goals, such as hitting a \u20b9500 Cr goal, and use AI to optimize business growth towards achieving them."
+        }
+      ],
+      "id": "playbook-d2c",
+      "episodeIds": [
+        "kZ25RkCmeqQ",
+        "9Hlv4BMmxPU"
+      ],
+      "resources": [
+        {
+          "name": "Shopify India",
+          "url": "https://www.shopify.com/in",
+          "description": "D2C storefront builder \u2014 most Indian D2C brands start here"
+        },
+        {
+          "name": "Razorpay",
+          "url": "https://razorpay.com/",
+          "description": "Payment gateway used by 8M+ Indian businesses"
+        },
+        {
+          "name": "Shiprocket",
+          "url": "https://www.shiprocket.in/",
+          "description": "Multi-carrier shipping aggregator for D2C logistics"
+        },
+        {
+          "name": "Unicommerce",
+          "url": "https://unicommerce.com/",
+          "description": "Warehouse and inventory management for omnichannel brands"
+        },
+        {
+          "name": "Meesho Supplier Hub",
+          "url": "https://supplier.meesho.com/",
+          "description": "Tier-2/3 marketplace \u2014 zero commission model"
+        }
+      ]
+    }
+  ],
+  "crossShowGuests": [],
+  "sourceCatalog": [
+    {
+      "id": "ohjXRswUYqM",
+      "creatorId": "nikhil-kamath",
+      "publishedOrder": 1,
+      "duration": "1:47:53",
+      "title": "A.R. Rahman: The Genius Who Took Indian Music Global | Nikhil Kamath | People by WTF | Ep 15",
+      "guests": [
+        "A.R. Rahman",
+        "Nikhil Kamath"
+      ],
+      "tags": [
+        "#Entertainment"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=ohjXRswUYqM",
+      "status": "deep-extracted",
+      "category": "Entertainment",
+      "strategySnippets": [
+        {
+          "text": "The importance of learning and practicing music, rather than relying on technology.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "ohjXRswUYqM"
+        },
+        {
+          "text": "The need for humans to set rules and regulations around AI to prevent job loss and poverty.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "ohjXRswUYqM"
+        },
+        {
+          "text": "The value of live concerts and experiences in creating community and connection.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "ohjXRswUYqM"
+        },
+        {
+          "text": "Finding a void in the market and filling it with innovation.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "ohjXRswUYqM"
+        },
+        {
+          "text": "Creating immersive experiences through technology.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "ohjXRswUYqM"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "The lack of Indian-made musical instruments and keyboards.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "ohjXRswUYqM"
+        },
+        {
+          "text": "The absence of a proper symphony hall in India, making it difficult for musicians to perform.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "ohjXRswUYqM"
+        }
+      ],
+      "resourceMentions": [
+        "Meta",
+        "Facebook"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Meta, Facebook",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [
+        "Virtual Reality (VR) glasses",
+        "Computer systems",
+        "Keyboards"
+      ],
+      "quotableMoments": [
+        "The best choice for anybody is to look at your own family, your own welfare, your own parents, your kids, and be kind to your friends and neighbors. If you think about the world what's going to happen to the world, you miss what is going to happen to your family if you look after your family the world will take care of itself."
+      ],
+      "targetAudience": "Young entrepreneurs from India interested in starting a business in the live event space",
+      "wordCount": 18642,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Aja Shakaroti",
+        "Anandra",
+        "Andrew Lloyd Weber",
+        "Andrew Lloyd Weber's",
+        "Anushka",
+        "Bangalore",
+        "Beatles Michael Jackson",
+        "Bernstein >>",
+        "Bob",
+        "Bombay Dreams",
+        "Chaikoski",
+        "Chajidi",
+        "Chennai",
+        "Dad",
+        "David >>"
+      ],
+      "entitiesOrgs": [
+        "AI",
+        "Amitab Bachan",
+        "BMW >>",
+        "Bentley",
+        "Bugatti",
+        "CA",
+        "CM",
+        "Chennai",
+        "DM",
+        "DMing",
+        "EQing",
+        "Fibonacci",
+        "Hanmer",
+        "Hyderabad",
+        "MC Jagger and >>"
+      ],
+      "entitiesProducts": [
+        "Pitan",
+        "PlayStation",
+        "Tamar",
+        "Tohi"
+      ],
+      "entitiesMoney": [
+        "$1 billion",
+        "$500 million",
+        "89 billion"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "YY7J1pHfSyY",
+          "title": "Bill Gates x Nikhil Kamath Part 2 | People by WTF | Ep.8",
+          "reason": "Shared guest: Nikhil Kamath"
+        }
+      ]
+    },
+    {
+      "id": "YY7J1pHfSyY",
+      "creatorId": "nikhil-kamath",
+      "publishedOrder": 2,
+      "duration": "40:24",
+      "title": "Bill Gates x Nikhil Kamath Part 2 | People by WTF | Ep.8",
+      "guests": [
+        "Bill Gates",
+        "Nikhil Kamath"
+      ],
+      "tags": [
+        "#Capital"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=YY7J1pHfSyY",
+      "status": "deep-extracted",
+      "category": "Capital",
+      "strategySnippets": [
+        {
+          "text": "The ability to focus and work long hours without distractions may be a genetic trait.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "YY7J1pHfSyY"
+        },
+        {
+          "text": "Successful entrepreneurs often have a strong sense of self-motivation and drive, which can be influenced by their childhood experiences.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "YY7J1pHfSyY"
+        },
+        {
+          "text": "In the future, with AI replacing many jobs, humans will need to find new ways to spend their time and create meaning in their lives.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "YY7J1pHfSyY"
+        },
+        {
+          "text": "Motivational pluralism: being motivated by different things at different points in time.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "YY7J1pHfSyY"
+        },
+        {
+          "text": "Focusing on creating value and making a positive impact, rather than just accumulating wealth.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "YY7J1pHfSyY"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "The potential for AI to provide medical intelligence and reduce the shortage of doctors and other healthcare professionals.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "YY7J1pHfSyY"
+        },
+        {
+          "text": "The need for a philosophical rethink on how to allocate time and resources in a world where work is no longer necessary.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "YY7J1pHfSyY"
+        }
+      ],
+      "resourceMentions": [
+        "Microsoft",
+        "Apple"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Microsoft, Apple",
+      "founderTools": [
+        {
+          "name": "LetsVenture",
+          "url": "https://www.letsventure.com/",
+          "description": "Indian angel investing platform"
+        },
+        {
+          "name": "Qapita",
+          "url": "https://www.qapita.com/",
+          "description": "Cap table management and ESOP administration"
+        },
+        {
+          "name": "Tracxn",
+          "url": "https://tracxn.com/",
+          "description": "Startup intelligence \u2014 research investors and competitors"
+        },
+        {
+          "name": "Blume Ventures",
+          "url": "https://blume.vc/",
+          "description": "Early-stage VC \u2014 portfolio includes Unacademy, slice, Purplle"
+        },
+        {
+          "name": "Peak XV Partners",
+          "url": "https://www.peakxv.com/",
+          "description": "Formerly Sequoia India \u2014 largest India-focused VC fund"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "The real question is what will the world do if one did not have to work. If you had that your whole life, it's different than being able to retire early.",
+        "Even giving away money can be very egotistical. There's certainly ego involved."
+      ],
+      "targetAudience": "['Entrepreneurs, Business leaders, Investors']",
+      "wordCount": 5799,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Bill",
+        "Bill Gates",
+        "Dad",
+        "Elon Musk",
+        "John Maynard",
+        "Kennedy",
+        "Kent Evans",
+        "Mark",
+        "Mark Zuckerberg",
+        "Paul Allen",
+        "Sachin",
+        "Satcha",
+        "Steve",
+        "Steve Jobs",
+        "Ted Turner"
+      ],
+      "entitiesOrgs": [
+        "AI",
+        "Android",
+        "Apple",
+        "Forbes",
+        "Google",
+        "Harvard",
+        "Microsoft",
+        "Microsoft Office",
+        "WTF",
+        "non-Apple"
+      ],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": [
+        {
+          "id": "ohjXRswUYqM",
+          "title": "A.R. Rahman: The Genius Who Took Indian Music Global | Nikhil Kamath | People by WTF | Ep 15",
+          "reason": "Shared guest: Nikhil Kamath"
+        },
+        {
+          "id": "Kt6YqZLV1Fo",
+          "title": "CEO of SBFC on the REALITY of being MIDDLE CLASS in India, Home Loans & More | Aseem Dhru",
+          "reason": "Same topic: Capital"
+        },
+        {
+          "id": "7ka9jrX-M5U",
+          "title": "Can This Indian Start-Up Take On Google? | Raiser's Edge | FULL EPISODE",
+          "reason": "Same topic: Capital"
+        },
+        {
+          "id": "GYW7MeU5Lfc",
+          "title": "A Woman's Community worth $5Mn? | Raiser's Edge | SE2E6 | Aspire For Her",
+          "reason": "Same topic: Capital"
+        }
+      ]
+    },
+    {
+      "id": "UKag4LVAEdU",
+      "creatorId": "nikhil-kamath",
+      "publishedOrder": 3,
+      "duration": "2:08:13",
+      "title": "Ep #3| WTF is E-commerce: Kishore Biyani, Udaan & Meesho Founders Reveal What Sells and What Doesn\u2019t",
+      "guests": [],
+      "tags": [
+        "#General"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=UKag4LVAEdU",
+      "status": "deep-extracted",
+      "category": "General",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "resourceMentions": [],
+      "highlightSnippets": [],
+      "resourceString": null,
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "founders and entrepreneurs",
+      "wordCount": 22270,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "\u0905\u091a\u094d\u091b\u093e",
+        "\u0905\u091a\u094d\u091b\u093e \u0915\u0930 \u0938\u0915\u0924\u093e \u0939\u0948",
+        "\u0905\u091a\u094d\u091b\u093e \u0926\u093f\u0928 \u0925\u093e",
+        "\u0905\u091a\u094d\u091b\u093e \u0939\u0948",
+        "\u0905\u091a\u094d\u091b\u093e \u0939\u0948\u0964",
+        "\u0905\u091a\u094d\u091b\u093e \u0939\u0948\u0964 \u0939\u093e\u0901",
+        "\u0905\u091a\u094d\u091b\u093e \u0939\u094b",
+        "\u0905\u092e\u0947\u0930\u093f\u0915\u0940 \u0907\u0915\u094b\u0928\u092e\u0940 \u0925\u0940 \u091c\u094b",
+        "\u0905\u0935\u0938\u0930 \u0939\u0948",
+        "\u0905\u0938\u0930\u0926\u093e\u0930 \u0930\u0939\u0947 \u0939\u0948\u0902",
+        "\u0905\u0959\u092c\u093e\u0930 \u092a\u0930 \u0935\u093f\u091c\u094d\u091e\u093e\u092a\u0928",
+        "\u0906\u0907\u0928\u094c\u0915\u094d\u0938",
+        "\u0906\u0915\u0930 \u0909\u0928",
+        "\u0906\u0915\u0930 \u092e\u0941\u091d\u0947 \u092b\u094b\u0928",
+        "\u0906\u092a\u0915\u094b \u0915\u094d\u092f\u094b\u0902"
+      ],
+      "entitiesOrgs": [
+        "-\u092f\u0947 \u0906\u0916\u093f\u0930\u0915\u093e\u0930",
+        "\u0905\u091a\u094d\u091b\u093e \u0938\u092e\u091d \u092e\u0947\u0902 \u0906\u0924\u093e \u0939\u0948",
+        "\u0905\u091a\u094d\u091b\u0947",
+        "\u0905\u0927\u093f\u0915",
+        "\u0905\u0927\u093f\u0915 \u0939\u094b\u0924\u0940 \u0939\u0948",
+        "\u0905\u0928\u094d\u092f",
+        "\u0905\u092a\u0928\u093e",
+        "\u0905\u092a\u0928\u093e \u092b\u093c\u094b\u0928 \u0939\u0948",
+        "\u0905\u092a\u0928\u093e \u0938\u095e\u0930 \u0936\u0941\u0930\u0942 \u0915\u093f\u092f\u093e",
+        "\u0905\u092a\u0928\u0947",
+        "\u0905\u092a\u0928\u0947 \u0909\u0938",
+        "\u0905\u092d\u093f\u0928\u0947\u0924\u093e\u0913\u0902",
+        "\u0905\u0930\u092e\u093e\u0928\u094b\u0902 \u092d\u0930\u0947",
+        "\u0906\u0907\u0906\u0907\u091f\u0940 \u0926\u093f\u0932\u094d\u0932\u0940 \u091a\u0932\u093e \u0917\u092f\u093e\u0964",
+        "\u0906\u0915\u0938\u094d\u092e\u093f\u0915"
+      ],
+      "entitiesProducts": [
+        "\u0905\u091a\u094d\u091b\u0947 \u0935\u094d\u092f\u093e\u092a\u093e\u0930\u0940 \u091c\u093f\u0928\u094d\u0939\u0947\u0902",
+        "\u0909\u0938\u0928\u0947",
+        "\u0915\u094c\u0928 \u091c\u093e\u0928\u0924\u093e",
+        "\u091a\u093e\u0939\u0924\u0947",
+        "\u091a\u093e\u0939\u0924\u0947\u0947",
+        "\u091a\u0940\u095b\u094b\u0902",
+        "\u091a\u0947\u0928",
+        "\u091c\u093e\u090f\u0917\u093e",
+        "\u091c\u093e\u0928\u0924\u093e",
+        "\u091c\u0940\u0935\u0928\u0915\u093e\u0932 \u092e\u0947\u0902 \u0915\u093f\u0924\u0928\u093e \u0938\u093e\u0930\u093e"
+      ],
+      "entitiesMoney": [
+        "\u092e\u0947\u0930\u093e \u0909\u0928\u0915\u0947 \u0932\u093f\u092f\u0947",
+        "\u092e\u0948\u0902 \u0907\u0938\u0947 \u091a\u093e\u0930 \u0938\u093e\u0932 \u092a\u0939\u0932\u0947",
+        "\u092e\u0948\u0902 \u0910\u0938\u093e \u0938\u094b\u091a\u0924\u093e \u0939\u0942\u0901\u0964 \u0939\u093e\u0901",
+        "\u092e\u0948\u0902 \u0915\u093f\u0936\u094b\u0930 \u092c\u093f\u092f\u093e\u0928\u0940 \u0939\u0942\u0901",
+        "\u092e\u0948\u0902 \u0917\u092f\u093e \u0939\u0942\u0901\u0964 \u092e\u0948\u0902"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "2_yA6GoqUnY",
+          "title": "Ep. #19 | WTF is \u201cMaking it\u201d in an Offbeat Career? Nikhil Kamath Ft. Kriti Sanon, Badshah & KL Rahul",
+          "reason": "Same topic: General"
+        },
+        {
+          "id": "STV4s8_QqVw",
+          "title": "A Marketplace Where You Can Buy or Sell Your Startups? Done Deal \u2705 | FULL EPISODE",
+          "reason": "Same topic: General"
+        }
+      ]
+    },
+    {
+      "id": "lRjprPQHuXw",
+      "creatorId": "nikhil-kamath",
+      "publishedOrder": 4,
+      "duration": "2:46:40",
+      "title": "Ep #23 | WTF are Consumer Electronics? | Nikhil ft. Carl Pei, Rahul Sharma & Amit Khatri",
+      "guests": [
+        "Nikhil",
+        "Carl Pei",
+        "Rahul Sharma",
+        "Amit Khatri"
+      ],
+      "tags": [
+        "#Consumer Electronics"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=lRjprPQHuXw",
+      "status": "deep-extracted",
+      "category": "Consumer Electronics",
+      "strategySnippets": [
+        {
+          "text": "Conduct thorough research before entering a new market or space",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "lRjprPQHuXw"
+        },
+        {
+          "text": "Focus on a narrow niche instead of going broad",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "lRjprPQHuXw"
+        },
+        {
+          "text": "Be sure you want to do something and have a deep passion for it",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "lRjprPQHuXw"
+        }
+      ],
+      "opportunitySnippets": [],
+      "resourceMentions": [
+        "Nothing",
+        "Meizu",
+        "Xiaomi",
+        "OPPO",
+        "OnePlus",
+        "Bose Corporation"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Nothing, Meizu, Xiaomi, OPPO, OnePlus",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [
+        "ChatGPT",
+        "AI glass"
+      ],
+      "quotableMoments": [
+        "If you really want to accomplish something, you can. But there's a cost associated with it.",
+        "80% of the population will just chill and receive income from the government, and a small group of people will leverage the new technologies to push society and humanity forward."
+      ],
+      "targetAudience": "['Young entrepreneurs in India', 'Startup founders']",
+      "wordCount": 27971,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "-But--",
+        "-He",
+        "-Insulin",
+        "-Wow",
+        "Air Deccan",
+        "Amit",
+        "Android",
+        "Ann Taylor",
+        "Apples",
+        "Bajaj",
+        "Bangalore",
+        "Bikaner",
+        "COVID",
+        "Carl",
+        "Carl] Mini-LED"
+      ],
+      "entitiesOrgs": [
+        "-India",
+        "AI",
+        "ARPU",
+        "ASP",
+        "Adobe",
+        "Airtel",
+        "Amazon",
+        "Android",
+        "Apple",
+        "Apple Intelligence",
+        "Apple Watch",
+        "BD",
+        "BMW",
+        "BMWs",
+        "BOM"
+      ],
+      "entitiesProducts": [
+        "Airtel ISD",
+        "DeepSeek",
+        "Drastic",
+        "Hondas",
+        "Photoshop",
+        "VC",
+        "WTFund"
+      ],
+      "entitiesMoney": [
+        "$100 million",
+        "$200 million",
+        "$450",
+        "$75 to $100",
+        "$800 million"
+      ],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "2_yA6GoqUnY",
+      "creatorId": "nikhil-kamath",
+      "publishedOrder": 5,
+      "duration": "2:41:31",
+      "title": "Ep. #19 | WTF is \u201cMaking it\u201d in an Offbeat Career? Nikhil Kamath Ft. Kriti Sanon, Badshah & KL Rahul",
+      "guests": [],
+      "tags": [
+        "#General"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=2_yA6GoqUnY",
+      "status": "deep-extracted",
+      "category": "General",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "resourceMentions": [],
+      "highlightSnippets": [],
+      "resourceString": null,
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "founders and entrepreneurs",
+      "wordCount": 3397,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "100 Cr",
+        "Badshah",
+        "Chandigarh",
+        "Eminem",
+        "Gurdas Maan",
+        "India",
+        "Jay Sean",
+        "KL Rahul",
+        "Kathak",
+        "Limewire",
+        "Mom",
+        "Rishi Rich's",
+        "X. Subtitles"
+      ],
+      "entitiesOrgs": [
+        "Bhakra Beas Management Board",
+        "CAT",
+        "Chandigarh to Himachal",
+        "Cool Equal",
+        "Himachal",
+        "Punjab Engineering College",
+        "SDO",
+        "Spotify",
+        "the Delhi Electricity Board"
+      ],
+      "entitiesProducts": [],
+      "entitiesMoney": [
+        "three marks"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "UKag4LVAEdU",
+          "title": "Ep #3| WTF is E-commerce: Kishore Biyani, Udaan & Meesho Founders Reveal What Sells and What Doesn\u2019t",
+          "reason": "Same topic: General"
+        },
+        {
+          "id": "STV4s8_QqVw",
+          "title": "A Marketplace Where You Can Buy or Sell Your Startups? Done Deal \u2705 | FULL EPISODE",
+          "reason": "Same topic: General"
+        }
+      ]
+    },
+    {
+      "id": "tWzalcN_Inc",
+      "creatorId": "nikhil-kamath",
+      "publishedOrder": 6,
+      "duration": "1:15:09",
+      "title": "#1 WTF is Metaverse? WTF is with Nikhil Kamath ft. Tanmay Bhat, Umang Bedi & Aprameya Radhakrishna",
+      "guests": [
+        "Tanmay Bhat",
+        "Umang Bedi",
+        "Aprameya Radhakrishna"
+      ],
+      "tags": [
+        "#Metaverse"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=tWzalcN_Inc",
+      "status": "deep-extracted",
+      "category": "Metaverse",
+      "strategySnippets": [
+        {
+          "text": "The metaverse will be about control, not just making money.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "tWzalcN_Inc"
+        },
+        {
+          "text": "In the metaverse, you don't own the consumer; it's on blockchain unless stored.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "tWzalcN_Inc"
+        },
+        {
+          "text": "Everything doesn't need to be in the metaverse; convenience decreases.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "tWzalcN_Inc"
+        },
+        {
+          "text": "Transforming businesses every 5-7 years to stay alive.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "tWzalcN_Inc"
+        },
+        {
+          "text": "Morphing traditional industries (e.g., newspapers) into digital-driven models.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "tWzalcN_Inc"
+        }
+      ],
+      "opportunitySnippets": [],
+      "resourceMentions": [
+        "Meta",
+        "Microsoft",
+        "Unreal Engine",
+        "KU (social media platform)",
+        "Daily Hunt",
+        "Josh"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Meta, Microsoft, Unreal Engine, KU (social media platform), Daily Hunt",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [
+        "Unreal Engine",
+        "GPT"
+      ],
+      "quotableMoments": [
+        "The metaverse is like the internet, but with haptics and immersive experiences."
+      ],
+      "targetAudience": "['Tech enthusiasts', 'Business leaders', 'Founders']",
+      "wordCount": 12201,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "AR",
+        "Angel",
+        "Bangalore",
+        "Bitcoin",
+        "Bollywood",
+        "CS",
+        "Chad GPT",
+        "Cloud",
+        "Computing",
+        "Counter Strike",
+        "Counter-Strike",
+        "Creator",
+        "Dau",
+        "Define",
+        "Drive"
+      ],
+      "entitiesOrgs": [
+        "200k",
+        "AI",
+        "ANC",
+        "AWS",
+        "Amazon",
+        "Android",
+        "Apple",
+        "Avatar",
+        "BBC",
+        "BC",
+        "CTO",
+        "Caira",
+        "Central",
+        "Central Time",
+        "Channel"
+      ],
+      "entitiesProducts": [
+        "Behavior",
+        "Google Glass",
+        "Hardware",
+        "Sword Art Online",
+        "YouTube"
+      ],
+      "entitiesMoney": [
+        "30 billion 30 million",
+        "50 dollars",
+        "a billion dollars",
+        "billions of dollars",
+        "nine dollars"
+      ],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "lJ3Wt-ng1Ls",
+      "creatorId": "nikhil-kamath",
+      "publishedOrder": 7,
+      "duration": "1:24:04",
+      "title": "17 Young Founders | 8 Startups | 20 Lakh Grants | Third WTFund Cohort",
+      "guests": [
+        "Sashant",
+        "Sham",
+        "Dr. Janti",
+        "Prashant",
+        "Abhishek"
+      ],
+      "tags": [
+        "#Founders"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=lJ3Wt-ng1Ls",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [
+        {
+          "text": "The importance of contextual understanding in solving complex problems, such as cyber security.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "lJ3Wt-ng1Ls"
+        },
+        {
+          "text": "The need for a dedicated stack for AI to enable seamless payments and interactions with merchants.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "lJ3Wt-ng1Ls"
+        },
+        {
+          "text": "The value of storytelling and effective communication in business and personal development.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "lJ3Wt-ng1Ls"
+        },
+        {
+          "text": "Contextual understanding and integration as a key to solving complex problems.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "lJ3Wt-ng1Ls"
+        },
+        {
+          "text": "Building a dedicated stack for AI to enable seamless interactions with merchants.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "lJ3Wt-ng1Ls"
+        },
+        {
+          "text": "Effective storytelling and communication in business and personal development.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 3",
+          "relevance": 80,
+          "episodeId": "lJ3Wt-ng1Ls"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "A lack of standardization in payment processing between AI applications and merchants.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "lJ3Wt-ng1Ls"
+        },
+        {
+          "text": "Limited availability of affordable, portable rehabilitation solutions for neuro patients.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "lJ3Wt-ng1Ls"
+        },
+        {
+          "text": "Insufficient focus on contextual understanding and integration in the cyber security industry.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "lJ3Wt-ng1Ls"
+        }
+      ],
+      "resourceMentions": [
+        "Praa Payments",
+        "Bloom Rehab",
+        "Astray Service"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Praa Payments, Bloom Rehab, Astray Service",
+      "founderTools": [
+        {
+          "name": "Amaha",
+          "url": "https://www.amahahealth.com/",
+          "description": "Online therapy \u2014 founder burnout support"
+        },
+        {
+          "name": "Y Combinator Library",
+          "url": "https://www.ycombinator.com/library",
+          "description": "Free founder education and essays"
+        },
+        {
+          "name": "First Round Review",
+          "url": "https://review.firstround.com/",
+          "description": "Tactical advice from experienced operators"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "The industry is very much dependent on open-source solutions which they don't even control.",
+        "If you can't appeal to me in one line, tomorrow when you sell it, that's the same line you're going to use."
+      ],
+      "targetAudience": "Early-stage founders and entrepreneurs looking for insights on contextual understanding, AI, and effective communication.",
+      "wordCount": 15443,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "ABCDE E. You",
+        "Adler",
+        "Android",
+        "Bandra",
+        "Bangalore",
+        "Casey",
+        "Casey Neistat",
+        "Dal Singh",
+        "Dhulai",
+        "Enko Alert",
+        "Fins",
+        "Freud Yung",
+        "Goa",
+        "Good",
+        "Grace"
+      ],
+      "entitiesOrgs": [
+        "AI",
+        "AQI",
+        "Abhishek",
+        "Android",
+        "Astray Service",
+        "BH",
+        "CCTV",
+        "CISO",
+        "CTO",
+        "CV Ramen's",
+        "Casey Neistat",
+        "Checkout.com",
+        "GPT",
+        "GTM",
+        "Gallup"
+      ],
+      "entitiesProducts": [
+        "AirPods",
+        "PlayStation",
+        "Stripe"
+      ],
+      "entitiesMoney": [
+        "500,000",
+        "close to $80,000"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "xjuvJK5Jm44",
+          "title": "Acquiring 8 Companies in 6 months, beating facial paralysis,18 Hour Days | Ft. Bhavna Suresh | S1E6",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "wnK8Ymzp0rQ",
+          "title": "Billions of Dollars in Valuation & Defining an ENTIRE Market: The OfBusiness Success Story",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "DvL1bJMB_p4",
+          "title": "Building SNAPDEAL, Angel Investing & more | S1E8 | Rohit Bansal, Co Founder Snapdeal & Titan Capital",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "gpv6X6E3Qxw",
+          "title": "A MASTERCLASS In Entrepreneurship To Build Your Own Empire & A Chance to Raise 1 CR? | RAZORPRENEUR",
+          "reason": "Same topic: Founders"
+        }
+      ]
+    },
+    {
+      "id": "xjuvJK5Jm44",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 1,
+      "duration": "2:02:28",
+      "title": "Acquiring 8 Companies in 6 months, beating facial paralysis,18 Hour Days | Ft. Bhavna Suresh | S1E6",
+      "guests": [
+        "Bhavna Suresh"
+      ],
+      "tags": [
+        "#Founders"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=xjuvJK5Jm44",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [
+        {
+          "text": "Building a brand requires understanding consumer behavior and willingness to pay.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "xjuvJK5Jm44"
+        },
+        {
+          "text": "Focusing on a few key products and building a strong brand can lead to significant growth.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "xjuvJK5Jm44"
+        },
+        {
+          "text": "Acquiring companies with potential for growth and converting them into brands is a viable strategy.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "xjuvJK5Jm44"
+        },
+        {
+          "text": "Converting commoditized categories into brands",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "xjuvJK5Jm44"
+        },
+        {
+          "text": "Building a strong brand through consumer understanding and willingness to pay",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "xjuvJK5Jm44"
+        },
+        {
+          "text": "Acquiring companies with potential for growth",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 3",
+          "relevance": 80,
+          "episodeId": "xjuvJK5Jm44"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "Creating a million jobs per month in India",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "xjuvJK5Jm44"
+        },
+        {
+          "text": "Building a digital-first brand that caters to 40-50 million consumers",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "xjuvJK5Jm44"
+        }
+      ],
+      "resourceMentions": [
+        "10 Club",
+        "Ikea",
+        "Decathlon"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "10 Club, Ikea, Decathlon",
+      "founderTools": [
+        {
+          "name": "Amaha",
+          "url": "https://www.amahahealth.com/",
+          "description": "Online therapy \u2014 founder burnout support"
+        },
+        {
+          "name": "Y Combinator Library",
+          "url": "https://www.ycombinator.com/library",
+          "description": "Free founder education and essays"
+        },
+        {
+          "name": "First Round Review",
+          "url": "https://review.firstround.com/",
+          "description": "Tactical advice from experienced operators"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "Money is the most sure-shot of choice.",
+        "I don't want to be defined by a box, I want to live a life that I have agreed to live."
+      ],
+      "targetAudience": "['Entrepreneurs, Founders, Business Owners']",
+      "wordCount": 23391,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Adam Newman",
+        "Akiva",
+        "Angel",
+        "Angel Investing",
+        "Arbitrage",
+        "Bangalore",
+        "Bezos",
+        "Blossom",
+        "Brands",
+        "Brown",
+        "Candor",
+        "Carefree",
+        "Carlos",
+        "Cox",
+        "Deepak"
+      ],
+      "entitiesOrgs": [
+        "ASP",
+        "Academia",
+        "Amazon",
+        "Amazon Flipkart",
+        "Amazon India",
+        "American Venture",
+        "Amway",
+        "Angel Investors",
+        "BD",
+        "Beyond",
+        "Boys Club",
+        "Brand",
+        "CAC",
+        "CSR",
+        "Capital"
+      ],
+      "entitiesProducts": [
+        "400k",
+        "Excel",
+        "Founder",
+        "Kiva Akiva",
+        "Mentor",
+        "Scorpios",
+        "Superstars"
+      ],
+      "entitiesMoney": [
+        "10 billion to",
+        "10 million 100 million or billion",
+        "100 billion",
+        "100 million dollars",
+        "32 million dollars"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "lJ3Wt-ng1Ls",
+          "title": "17 Young Founders | 8 Startups | 20 Lakh Grants | Third WTFund Cohort",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "wnK8Ymzp0rQ",
+          "title": "Billions of Dollars in Valuation & Defining an ENTIRE Market: The OfBusiness Success Story",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "DvL1bJMB_p4",
+          "title": "Building SNAPDEAL, Angel Investing & more | S1E8 | Rohit Bansal, Co Founder Snapdeal & Titan Capital",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "gpv6X6E3Qxw",
+          "title": "A MASTERCLASS In Entrepreneurship To Build Your Own Empire & A Chance to Raise 1 CR? | RAZORPRENEUR",
+          "reason": "Same topic: Founders"
+        }
+      ]
+    },
+    {
+      "id": "STV4s8_QqVw",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 2,
+      "duration": "1:13:22",
+      "title": "A Marketplace Where You Can Buy or Sell Your Startups? Done Deal \u2705 | FULL EPISODE",
+      "guests": [],
+      "tags": [
+        "#General"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=STV4s8_QqVw",
+      "status": "deep-extracted",
+      "category": "General",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "resourceMentions": [],
+      "highlightSnippets": [],
+      "resourceString": null,
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "founders and entrepreneurs",
+      "wordCount": 13930,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Alloys",
+        "Angel",
+        "Anthony",
+        "Archer",
+        "Arjuna",
+        "Bangalore",
+        "Benchmark",
+        "Charlie",
+        "Chatterbox",
+        "Cherry",
+        "Deepak",
+        "Dev",
+        "Eva Bachelorette",
+        "Founders",
+        "Giga"
+      ],
+      "entitiesOrgs": [
+        "Amazon",
+        "American Executive",
+        "Anish Rohit",
+        "Avatar",
+        "Banker",
+        "Bankers",
+        "Bankers Banks",
+        "Beauty Personal Care",
+        "Blackstone",
+        "Block",
+        "Blue Chip",
+        "Boutique Bankers",
+        "CMO",
+        "Chatterbox",
+        "DTC"
+      ],
+      "entitiesProducts": [
+        "Chatterbox",
+        "Discovery",
+        "Founder",
+        "Shadow"
+      ],
+      "entitiesMoney": [
+        "100 million dollar",
+        "20 million dollar",
+        "3000 bucks",
+        "almost 400 million dollars",
+        "billion dollar"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "UKag4LVAEdU",
+          "title": "Ep #3| WTF is E-commerce: Kishore Biyani, Udaan & Meesho Founders Reveal What Sells and What Doesn\u2019t",
+          "reason": "Same topic: General"
+        },
+        {
+          "id": "2_yA6GoqUnY",
+          "title": "Ep. #19 | WTF is \u201cMaking it\u201d in an Offbeat Career? Nikhil Kamath Ft. Kriti Sanon, Badshah & KL Rahul",
+          "reason": "Same topic: General"
+        }
+      ]
+    },
+    {
+      "id": "HRWOycI1YTw",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 3,
+      "duration": "1:51:25",
+      "title": "Behind the Scenes of Building India's BIGGEST BRANDS: Lakm\u00e9, Durex, Veet & More!: Sukhleen Aneja",
+      "guests": [
+        "Sukhleen Aneja"
+      ],
+      "tags": [
+        "#Business"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=HRWOycI1YTw",
+      "status": "deep-extracted",
+      "category": "Business",
+      "strategySnippets": [
+        {
+          "text": "Building a brand takes time and effort, but it's worth it.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "HRWOycI1YTw"
+        },
+        {
+          "text": "The key to creating amazing products is to understand the customer's needs and desires.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "HRWOycI1YTw"
+        },
+        {
+          "text": "Entrepreneurs in India have changed the fabric of the country.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "HRWOycI1YTw"
+        },
+        {
+          "text": "Creating products that are consistent in quality across different countries.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "HRWOycI1YTw"
+        },
+        {
+          "text": "Building a brand takes time and effort, but it's worth it.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "HRWOycI1YTw"
+        }
+      ],
+      "opportunitySnippets": [],
+      "resourceMentions": [
+        "Lakm\u00e9",
+        "Durex",
+        "Veet"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Lakm\u00e9, Durex, Veet",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "The beauty of your show is how quickly you're able to go behind the business to the person."
+      ],
+      "targetAudience": "Entrepreneurs, Business owners, Marketing professionals",
+      "wordCount": 20759,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "\u0905 \u0938\u094d\u091f\u0947\u091f \u0911\u092b",
+        "\u0905\u0928\u0932\u093e\u0907\u0915",
+        "\u0905\u092a \u092b\u0949\u0930 \u0932\u093e\u0938\u094d\u091f",
+        "\u0905\u092a\u094d\u0930\u094b\u091a \u0938\u094d\u092a\u094b\u0915",
+        "\u0905\u092e\u093f\u0902\u0917 \u0925 \u092b\u094b\u0930 \u0908\u092f\u0930 \u092c\u091c\u0947\u091f\u094d\u0938 \u092b\u0949\u0930 \u090f\u0915\u094d\u0938\u094d\u091f \u091f\u094d\u0938 \u0939\u093e\u0909 \u092f\u0942",
+        "\u0905\u0930\u094d\u0932\u093f\u092f\u093e",
+        "\u0905\u0932\u093e\u0909 \u092f\u0942",
+        "\u0906\u0907\u0938\u093f\u0902\u0917 \u0926\u0947",
+        "\u0906\u0932\u094d\u0938\u094b",
+        "\u0906\u0932\u094d\u0938\u094b \u090f\u0915\u094d\u0938\u092a\u094d\u0932\u0947\u0928",
+        "\u0906\u0932\u094d\u0938\u094b \u090f\u0921\u093f\u0902\u0917",
+        "\u0906\u0932\u094d\u0938\u094b \u0917\u0947\u0935",
+        "\u0906\u0932\u094d\u0938\u094b \u0921\u091c",
+        "\u0906\u0932\u094d\u0938\u094b \u0928\u093e\u0909 \u0917\u094d\u0930\u0948\u0902\u0921\u092a\u0947\u0930\u0947\u0902\u091f\u094d\u0938",
+        "\u0906\u0932\u094d\u0938\u094b \u0928\u0949\u091f \u0938\u0947\u091f\u0932 \u092b\u0949\u0930 \u0932\u0947\u0938"
+      ],
+      "entitiesOrgs": [
+        "\u0905\u091c\u0942\u092e \u0926\u0948\u091f",
+        "\u0905\u092e\u0947\u0930\u093f\u0915\u0928",
+        "\u0905\u0932\u093e\u0907\u0935 \u0938\u0940",
+        "\u0905\u0938\u093e \u0938\u093e\u0907\u0921 \u0907\u0902\u0921\u093f\u092f\u093e",
+        "\u0905\u0939\u0947\u0921 \u0911\u092b",
+        "\u0906\u0908\u092e \u0928\u093e\u0909",
+        "\u0906\u0932\u094d\u0938\u094b",
+        "\u0906\u0932\u094d\u0938\u094b \u0921\u0947\u0915\u0947\u091c",
+        "\u0906\u0932\u094d\u0938\u094b \u0926 \u092a\u094d\u0930\u093f\u0935\u093f\u0932\u0947\u091c \u0911\u092b \u0935\u0930\u094d\u0915\u093f\u0902\u0917 \u0907\u0928 \u0915\u0941\u091f\u0932",
+        "\u0906\u0932\u094d\u0938\u094b \u0926\u0947\u0928",
+        "\u0906\u0932\u094d\u0938\u094b \u0928\u094d\u092f\u0942",
+        "\u0906\u0932\u094d\u0938\u094b \u092e\u0947\u0921 \u092e\u0940 \u0930\u093f\u0932\u093e\u0907\u091c",
+        "\u0907\u0902\u0921\u093f\u092f\u0928",
+        "\u0907\u0902\u0921\u093f\u092f\u093e",
+        "\u0907\u0902\u0921\u093f\u092f\u093e \u0930\u093e\u0907\u091f"
+      ],
+      "entitiesProducts": [
+        "\u0906\u0932\u094d\u0938\u094b \u0921\u093f\u0938\u094d\u091f\u094d\u0930\u0949\u092f\u0921 \u092c\u093f\u091c\u0928\u0947\u0938\u0947\u0938 \u0930\u093e\u0907\u091f \u092c\u093f\u0915\u0949\u091c\u093c \u0938\u092e",
+        "\u0915\u093e\u0909\u0902\u091f\u0930",
+        "\u0915\u0941\u0930\u094d\u0924\u093e\u0938 \u0935\u093f\u0925 \u091a\u0942\u0921\u093c\u0940\u0926\u093e\u0930",
+        "\u0915\u0947\u092e \u0926\u0947\u092f\u0930",
+        "\u0915\u094d\u0930\u093f\u0915\u0947\u091f",
+        "\u0917\u0947\u091f",
+        "\u0917\u0947\u091f \u092e\u093e\u0907\u0938\u0947\u0932\u094d\u092b",
+        "\u0917\u0947\u091f \u0932\u0902\u0917",
+        "\u091a\u093f\u0932\u094d\u0921\u094d\u0930\u0928",
+        "\u091f\u093e\u0907\u092e"
+      ],
+      "entitiesMoney": [
+        "100 \u090f\u0915\u094d\u0938 \u092c\u0947\u091f\u0930",
+        "1000 \u0915\u094d\u0930\u094b \u092c\u094d\u0930\u093e\u0902\u0921",
+        "150 \u090f\u0902\u0921 \u0926",
+        "40 \u0935\u0930\u094d\u0938\u0947\u0938 25",
+        "\u091c\u0928\u0930\u0947\u091f\u093f\u0902\u0917"
+      ],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "Kt6YqZLV1Fo",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 4,
+      "duration": "1:51:42",
+      "title": "CEO of SBFC on the REALITY of being MIDDLE CLASS in India, Home Loans & More | Aseem Dhru",
+      "guests": [
+        "Aseem Dhru"
+      ],
+      "tags": [
+        "#Capital"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=Kt6YqZLV1Fo",
+      "status": "deep-extracted",
+      "category": "Capital",
+      "strategySnippets": [
+        {
+          "text": "Get really good at something, and everything else will fall into place.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "Kt6YqZLV1Fo"
+        },
+        {
+          "text": "Moderation is key when it comes to debt.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "Kt6YqZLV1Fo"
+        },
+        {
+          "text": "Financial services needs brick-and-mortar locations for trust.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "Kt6YqZLV1Fo"
+        },
+        {
+          "text": "Building a boring, predictable business is key to success in financial services.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "Kt6YqZLV1Fo"
+        },
+        {
+          "text": "Creating structures and processes within companies to ensure continuity after the CEO leaves.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "Kt6YqZLV1Fo"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "The middle class in India is getting stretched from all sides and bears the brunt of inflation and taxation.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "Kt6YqZLV1Fo"
+        },
+        {
+          "text": "Only 8-9% of small businesses in India get organized finance, leaving a large gap in the market.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "Kt6YqZLV1Fo"
+        }
+      ],
+      "resourceMentions": [
+        "HDFC Bank",
+        "SBFC Finance",
+        "DHFL"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "HDFC Bank, SBFC Finance, DHFL",
+      "founderTools": [
+        {
+          "name": "LetsVenture",
+          "url": "https://www.letsventure.com/",
+          "description": "Indian angel investing platform"
+        },
+        {
+          "name": "Qapita",
+          "url": "https://www.qapita.com/",
+          "description": "Cap table management and ESOP administration"
+        },
+        {
+          "name": "Tracxn",
+          "url": "https://tracxn.com/",
+          "description": "Startup intelligence \u2014 research investors and competitors"
+        },
+        {
+          "name": "Blume Ventures",
+          "url": "https://blume.vc/",
+          "description": "Early-stage VC \u2014 portfolio includes Unacademy, slice, Purplle"
+        },
+        {
+          "name": "Peak XV Partners",
+          "url": "https://www.peakxv.com/",
+          "description": "Formerly Sequoia India \u2014 largest India-focused VC fund"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [
+        "Account Aggregator",
+        "UPI lending"
+      ],
+      "quotableMoments": [
+        "Excellence is a drug. Once you become good at something, you want to get even better."
+      ],
+      "targetAudience": "['Entrepreneurs, business leaders, and individuals interested in finance and economics']",
+      "wordCount": 23118,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Ahmedabad",
+        "Amani",
+        "Amul",
+        "Archer",
+        "Aristotle",
+        "Arjun",
+        "Bajage",
+        "Birkenstocks",
+        "COVID",
+        "Chandler",
+        "Charlie Mer",
+        "Deepare",
+        "Dirub Amani",
+        "GJJ5",
+        "Jamie Diamond"
+      ],
+      "entitiesOrgs": [
+        "AAA",
+        "ABC",
+        "AMI",
+        "APO",
+        "Apple",
+        "BMW",
+        "Bank",
+        "Bank of 2020",
+        "Bank of Americas",
+        "Bharata",
+        "Bombay Shaving Company",
+        "CFO",
+        "CPU",
+        "CSR",
+        "Cargill"
+      ],
+      "entitiesProducts": [
+        "CA"
+      ],
+      "entitiesMoney": [
+        "$100 million",
+        "$15 billion",
+        "$180 billion",
+        "10 billion rupees",
+        "20 million 30 million 100 million"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "YY7J1pHfSyY",
+          "title": "Bill Gates x Nikhil Kamath Part 2 | People by WTF | Ep.8",
+          "reason": "Same topic: Capital"
+        },
+        {
+          "id": "7ka9jrX-M5U",
+          "title": "Can This Indian Start-Up Take On Google? | Raiser's Edge | FULL EPISODE",
+          "reason": "Same topic: Capital"
+        },
+        {
+          "id": "GYW7MeU5Lfc",
+          "title": "A Woman's Community worth $5Mn? | Raiser's Edge | SE2E6 | Aspire For Her",
+          "reason": "Same topic: Capital"
+        }
+      ]
+    },
+    {
+      "id": "ezaFpL_EMEk",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 5,
+      "duration": "1:18:43",
+      "title": "Choosing The Right Investors, Bootstrapping & Building for the Long Run | TBWS x Bombae",
+      "guests": [
+        "Nikita",
+        "Twinkle",
+        "Prachi",
+        "Kunal"
+      ],
+      "tags": [
+        "#Founders, Capital"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=ezaFpL_EMEk",
+      "status": "deep-extracted",
+      "category": "Founders, Capital",
+      "strategySnippets": [
+        {
+          "text": "Raising capital should be done when you really need it to grow your business.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "ezaFpL_EMEk"
+        },
+        {
+          "text": "It's essential to choose the right investors who align with your vision and values.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "ezaFpL_EMEk"
+        },
+        {
+          "text": "Bootstrapping can be beneficial for building a sustainable large economic engine.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "ezaFpL_EMEk"
+        },
+        {
+          "text": "Raising capital at the right time",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "ezaFpL_EMEk"
+        },
+        {
+          "text": "Choosing the right investors",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "ezaFpL_EMEk"
+        },
+        {
+          "text": "Bootstrapping and building for the long run",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 3",
+          "relevance": 80,
+          "episodeId": "ezaFpL_EMEk"
+        }
+      ],
+      "opportunitySnippets": [],
+      "resourceMentions": [
+        "Moxie",
+        "Kiva",
+        "Google"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Moxie, Kiva, Google",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "If you don't have the patience to solve a deep problem, you can never build a sustainable large economic engine.",
+        "The less you have to do the selling, the more you can put your energy behind doing the right things around building."
+      ],
+      "targetAudience": "Founders and entrepreneurs who are looking for advice on raising capital and choosing the right investors",
+      "wordCount": 13953,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Affordable",
+        "Angel Investing",
+        "Benchmark",
+        "Chachi",
+        "Ferris",
+        "Founders",
+        "Gupta",
+        "High Learning",
+        "Instagram",
+        "McKinsey",
+        "Moxie",
+        "Network",
+        "Outreach",
+        "Performance Marketing",
+        "Rahul"
+      ],
+      "entitiesOrgs": [
+        "ABN",
+        "Angel Investors",
+        "Angels",
+        "Beyond Capital",
+        "Blue Chip private Equity Fund",
+        "Brotherhood",
+        "Builder",
+        "Capital",
+        "Choice",
+        "Equitable",
+        "Express",
+        "FFF",
+        "Focus",
+        "Founders",
+        "Google"
+      ],
+      "entitiesProducts": [
+        "CA",
+        "Founder",
+        "Kiva",
+        "VC",
+        "Vibe"
+      ],
+      "entitiesMoney": [
+        "100 million dollars"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "DvL1bJMB_p4",
+          "title": "Building SNAPDEAL, Angel Investing & more | S1E8 | Rohit Bansal, Co Founder Snapdeal & Titan Capital",
+          "reason": "Shared guest: Kunal"
+        }
+      ]
+    },
+    {
+      "id": "APU6KeQAANU",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 6,
+      "duration": "1:28:04",
+      "title": "AD LEGEND Piyush Pandey on How He Made India\u2019s Biggest Ads, Creativity & The Art of Storytelling",
+      "guests": [
+        "Piyush Pandey"
+      ],
+      "tags": [
+        "#Content"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=APU6KeQAANU",
+      "status": "deep-extracted",
+      "category": "Content",
+      "strategySnippets": [
+        {
+          "text": "Telling stories is a powerful way to engage consumers and build brand love.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "APU6KeQAANU"
+        },
+        {
+          "text": "The key to effective advertising is not just reaching people, but impacting them.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "APU6KeQAANU"
+        },
+        {
+          "text": "Long-term thinking is essential in building a successful business, whereas short-term thinking can lead to myopia.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "APU6KeQAANU"
+        },
+        {
+          "text": "The importance of respecting the audience and not spoon-feeding them.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "APU6KeQAANU"
+        },
+        {
+          "text": "The value of inclusiveness, curiosity, and humility in creative work.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "APU6KeQAANU"
+        }
+      ],
+      "opportunitySnippets": [],
+      "resourceMentions": [
+        "Bombay Shaving Company",
+        "Gillette",
+        "Philips",
+        "Venus"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Bombay Shaving Company, Gillette, Philips, Venus",
+      "founderTools": [
+        {
+          "name": "YouTube Studio",
+          "url": "https://studio.youtube.com/",
+          "description": "Analytics and content management for creators"
+        },
+        {
+          "name": "Notion",
+          "url": "https://www.notion.so/",
+          "description": "All-in-one workspace for content planning"
+        },
+        {
+          "name": "ConvertKit",
+          "url": "https://convertkit.com/",
+          "description": "Email marketing for creators"
+        },
+        {
+          "name": "Graphy",
+          "url": "https://graphy.com/",
+          "description": "Launch and sell courses \u2014 Unacademy's creator platform"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "If you don't make people feel smart, they won't be engaged.",
+        "The best way to measure success is by the levels of laughter in the corridor."
+      ],
+      "targetAudience": "['Entrepreneurs', 'Business builders', 'Younger audiences (sub-25)']",
+      "wordCount": 10986,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Achieve",
+        "Al I'm",
+        "Anan Kapoor",
+        "Bangalore Bangalore",
+        "Bara",
+        "Benson",
+        "Beres",
+        "Bloody",
+        "Brian Lara",
+        "Compu",
+        "David",
+        "Ed",
+        "Falls",
+        "Fe Qui",
+        "God"
+      ],
+      "entitiesOrgs": [
+        "AATA",
+        "Academy of Learning",
+        "Amazon",
+        "Apollo",
+        "Arts",
+        "BL",
+        "Benson",
+        "Brand",
+        "CH",
+        "Cadbury",
+        "Central",
+        "Colgate",
+        "Consulting",
+        "Council",
+        "Cricket"
+      ],
+      "entitiesProducts": [
+        "Excel",
+        "Journey"
+      ],
+      "entitiesMoney": [],
+      "relatedEpisodes": [
+        {
+          "id": "RHi26oDdKQI",
+          "title": "CONTENT CREATION MASTERCLASS with Tanmay, Sahiba, Revant, Shashank & Shantanu | RAZORPRENEUR 2.0",
+          "reason": "Same topic: Content"
+        }
+      ]
+    },
+    {
+      "id": "wnK8Ymzp0rQ",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 7,
+      "duration": "1:49:57",
+      "title": "Billions of Dollars in Valuation & Defining an ENTIRE Market: The OfBusiness Success Story",
+      "guests": [
+        "Aruchi",
+        "Ashish"
+      ],
+      "tags": [
+        "#Founders"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=wnK8Ymzp0rQ",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [
+        {
+          "text": "The importance of understanding the world as an input into what you're doing when building a business.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "wnK8Ymzp0rQ"
+        },
+        {
+          "text": "Defining how to build and run a business based on someone who has built and run a business, rather than someone who hasn't.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "wnK8Ymzp0rQ"
+        },
+        {
+          "text": "The value of being vulnerable about problems or issues in order to build trust with others.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "wnK8Ymzp0rQ"
+        },
+        {
+          "text": "Company first: prioritizing the company's goals over individual interests",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "wnK8Ymzp0rQ"
+        },
+        {
+          "text": "Vulnerability: being open and honest about problems or issues in order to build trust with others",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "wnK8Ymzp0rQ"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "The need for India-specific solutions in the B2B space",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "wnK8Ymzp0rQ"
+        },
+        {
+          "text": "The lack of institutions that can provide long-term support and guidance to entrepreneurs",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "wnK8Ymzp0rQ"
+        }
+      ],
+      "resourceMentions": [
+        "OfBusiness",
+        "OBSO"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "OfBusiness, OBSO",
+      "founderTools": [
+        {
+          "name": "Amaha",
+          "url": "https://www.amahahealth.com/",
+          "description": "Online therapy \u2014 founder burnout support"
+        },
+        {
+          "name": "Y Combinator Library",
+          "url": "https://www.ycombinator.com/library",
+          "description": "Free founder education and essays"
+        },
+        {
+          "name": "First Round Review",
+          "url": "https://review.firstround.com/",
+          "description": "Tactical advice from experienced operators"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "When you start thinking company first, you start doing things that you guys have done, which is amazing."
+      ],
+      "targetAudience": "Entrepreneurs, founders, and business leaders looking for insights on building successful companies and institutions in India",
+      "wordCount": 19019,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Ash",
+        "Ashi",
+        "Chan",
+        "Christopher",
+        "Diksha",
+        "Ed Sheiran Kibbadi",
+        "George Bernard Chavar",
+        "Gina",
+        "Kushi",
+        "Luis Kapali",
+        "McKenzie",
+        "Mckenzie",
+        "Rajie",
+        "Rasho",
+        "Ruchi"
+      ],
+      "entitiesOrgs": [
+        "AI ML",
+        "Agra",
+        "B2B.",
+        "BA",
+        "BCG",
+        "Bombay Shaving Company",
+        "Colgate",
+        "D2C",
+        "ERP",
+        "ESOP",
+        "FS",
+        "Financial",
+        "GAN",
+        "Grace",
+        "HDFC Bank"
+      ],
+      "entitiesProducts": [
+        "Shiv Roi"
+      ],
+      "entitiesMoney": [
+        "every penny"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "lJ3Wt-ng1Ls",
+          "title": "17 Young Founders | 8 Startups | 20 Lakh Grants | Third WTFund Cohort",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "xjuvJK5Jm44",
+          "title": "Acquiring 8 Companies in 6 months, beating facial paralysis,18 Hour Days | Ft. Bhavna Suresh | S1E6",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "DvL1bJMB_p4",
+          "title": "Building SNAPDEAL, Angel Investing & more | S1E8 | Rohit Bansal, Co Founder Snapdeal & Titan Capital",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "gpv6X6E3Qxw",
+          "title": "A MASTERCLASS In Entrepreneurship To Build Your Own Empire & A Chance to Raise 1 CR? | RAZORPRENEUR",
+          "reason": "Same topic: Founders"
+        }
+      ]
+    },
+    {
+      "id": "DvL1bJMB_p4",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 8,
+      "duration": "1:08:03",
+      "title": "Building SNAPDEAL, Angel Investing & more | S1E8 | Rohit Bansal, Co Founder Snapdeal & Titan Capital",
+      "guests": [
+        "Rohit Bansal",
+        "Kunal"
+      ],
+      "tags": [
+        "#Founders"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=DvL1bJMB_p4",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [
+        {
+          "text": "Don't let fear of failure hold you back from pursuing your entrepreneurial dreams.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "DvL1bJMB_p4"
+        },
+        {
+          "text": "It's essential to have a strong support system, including family and friends who understand and encourage your endeavors.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "DvL1bJMB_p4"
+        },
+        {
+          "text": "Pivoting and iterating are crucial in entrepreneurship; being open to change and willing to adapt is vital for success.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "DvL1bJMB_p4"
+        },
+        {
+          "text": "Pivoting and iterating to adapt to changing market conditions",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "DvL1bJMB_p4"
+        },
+        {
+          "text": "Focusing on solving specific problems or pain points in the market",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "DvL1bJMB_p4"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "Limited awareness of entrepreneurship as a viable career path in India",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "DvL1bJMB_p4"
+        },
+        {
+          "text": "Need for accessible resources and support systems for entrepreneurs",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "DvL1bJMB_p4"
+        },
+        {
+          "text": "Gap in consumer education on e-commerce and digital marketplaces",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "DvL1bJMB_p4"
+        }
+      ],
+      "resourceMentions": [
+        "Snapdeal",
+        "BookMyShow"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Snapdeal, BookMyShow",
+      "founderTools": [
+        {
+          "name": "Amaha",
+          "url": "https://www.amahahealth.com/",
+          "description": "Online therapy \u2014 founder burnout support"
+        },
+        {
+          "name": "Y Combinator Library",
+          "url": "https://www.ycombinator.com/library",
+          "description": "Free founder education and essays"
+        },
+        {
+          "name": "First Round Review",
+          "url": "https://review.firstround.com/",
+          "description": "Tactical advice from experienced operators"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "Between security and opportunity, always choose opportunity.",
+        "Entrepreneurship is a lot of fun but an equally hard thing to do no matter when you do it."
+      ],
+      "targetAudience": "['Early-stage entrepreneurs', 'Aspiring founders', 'Small business owners']",
+      "wordCount": 12095,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Angel",
+        "Bangalore",
+        "Batch",
+        "Benny",
+        "Billy",
+        "Binny",
+        "Biryani",
+        "Carey",
+        "Chandigarh",
+        "Cinemas",
+        "Gita",
+        "Groupon",
+        "Journeys",
+        "Ken",
+        "Kunal"
+      ],
+      "entitiesOrgs": [
+        "ABC",
+        "Academia",
+        "Agricultural Society",
+        "Amazon",
+        "Angel Investments",
+        "BMC",
+        "BSC Etc",
+        "Big City Life",
+        "Bombay Bangalore",
+        "CVC",
+        "Capital One",
+        "Channel",
+        "Cinemas",
+        "College",
+        "DHL"
+      ],
+      "entitiesProducts": [
+        "Merchant",
+        "Town"
+      ],
+      "entitiesMoney": [
+        "a hundred thousand dollar",
+        "a hundred thousand dollars",
+        "multi-billion dollar"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "lJ3Wt-ng1Ls",
+          "title": "17 Young Founders | 8 Startups | 20 Lakh Grants | Third WTFund Cohort",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "xjuvJK5Jm44",
+          "title": "Acquiring 8 Companies in 6 months, beating facial paralysis,18 Hour Days | Ft. Bhavna Suresh | S1E6",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "ezaFpL_EMEk",
+          "title": "Choosing The Right Investors, Bootstrapping & Building for the Long Run | TBWS x Bombae",
+          "reason": "Shared guest: Kunal"
+        },
+        {
+          "id": "wnK8Ymzp0rQ",
+          "title": "Billions of Dollars in Valuation & Defining an ENTIRE Market: The OfBusiness Success Story",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "gpv6X6E3Qxw",
+          "title": "A MASTERCLASS In Entrepreneurship To Build Your Own Empire & A Chance to Raise 1 CR? | RAZORPRENEUR",
+          "reason": "Same topic: Founders"
+        }
+      ]
+    },
+    {
+      "id": "gpv6X6E3Qxw",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 9,
+      "duration": "2:07:48",
+      "title": "A MASTERCLASS In Entrepreneurship To Build Your Own Empire & A Chance to Raise 1 CR? | RAZORPRENEUR",
+      "guests": [
+        "Rohit",
+        "Arjun"
+      ],
+      "tags": [
+        "#Founders"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=gpv6X6E3Qxw",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [
+        {
+          "text": "The moment you call it selling, you're coming from your point of view; give someone something they want.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "gpv6X6E3Qxw"
+        },
+        {
+          "text": "Understand the motivation of the buyer and get on the same page as them.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "gpv6X6E3Qxw"
+        },
+        {
+          "text": "Authenticity can be fake if you understand the motivation of the buyer.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "gpv6X6E3Qxw"
+        },
+        {
+          "text": "Understanding the consumer's needs and motivations",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "gpv6X6E3Qxw"
+        },
+        {
+          "text": "Creating an emotional connection with the brand",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "gpv6X6E3Qxw"
+        },
+        {
+          "text": "Focusing on high-performing relationships",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 3",
+          "relevance": 80,
+          "episodeId": "gpv6X6E3Qxw"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "A gaping hole in our portfolio (referring to razors)",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "gpv6X6E3Qxw"
+        },
+        {
+          "text": "The need for a sales-focused approach in entrepreneurship",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "gpv6X6E3Qxw"
+        }
+      ],
+      "resourceMentions": [
+        "Scentsy",
+        "Gillette"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Scentsy, Gillette",
+      "founderTools": [
+        {
+          "name": "Amaha",
+          "url": "https://www.amahahealth.com/",
+          "description": "Online therapy \u2014 founder burnout support"
+        },
+        {
+          "name": "Y Combinator Library",
+          "url": "https://www.ycombinator.com/library",
+          "description": "Free founder education and essays"
+        },
+        {
+          "name": "First Round Review",
+          "url": "https://review.firstround.com/",
+          "description": "Tactical advice from experienced operators"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "The fundamental principle of selling is to give someone something they want, not to sell what you want."
+      ],
+      "targetAudience": "Young entrepreneurs and small business owners looking to improve their sales skills",
+      "wordCount": 19650,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Arjun",
+        "Art",
+        "Avail",
+        "Bangalore",
+        "Barbara",
+        "Beast",
+        "Bolero",
+        "Breakthrough",
+        "Creator",
+        "Dad",
+        "Geniuses",
+        "Instagram",
+        "Jawan",
+        "Laura",
+        "Mac"
+      ],
+      "entitiesOrgs": [
+        "AB",
+        "ABCD",
+        "Adriana Grande",
+        "All Brands",
+        "Amazon",
+        "Apple",
+        "Arts",
+        "Associates",
+        "BMW",
+        "Barber Shop Razor's Edge",
+        "Barbers",
+        "Barbershop",
+        "Believers",
+        "Bells Club",
+        "Brands"
+      ],
+      "entitiesProducts": [
+        "Behavior",
+        "Calcutta",
+        "Curtis",
+        "Discovery",
+        "Made",
+        "Razor",
+        "Skittles",
+        "Tetra",
+        "YouTube",
+        "the Sensi 406"
+      ],
+      "entitiesMoney": [
+        "10 billion dollars",
+        "10 bucks",
+        "10 million dollar",
+        "four million dollar",
+        "millions of dollars"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "lJ3Wt-ng1Ls",
+          "title": "17 Young Founders | 8 Startups | 20 Lakh Grants | Third WTFund Cohort",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "xjuvJK5Jm44",
+          "title": "Acquiring 8 Companies in 6 months, beating facial paralysis,18 Hour Days | Ft. Bhavna Suresh | S1E6",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "wnK8Ymzp0rQ",
+          "title": "Billions of Dollars in Valuation & Defining an ENTIRE Market: The OfBusiness Success Story",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "DvL1bJMB_p4",
+          "title": "Building SNAPDEAL, Angel Investing & more | S1E8 | Rohit Bansal, Co Founder Snapdeal & Titan Capital",
+          "reason": "Same topic: Founders"
+        },
+        {
+          "id": "kZ25RkCmeqQ",
+          "title": "32% Retention but Stuck at \u20b930 Cr? How to Use AI to Hit a \u20b9500 Cr Goal | Ft. The Little Farm Co.",
+          "reason": "Shared guest: Arjun"
+        }
+      ]
+    },
+    {
+      "id": "Saymmw8_Gv0",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 10,
+      "duration": "1:37:40",
+      "title": "A 500Cr+ Acquisition By ITC, Scaling A Food Start-up &  Life As A Founder| Suhasini Sampath on TBWS",
+      "guests": [
+        "Suhasini Sampath"
+      ],
+      "tags": [
+        "#Consumer"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=Saymmw8_Gv0",
+      "status": "deep-extracted",
+      "category": "Consumer",
+      "strategySnippets": [
+        {
+          "text": "The only reason you're buying it from me is because of my scale",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "Saymmw8_Gv0"
+        },
+        {
+          "text": "People rallied to support me because I was a woman and this comes right from retailers",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "Saymmw8_Gv0"
+        },
+        {
+          "text": "Being an entrepreneur, make sure that your personal relationships rally to do things better",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "Saymmw8_Gv0"
+        },
+        {
+          "text": "Scaling a business with a strategic partner",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "Saymmw8_Gv0"
+        },
+        {
+          "text": "Creating a culture where people put the company before everything else",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "Saymmw8_Gv0"
+        }
+      ],
+      "opportunitySnippets": [],
+      "resourceMentions": [
+        "Yoga Bar",
+        "ITC"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Yoga Bar, ITC",
+      "founderTools": [
+        {
+          "name": "Amazon Brand Analytics",
+          "url": "https://brandservices.amazon.in/",
+          "description": "Search data and demand insights for marketplace sellers"
+        },
+        {
+          "name": "Flipkart Seller Hub",
+          "url": "https://seller.flipkart.com/",
+          "description": "India's largest domestic marketplace for consumer brands"
+        },
+        {
+          "name": "Zoho CRM",
+          "url": "https://www.zoho.com/crm/",
+          "description": "Indian-built CRM with regional language support"
+        },
+        {
+          "name": "Google Trends India",
+          "url": "https://trends.google.co.in/",
+          "description": "Free demand sensing tool \u2014 track category interest over time"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "There's no better time to be a woman entrepreneur in India today",
+        "The women card is by far a very great time card in India today"
+      ],
+      "targetAudience": "['Women entrepreneurs', 'Founders and entrepreneurs looking for inspiration']",
+      "wordCount": 18444,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Adam",
+        "Aditya",
+        "Alan",
+        "Alpha",
+        "Angel Investing",
+        "Ani",
+        "Bangalore",
+        "Benchmark",
+        "Binkies",
+        "Bollywood",
+        "Brothers",
+        "Canon",
+        "Chiller",
+        "Dal",
+        "Deepak"
+      ],
+      "entitiesOrgs": [
+        "AOE",
+        "Airlines",
+        "Ananda",
+        "Apple",
+        "BC",
+        "Bakers",
+        "Barbershop",
+        "Birds",
+        "Bollywood",
+        "CBO",
+        "CSR",
+        "Capital",
+        "Colgate Palmolive",
+        "Community",
+        "Danbury"
+      ],
+      "entitiesProducts": [
+        "Comfort",
+        "Excel",
+        "Founder",
+        "Mentor",
+        "Shadow",
+        "Studios"
+      ],
+      "entitiesMoney": [
+        "100 bucks",
+        "450 200 bucks",
+        "50 to 100 bucks",
+        "a billion dollar",
+        "a billion dollars"
+      ],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "kZ25RkCmeqQ",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 11,
+      "duration": "1:06:20",
+      "title": "32% Retention but Stuck at \u20b930 Cr? How to Use AI to Hit a \u20b9500 Cr Goal | Ft. The Little Farm Co.",
+      "guests": [
+        "Arjun",
+        "Aditya"
+      ],
+      "tags": [
+        "#D2C"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=kZ25RkCmeqQ",
+      "status": "deep-extracted",
+      "category": "D2C",
+      "strategySnippets": [
+        {
+          "text": "Use AI to optimize business growth and hit a \u20b9500 Cr goal",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "kZ25RkCmeqQ"
+        },
+        {
+          "text": "Focus on building strong relationships with mentors and partners for guidance and support",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "kZ25RkCmeqQ"
+        },
+        {
+          "text": "Prioritize accurate forecasting and inventory management to improve supply chain efficiency",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "kZ25RkCmeqQ"
+        },
+        {
+          "text": "The 0 to 1 journey framework for building small businesses",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "kZ25RkCmeqQ"
+        },
+        {
+          "text": "Focusing on a specific product line or category, rather than trying to be everything",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "kZ25RkCmeqQ"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "The organized sector in the pickle market is still highly unorganized, with a huge scope for growth",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "kZ25RkCmeqQ"
+        },
+        {
+          "text": "There are regional brands that have traditionally been successful in general trade across India",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "kZ25RkCmeqQ"
+        }
+      ],
+      "resourceMentions": [
+        "Little Farm Co.",
+        "Amazon",
+        "Flipkart"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Little Farm Co., Amazon, Flipkart",
+      "founderTools": [
+        {
+          "name": "Shopify India",
+          "url": "https://www.shopify.com/in",
+          "description": "D2C storefront builder \u2014 most Indian D2C brands start here"
+        },
+        {
+          "name": "Razorpay",
+          "url": "https://razorpay.com/",
+          "description": "Payment gateway used by 8M+ Indian businesses"
+        },
+        {
+          "name": "Shiprocket",
+          "url": "https://www.shiprocket.in/",
+          "description": "Multi-carrier shipping aggregator for D2C logistics"
+        },
+        {
+          "name": "Unicommerce",
+          "url": "https://unicommerce.com/",
+          "description": "Warehouse and inventory management for omnichannel brands"
+        },
+        {
+          "name": "Meesho Supplier Hub",
+          "url": "https://supplier.meesho.com/",
+          "description": "Tier-2/3 marketplace \u2014 zero commission model"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [
+        "AI tools for optimizing business growth and forecasting",
+        "Spreadsheets for order planning and forecasting (although Aditya mentions this is not efficient)"
+      ],
+      "quotableMoments": [
+        "Retail is very much like that. And I'll say something which you know which many people would have told you is that the quick commerce is the new retail."
+      ],
+      "targetAudience": "Founders and entrepreneurs in the D2C space, particularly those looking to scale their businesses",
+      "wordCount": 14439,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Ada",
+        "Aditya",
+        "Arjun",
+        "Ashosh",
+        "D2C.",
+        "Diwali",
+        "Herka",
+        "Instagram",
+        "Jimmy",
+        "Ketchup",
+        "Kulk Scale",
+        "Maduray",
+        "Maggie",
+        "Oracle",
+        "Pulman"
+      ],
+      "entitiesOrgs": [
+        "AIO",
+        "AO",
+        "AR",
+        "Adita",
+        "Amazon",
+        "Amazon Flipkart",
+        "Arjun",
+        "Arjun uh Arjun",
+        "Cass Business School London",
+        "D2C",
+        "Delhi NCR",
+        "GBT",
+        "GPT",
+        "Google",
+        "Gulkand"
+      ],
+      "entitiesProducts": [
+        "G2",
+        "Google K",
+        "VC"
+      ],
+      "entitiesMoney": [
+        "more than 1 billion",
+        "multi-billion dollar"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "gpv6X6E3Qxw",
+          "title": "A MASTERCLASS In Entrepreneurship To Build Your Own Empire & A Chance to Raise 1 CR? | RAZORPRENEUR",
+          "reason": "Shared guest: Arjun"
+        },
+        {
+          "id": "GYW7MeU5Lfc",
+          "title": "A Woman's Community worth $5Mn? | Raiser's Edge | SE2E6 | Aspire For Her",
+          "reason": "Shared guest: Arjun"
+        },
+        {
+          "id": "9Hlv4BMmxPU",
+          "title": "Banker Turned Founder on Conquering the PERSONAL CARE MARKET in India | Foxtale D2C Masterclass",
+          "reason": "Same topic: D2C"
+        }
+      ]
+    },
+    {
+      "id": "7ka9jrX-M5U",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 12,
+      "duration": "59:09",
+      "title": "Can This Indian Start-Up Take On Google? | Raiser's Edge | FULL EPISODE",
+      "guests": [
+        "Shantanu Desh Pande",
+        "Ashu Suyash",
+        "Toshan",
+        "Arjul"
+      ],
+      "tags": [
+        "#Capital"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=7ka9jrX-M5U",
+      "status": "deep-extracted",
+      "category": "Capital",
+      "strategySnippets": [
+        {
+          "text": "The importance of having a clear and focused vision for the company.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "7ka9jrX-M5U"
+        },
+        {
+          "text": "The need to understand the cultural aspects of different markets before expanding globally.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "7ka9jrX-M5U"
+        },
+        {
+          "text": "The value of having a team with diverse backgrounds and expertise.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "7ka9jrX-M5U"
+        },
+        {
+          "text": "The PDCA (Plan-Do-Check-Act) cycle for experimentation and testing.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "7ka9jrX-M5U"
+        },
+        {
+          "text": "The importance of having a strong team with diverse backgrounds and expertise.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "7ka9jrX-M5U"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "The lack of accessible data on road conditions and infrastructure in India, which can be used by businesses and individuals alike.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "7ka9jrX-M5U"
+        },
+        {
+          "text": "The opportunity for companies to provide solutions that don't exist yet, such as tracking assets and driver behavior.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "7ka9jrX-M5U"
+        }
+      ],
+      "resourceMentions": [
+        "Bombay Shaving Company",
+        "Colossa Ventures",
+        "Twiggly Foods",
+        "Nokia Maps",
+        "Google Maps",
+        "Map My India"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Bombay Shaving Company, Colossa Ventures, Twiggly Foods, Nokia Maps, Google Maps",
+      "founderTools": [
+        {
+          "name": "LetsVenture",
+          "url": "https://www.letsventure.com/",
+          "description": "Indian angel investing platform"
+        },
+        {
+          "name": "Qapita",
+          "url": "https://www.qapita.com/",
+          "description": "Cap table management and ESOP administration"
+        },
+        {
+          "name": "Tracxn",
+          "url": "https://tracxn.com/",
+          "description": "Startup intelligence \u2014 research investors and competitors"
+        },
+        {
+          "name": "Blume Ventures",
+          "url": "https://blume.vc/",
+          "description": "Early-stage VC \u2014 portfolio includes Unacademy, slice, Purplle"
+        },
+        {
+          "name": "Peak XV Partners",
+          "url": "https://www.peakxv.com/",
+          "description": "Formerly Sequoia India \u2014 largest India-focused VC fund"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "We don't see ourselves going outside India for the next couple of years because India is the biggest market after China for GIS."
+      ],
+      "targetAudience": "Entrepreneurs, investors, and business leaders interested in capital, technology, and innovation",
+      "wordCount": 11024,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Amul",
+        "Arjul",
+        "Arjun",
+        "Ashan",
+        "Ashu Suyash",
+        "Bangalore",
+        "Bengal",
+        "Bobby",
+        "Carson Kings",
+        "Danzo",
+        "Googles",
+        "ID Kur",
+        "Nar",
+        "Punjab",
+        "Rohan"
+      ],
+      "entitiesOrgs": [
+        "API",
+        "AWS",
+        "Android",
+        "Apple",
+        "Aspire",
+        "BC",
+        "Bombay Shaving Company",
+        "CTO",
+        "Chennai",
+        "City Bank",
+        "Coca-Cola",
+        "Coke",
+        "Colossa Ventures",
+        "Cox and Kings",
+        "EMA"
+      ],
+      "entitiesProducts": [
+        "100x",
+        "Crystal",
+        "TomTom",
+        "VC",
+        "geo"
+      ],
+      "entitiesMoney": [
+        "$15 million",
+        "$3 million",
+        "$5 million",
+        "200 bucks",
+        "600,000"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "YY7J1pHfSyY",
+          "title": "Bill Gates x Nikhil Kamath Part 2 | People by WTF | Ep.8",
+          "reason": "Same topic: Capital"
+        },
+        {
+          "id": "Kt6YqZLV1Fo",
+          "title": "CEO of SBFC on the REALITY of being MIDDLE CLASS in India, Home Loans & More | Aseem Dhru",
+          "reason": "Same topic: Capital"
+        },
+        {
+          "id": "GYW7MeU5Lfc",
+          "title": "A Woman's Community worth $5Mn? | Raiser's Edge | SE2E6 | Aspire For Her",
+          "reason": "Shared guest: Ashu Suyash"
+        }
+      ]
+    },
+    {
+      "id": "GYW7MeU5Lfc",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 13,
+      "duration": "1:05:41",
+      "title": "A Woman's Community worth $5Mn? | Raiser's Edge | SE2E6 | Aspire For Her",
+      "guests": [
+        "Divya Sampath",
+        "Madura",
+        "Shantanu Deshpande",
+        "Arjun",
+        "Ashu Suyash",
+        "Toshin"
+      ],
+      "tags": [
+        "#Capital"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=GYW7MeU5Lfc",
+      "status": "deep-extracted",
+      "category": "Capital",
+      "strategySnippets": [
+        {
+          "text": "The importance of building a sustainable business model, rather than relying on external funding.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "GYW7MeU5Lfc"
+        },
+        {
+          "text": "The need for organizations to prioritize DEI (Diversity, Equity, and Inclusion) initiatives internally, rather than outsourcing them.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "GYW7MeU5Lfc"
+        },
+        {
+          "text": "The value of having a clear and well-defined customer proposition and market fit.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "GYW7MeU5Lfc"
+        },
+        {
+          "text": "The 'e-cubed' formula (MC^3) used by Aspire for Her to address the market gaps.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "GYW7MeU5Lfc"
+        },
+        {
+          "text": "The importance of building a strong technology platform and investing in member acquisition.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "GYW7MeU5Lfc"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "The underutilization of women's potential in the Indian economy, with only 18% of the economy being contributed by 50% of India's population.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "GYW7MeU5Lfc"
+        },
+        {
+          "text": "The lack of internal DEI capabilities among many Indian companies, leading to a reliance on external consultants.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "GYW7MeU5Lfc"
+        }
+      ],
+      "resourceMentions": [
+        "Aspire for Her",
+        "Bombay Shaving Company"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Aspire for Her, Bombay Shaving Company",
+      "founderTools": [
+        {
+          "name": "LetsVenture",
+          "url": "https://www.letsventure.com/",
+          "description": "Indian angel investing platform"
+        },
+        {
+          "name": "Qapita",
+          "url": "https://www.qapita.com/",
+          "description": "Cap table management and ESOP administration"
+        },
+        {
+          "name": "Tracxn",
+          "url": "https://tracxn.com/",
+          "description": "Startup intelligence \u2014 research investors and competitors"
+        },
+        {
+          "name": "Blume Ventures",
+          "url": "https://blume.vc/",
+          "description": "Early-stage VC \u2014 portfolio includes Unacademy, slice, Purplle"
+        },
+        {
+          "name": "Peak XV Partners",
+          "url": "https://www.peakxv.com/",
+          "description": "Formerly Sequoia India \u2014 largest India-focused VC fund"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "Melinda Gates: 'For us to reach gender parity at the rate we're going, it's going to take us another 210 years.'"
+      ],
+      "targetAudience": "Founders of startups, particularly those focused on DEI and women's empowerment initiatives.",
+      "wordCount": 11895,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Angel",
+        "Arjun",
+        "Arjun Ashwin",
+        "Ashu",
+        "Aspire",
+        "Avail",
+        "Benchmark",
+        "Comfort",
+        "Dei",
+        "Delhi Winters",
+        "Divya",
+        "Keen",
+        "Madura",
+        "McKenzie",
+        "McKinsey"
+      ],
+      "entitiesOrgs": [
+        "Allied",
+        "Amazon",
+        "Aspire",
+        "Authority",
+        "Bond",
+        "Bridging",
+        "CS",
+        "CVS",
+        "Capital",
+        "Community",
+        "Consulting",
+        "Crisis",
+        "DI",
+        "Decline",
+        "ESG"
+      ],
+      "entitiesProducts": [
+        "Boards",
+        "Tier 1"
+      ],
+      "entitiesMoney": [
+        "80 bucks",
+        "a billion dollars",
+        "a million dollar million",
+        "about a million dollars",
+        "another trillion dollars"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "YY7J1pHfSyY",
+          "title": "Bill Gates x Nikhil Kamath Part 2 | People by WTF | Ep.8",
+          "reason": "Same topic: Capital"
+        },
+        {
+          "id": "Kt6YqZLV1Fo",
+          "title": "CEO of SBFC on the REALITY of being MIDDLE CLASS in India, Home Loans & More | Aseem Dhru",
+          "reason": "Same topic: Capital"
+        },
+        {
+          "id": "gpv6X6E3Qxw",
+          "title": "A MASTERCLASS In Entrepreneurship To Build Your Own Empire & A Chance to Raise 1 CR? | RAZORPRENEUR",
+          "reason": "Shared guest: Arjun"
+        },
+        {
+          "id": "kZ25RkCmeqQ",
+          "title": "32% Retention but Stuck at \u20b930 Cr? How to Use AI to Hit a \u20b9500 Cr Goal | Ft. The Little Farm Co.",
+          "reason": "Shared guest: Arjun"
+        },
+        {
+          "id": "7ka9jrX-M5U",
+          "title": "Can This Indian Start-Up Take On Google? | Raiser's Edge | FULL EPISODE",
+          "reason": "Shared guest: Ashu Suyash"
+        }
+      ]
+    },
+    {
+      "id": "9Hlv4BMmxPU",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 14,
+      "duration": "1:18:13",
+      "title": "Banker Turned Founder on Conquering the PERSONAL CARE MARKET in India | Foxtale D2C Masterclass",
+      "guests": [
+        "Founder of Foxtale"
+      ],
+      "tags": [
+        "#D2C"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=9Hlv4BMmxPU",
+      "status": "deep-extracted",
+      "category": "D2C",
+      "strategySnippets": [
+        {
+          "text": "The sense of belonging needed to create impact comes from within.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "9Hlv4BMmxPU"
+        },
+        {
+          "text": "Vulnerability and humility are essential for creating impact.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "9Hlv4BMmxPU"
+        },
+        {
+          "text": "Resilience is about being able to move on when you feel well enough.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "9Hlv4BMmxPU"
+        },
+        {
+          "text": "Focus on efficacy and instant gratification in the skincare market.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "9Hlv4BMmxPU"
+        },
+        {
+          "text": "Launch a combination of acquisitive products and hero products.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "9Hlv4BMmxPU"
+        },
+        {
+          "text": "Invest in R&D to create high-quality, innovative products.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 3",
+          "relevance": 80,
+          "episodeId": "9Hlv4BMmxPU"
+        }
+      ],
+      "opportunitySnippets": [],
+      "resourceMentions": [
+        "Foxtale",
+        "Flipkart",
+        "Walmart",
+        "Amazon",
+        "Fair & Lovely"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Foxtale, Flipkart, Walmart, Amazon, Fair & Lovely",
+      "founderTools": [
+        {
+          "name": "Shopify India",
+          "url": "https://www.shopify.com/in",
+          "description": "D2C storefront builder \u2014 most Indian D2C brands start here"
+        },
+        {
+          "name": "Razorpay",
+          "url": "https://razorpay.com/",
+          "description": "Payment gateway used by 8M+ Indian businesses"
+        },
+        {
+          "name": "Shiprocket",
+          "url": "https://www.shiprocket.in/",
+          "description": "Multi-carrier shipping aggregator for D2C logistics"
+        },
+        {
+          "name": "Unicommerce",
+          "url": "https://unicommerce.com/",
+          "description": "Warehouse and inventory management for omnichannel brands"
+        },
+        {
+          "name": "Meesho Supplier Hub",
+          "url": "https://supplier.meesho.com/",
+          "description": "Tier-2/3 marketplace \u2014 zero commission model"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "The sense of belonging needed to create impact comes from within."
+      ],
+      "targetAudience": "['Entrepreneurs, Founders, Impact creators']",
+      "wordCount": 14894,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "A1",
+        "AKA 87",
+        "Amish",
+        "Angel",
+        "Arjun",
+        "Bangalore",
+        "Beast",
+        "Bel",
+        "Brands",
+        "Char",
+        "Chennai",
+        "Chima",
+        "Collide",
+        "Dr Ra",
+        "Estee Lord's Founders"
+      ],
+      "entitiesOrgs": [
+        "ABC",
+        "ACC ACC ACC",
+        "ADL",
+        "ATL",
+        "Air",
+        "Amazon",
+        "Bank of America",
+        "CH",
+        "CR",
+        "CR Rand",
+        "Chase",
+        "Clear Channel",
+        "Coconut",
+        "Columbia",
+        "Commerce"
+      ],
+      "entitiesProducts": [
+        "Founder",
+        "Foxdale",
+        "Tide",
+        "Tupper",
+        "VC"
+      ],
+      "entitiesMoney": [],
+      "relatedEpisodes": [
+        {
+          "id": "kZ25RkCmeqQ",
+          "title": "32% Retention but Stuck at \u20b930 Cr? How to Use AI to Hit a \u20b9500 Cr Goal | Ft. The Little Farm Co.",
+          "reason": "Same topic: D2C"
+        }
+      ]
+    },
+    {
+      "id": "jVax4DCqKT4",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 15,
+      "duration": "31:27",
+      "title": "2 CEOs vs 2 GEN Zs | The Bridge S1E1: Is hustle culture killing India's next generation?",
+      "guests": [
+        "Radhika Apte",
+        "Gauri Khan",
+        "Damodar"
+      ],
+      "tags": [
+        "#Hustle Culture"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=jVax4DCqKT4",
+      "status": "deep-extracted",
+      "category": "Hustle Culture",
+      "strategySnippets": [
+        {
+          "text": "The definition of hustle culture has changed over time, and it's not just about working long hours.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "jVax4DCqKT4"
+        },
+        {
+          "text": "Young people today are more stressed and have a harder time affording things compared to previous generations.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "jVax4DCqKT4"
+        },
+        {
+          "text": "There is a need for a shift in the way we approach work and life, with a focus on quality over quantity.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "jVax4DCqKT4"
+        },
+        {
+          "text": "The importance of work-life balance and setting boundaries",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "jVax4DCqKT4"
+        },
+        {
+          "text": "The need for more open communication between employees and employers",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "jVax4DCqKT4"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "The gap between what employees want and what employers expect from them",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "jVax4DCqKT4"
+        },
+        {
+          "text": "The lack of flexibility and autonomy in traditional corporate jobs",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "jVax4DCqKT4"
+        }
+      ],
+      "resourceMentions": [
+        "Myntra",
+        "Bombay Dyeing"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Myntra, Bombay Dyeing",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "Hustle culture is not just about working hard, it's also about being able to afford the things you want in life.",
+        "I feel like we're working harder than ever before, but we're not getting the rewards we deserve."
+      ],
+      "targetAudience": "Young professionals and entrepreneurs who are struggling with the pressures of modern work culture",
+      "wordCount": 6267,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Instagram",
+        "Lindin",
+        "Lindin \u092c\u091f \u090f\u0935\u0930\u0940\u092c\u0921\u0940",
+        "Twitter \u090f\u0902\u0921",
+        "\u0905\u092e\u093f\u0924\u093e\u092d",
+        "\u0905\u0932\u094d\u0938\u094b",
+        "\u0906\u0932\u094d\u0938\u094b",
+        "\u0906\u0932\u094d\u0938\u094b \u0907\u0935\u0949\u0932\u094d\u0935\u094d\u0938 \u0915\u0930\u0947\u0915\u094d\u091f \u090f\u091f\u0932\u0940\u0938\u094d\u091f",
+        "\u0906\u0932\u094d\u0938\u094b \u0926\u0948\u091f\u094d\u0938",
+        "\u0906\u0932\u094d\u0938\u094b \u0928\u094b\u0964",
+        "\u0906\u0932\u094d\u0938\u094b \u092a\u094d\u0930\u094b\u092a\u094b\u0930\u094d\u0936\u0928\u0928\u0947\u091f \u0928\u093e\u0909 \u0938\u0930 \u0926 \u0907\u0936\u0942",
+        "\u0906\u0932\u094d\u0938\u094b \u092c\u093f\u0915\u092e \u0907\u095b\u093f\u092f\u0930",
+        "\u0906\u0932\u094d\u0938\u094b \u0938\u093f\u0932\u0940 \u0932\u093e\u0907\u0915 \u0935\u0940",
+        "\u0906\u0932\u094d\u0938\u094b \u0939\u0948\u0935",
+        "\u0907\u0902\u091a\u093f\u0902\u0917"
+      ],
+      "entitiesOrgs": [
+        "Instagram",
+        "\u0905\u0939\u0947\u0921",
+        "\u0906\u0932\u094d\u0938\u094b \u0926\u093f\u0938",
+        "\u0906\u0932\u094d\u0938\u094b \u092e\u0947\u0921",
+        "\u0906\u0932\u094d\u0938\u094b \u0938\u093f\u092e\u094d\u092a\u094d\u091f\u0947\u092e\u091f\u093f\u0915 \u0911\u092b \u0926\u093f\u0938",
+        "\u0907\u0902\u0921\u093f\u092f\u093e",
+        "\u0907\u0902\u0921\u093f\u092f\u093e \u0907\u0935\u0949\u0932\u094d\u0935\u094d\u0938",
+        "\u0907\u091c\u093f\u092f\u0930",
+        "\u0907\u091f \u0907\u091f \u0935\u093e\u095b \u0938\u092e\u0935\u0947\u092f\u0930",
+        "\u0907\u091f \u091f\u0942 \u092a\u094d",
+        "\u0907\u0928 \u0932\u093e\u0907\u092b",
+        "\u0907\u0928\u0935\u0947\u0938\u094d\u091f \u090f\u0902\u0921 \u0906\u0908 \u092b\u0940\u0932 \u090f\u091f\u0932\u0940\u0938\u094d\u091f \u0907\u0928 \u0926 \u0938\u094d\u091f\u093e\u0930\u094d\u091f",
+        "\u0907\u092e\u0947\u091c \u0911\u095e \u091c\u0947\u0928\u094d\u0938 \u0907\u095b \u0926\u0948\u091f \u0926\u0947 \u0906\u0930 \u0928\u0949\u091f \u0935\u0930\u094d\u0915\u093f\u0902\u0917",
+        "\u0907\u0935\u0949\u0932\u094d\u0935\u094d\u0938",
+        "\u0907\u095b \u090f\u0902\u0921 \u0926\u0947\u092f\u0930 \u0907\u095b \u0905 \u0917\u094d\u0930\u0947\u091f"
+      ],
+      "entitiesProducts": [
+        "YouTube",
+        "\u0905 \u092b\u094d\u0930\u093e\u0907\u0921\u0947 \u0907\u0935\u0928\u093f\u0902\u0917",
+        "\u0917\u0947\u091f",
+        "\u0917\u0947\u091f \u095e\u0942\u0921",
+        "\u0917\u0947\u091f\u093f\u0902\u0917 \u0926\u0948\u091f \u092a\u094d\u0930\u094b\u0921\u0915\u094d\u091f\u093f\u0935\u093f\u091f\u0940 \u0926\u0947\u091f \u0930\u093f\u091f\u0930\u094d\u0928",
+        "\u091c\u0947\u0902\u091c\u0940 \u0907\u095b \u092e\u094b\u0930 \u0938\u094d\u091f\u094d\u0930\u0947\u0938\u094d\u0921",
+        "\u091f\u0947\u0915\u094d\u0928\u094b\u0932\u0949\u091c\u093e\u0907\u091c",
+        "\u091f\u094d\u0930\u093e\u0908",
+        "\u0921\u0947\u091c",
+        "\u0926\u093f\u0938 \u0938\u0940\u0928 \u0935\u094d\u0939\u0947\u0928 \u0906\u092e\u093f\u0930 \u0916\u093e\u0928 \u0935\u0930\u094d\u0915\u093f\u0902\u0917"
+      ],
+      "entitiesMoney": [
+        "\u091c\u0928\u0930\u0947\u0936\u0928 \u0926\u0948\u091f \u090f\u091f\u0947\u0921"
+      ],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "wo_8CxZNXkM",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 16,
+      "duration": "1:32:38",
+      "title": "90s Bollywood & The Underworld, Being Shaped By His Parents' Struggle & Entrepreneurship | TBWS",
+      "guests": [
+        "Sunil Shetty"
+      ],
+      "tags": [
+        "#Founders, Entrepreneurship, RealEstate"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=wo_8CxZNXkM",
+      "status": "deep-extracted",
+      "category": "Founders, Entrepreneurship, RealEstate",
+      "strategySnippets": [
+        {
+          "text": "The first 18 years of your life shape you more than the most recent seven years of your life.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "wo_8CxZNXkM"
+        },
+        {
+          "text": "Investing in real estate is a good way to secure yourself with investment.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "wo_8CxZNXkM"
+        },
+        {
+          "text": "A good founder with a good management backup is better to back than to try and do something on your own.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "wo_8CxZNXkM"
+        },
+        {
+          "text": "Time management skills, as demonstrated by Sunil Shetty's ability to balance multiple responsibilities at a young age.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "wo_8CxZNXkM"
+        },
+        {
+          "text": "Investing in real estate as a way to secure oneself with investment.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "wo_8CxZNXkM"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "The need for infrastructure development in India, particularly in areas like transportation and communication.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "wo_8CxZNXkM"
+        },
+        {
+          "text": "The gap between great ideas and the ability to execute them due to lack of management skills.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "wo_8CxZNXkM"
+        }
+      ],
+      "resourceMentions": [
+        "Mischief",
+        "Weirdo",
+        "Why You"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Mischief, Weirdo, Why You",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [
+        "The first 18 years of your life shape you more than the most recent seven years of your life. - Sunil Shetty",
+        "A good founder with a good management backup is better to back than to try and do something on your own."
+      ],
+      "targetAudience": "['Entrepreneurs, Founders, Individuals looking to start their own business']",
+      "wordCount": 14590,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Action Hero",
+        "Alam",
+        "Allen",
+        "Andrew flintoff",
+        "Ann",
+        "Anna",
+        "Aspire",
+        "Autos",
+        "Bachchan",
+        "Bangalore",
+        "Block",
+        "Bobby",
+        "Bollywood Superstar",
+        "Brothers",
+        "Channel"
+      ],
+      "entitiesOrgs": [
+        "Affairs",
+        "Association",
+        "Auto Union",
+        "Barbershop",
+        "Beneficial",
+        "Beyond",
+        "Bowlers",
+        "Community",
+        "Cricket",
+        "D Mart",
+        "D Mart D Mart",
+        "Delhi University",
+        "Financial",
+        "Google",
+        "Humble"
+      ],
+      "entitiesProducts": [
+        "Builder",
+        "Grade",
+        "Mentor",
+        "Steen"
+      ],
+      "entitiesMoney": [
+        "billion dollar",
+        "zero commission"
+      ],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "RHi26oDdKQI",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 17,
+      "duration": "1:56:28",
+      "title": "CONTENT CREATION MASTERCLASS with Tanmay, Sahiba, Revant, Shashank & Shantanu | RAZORPRENEUR 2.0",
+      "guests": [
+        "Tanmay",
+        "Sahiba",
+        "Revant",
+        "Shashank",
+        "Shantanu"
+      ],
+      "tags": [
+        "#Content"
+      ],
+      "sourceUrl": "https://www.youtube.com/watch?v=RHi26oDdKQI",
+      "status": "deep-extracted",
+      "category": "Content",
+      "strategySnippets": [
+        {
+          "text": "Creating content that appeals to a specific audience can lead to significant sales and growth.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 1",
+          "relevance": 100,
+          "episodeId": "RHi26oDdKQI"
+        },
+        {
+          "text": "Monetizing content is challenging, especially for creators who struggle with brand awareness and credibility.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 2",
+          "relevance": 95,
+          "episodeId": "RHi26oDdKQI"
+        },
+        {
+          "text": "The key to success in the content creation industry is to focus on building a loyal community and creating high-quality, engaging content.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Insight 3",
+          "relevance": 90,
+          "episodeId": "RHi26oDdKQI"
+        },
+        {
+          "text": "Creating content that appeals to a specific audience and building a loyal community.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 1",
+          "relevance": 90,
+          "episodeId": "RHi26oDdKQI"
+        },
+        {
+          "text": "Focusing on brand awareness and credibility through high-quality, engaging content.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Strategy 2",
+          "relevance": 85,
+          "episodeId": "RHi26oDdKQI"
+        }
+      ],
+      "opportunitySnippets": [
+        {
+          "text": "There is a gap between the demand for premium products and the limited reach of traditional advertising methods.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "RHi26oDdKQI"
+        },
+        {
+          "text": "Many brands struggle with creating content that resonates with their target audience and effectively monetizes it.",
+          "startSeconds": 0,
+          "endSeconds": 0,
+          "timestamp": "Market Gap",
+          "relevance": 100,
+          "episodeId": "RHi26oDdKQI"
+        }
+      ],
+      "resourceMentions": [
+        "Bombay Shaving Company",
+        "WTF (What The F*ck)",
+        "Hotstar",
+        "Netflix"
+      ],
+      "highlightSnippets": [],
+      "resourceString": "Bombay Shaving Company, WTF (What The F*ck), Hotstar, Netflix",
+      "founderTools": [
+        {
+          "name": "YouTube Studio",
+          "url": "https://studio.youtube.com/",
+          "description": "Analytics and content management for creators"
+        },
+        {
+          "name": "Notion",
+          "url": "https://www.notion.so/",
+          "description": "All-in-one workspace for content planning"
+        },
+        {
+          "name": "ConvertKit",
+          "url": "https://convertkit.com/",
+          "description": "Email marketing for creators"
+        },
+        {
+          "name": "Graphy",
+          "url": "https://graphy.com/",
+          "description": "Launch and sell courses \u2014 Unacademy's creator platform"
+        }
+      ],
+      "booksMentioned": [],
+      "toolsMentioned": [
+        "Instagram",
+        "YouTube",
+        "Facebook",
+        "Twitter"
+      ],
+      "quotableMoments": [
+        "The only way to get to me is if I want to come to you because I think you're saying something useful or entertaining."
+      ],
+      "targetAudience": "['Entrepreneurs', 'Content creators', 'Brands looking to create effective marketing campaigns']",
+      "wordCount": 18952,
+      "extractionMethod": "transcript+spacy+ollama",
+      "entitiesPersons": [
+        "Adidas",
+        "Aela Broadband",
+        "Al",
+        "Bangalore",
+        "Banger",
+        "Baron",
+        "Benchmark",
+        "Beyonce Fenty",
+        "Bing",
+        "Bold",
+        "Bollywood",
+        "Bollywood Stars",
+        "Brands",
+        "Calm Mind",
+        "Comedy Show"
+      ],
+      "entitiesOrgs": [
+        "AG",
+        "AI",
+        "AV",
+        "Alpha",
+        "Amazon",
+        "Angel Investing",
+        "Apple",
+        "Asad",
+        "BCCI",
+        "BR",
+        "Bollywood",
+        "Brand",
+        "Brute Force",
+        "BuzzFeed",
+        "CC"
+      ],
+      "entitiesProducts": [
+        "201 11",
+        "Alo",
+        "Excel",
+        "Razor",
+        "Razor 2.0",
+        "SL",
+        "VI Versa",
+        "YouTube"
+      ],
+      "entitiesMoney": [
+        "$4 million",
+        "10 to 15 million",
+        "25,000 bucks",
+        "a billion dollar",
+        "frankly billion dollars"
+      ],
+      "relatedEpisodes": [
+        {
+          "id": "APU6KeQAANU",
+          "title": "AD LEGEND Piyush Pandey on How He Made India\u2019s Biggest Ads, Creativity & The Art of Storytelling",
+          "reason": "Same topic: Content"
+        }
+      ]
+    }
+  ],
+  "founderToolsByCategory": {
+    "D2C": [
+      {
+        "name": "Shopify India",
+        "url": "https://www.shopify.com/in",
+        "description": "D2C storefront builder \u2014 most Indian D2C brands start here"
+      },
+      {
+        "name": "Razorpay",
+        "url": "https://razorpay.com/",
+        "description": "Payment gateway used by 8M+ Indian businesses"
+      },
+      {
+        "name": "Shiprocket",
+        "url": "https://www.shiprocket.in/",
+        "description": "Multi-carrier shipping aggregator for D2C logistics"
+      },
+      {
+        "name": "Unicommerce",
+        "url": "https://unicommerce.com/",
+        "description": "Warehouse and inventory management for omnichannel brands"
+      },
+      {
+        "name": "Meesho Supplier Hub",
+        "url": "https://supplier.meesho.com/",
+        "description": "Tier-2/3 marketplace \u2014 zero commission model"
+      }
+    ],
+    "Consumer": [
+      {
+        "name": "Amazon Brand Analytics",
+        "url": "https://brandservices.amazon.in/",
+        "description": "Search data and demand insights for marketplace sellers"
+      },
+      {
+        "name": "Flipkart Seller Hub",
+        "url": "https://seller.flipkart.com/",
+        "description": "India's largest domestic marketplace for consumer brands"
+      },
+      {
+        "name": "Zoho CRM",
+        "url": "https://www.zoho.com/crm/",
+        "description": "Indian-built CRM with regional language support"
+      },
+      {
+        "name": "Google Trends India",
+        "url": "https://trends.google.co.in/",
+        "description": "Free demand sensing tool \u2014 track category interest over time"
+      }
+    ],
+    "Capital": [
+      {
+        "name": "LetsVenture",
+        "url": "https://www.letsventure.com/",
+        "description": "Indian angel investing platform"
+      },
+      {
+        "name": "Qapita",
+        "url": "https://www.qapita.com/",
+        "description": "Cap table management and ESOP administration"
+      },
+      {
+        "name": "Tracxn",
+        "url": "https://tracxn.com/",
+        "description": "Startup intelligence \u2014 research investors and competitors"
+      },
+      {
+        "name": "Blume Ventures",
+        "url": "https://blume.vc/",
+        "description": "Early-stage VC \u2014 portfolio includes Unacademy, slice, Purplle"
+      },
+      {
+        "name": "Peak XV Partners",
+        "url": "https://www.peakxv.com/",
+        "description": "Formerly Sequoia India \u2014 largest India-focused VC fund"
+      }
+    ],
+    "Health": [
+      {
+        "name": "Cult.fit",
+        "url": "https://www.cult.fit/",
+        "description": "Fitness and wellness platform by Mukesh Bansal"
+      },
+      {
+        "name": "Practo",
+        "url": "https://www.practo.com/",
+        "description": "India's largest health platform \u2014 doctor discovery"
+      },
+      {
+        "name": "PharmEasy",
+        "url": "https://pharmeasy.in/",
+        "description": "Online pharmacy and diagnostic tests"
+      },
+      {
+        "name": "HealthifyMe",
+        "url": "https://www.healthifyme.com/",
+        "description": "AI nutrition and fitness \u2014 India-specific food database"
+      }
+    ],
+    "Content": [
+      {
+        "name": "YouTube Studio",
+        "url": "https://studio.youtube.com/",
+        "description": "Analytics and content management for creators"
+      },
+      {
+        "name": "Notion",
+        "url": "https://www.notion.so/",
+        "description": "All-in-one workspace for content planning"
+      },
+      {
+        "name": "ConvertKit",
+        "url": "https://convertkit.com/",
+        "description": "Email marketing for creators"
+      },
+      {
+        "name": "Graphy",
+        "url": "https://graphy.com/",
+        "description": "Launch and sell courses \u2014 Unacademy's creator platform"
+      }
+    ],
+    "AI": [
+      {
+        "name": "Hugging Face",
+        "url": "https://huggingface.co/",
+        "description": "Open-source AI model hub"
+      },
+      {
+        "name": "Sarvam AI",
+        "url": "https://www.sarvam.ai/",
+        "description": "Indian-language AI foundation models"
+      },
+      {
+        "name": "Postman",
+        "url": "https://www.postman.com/",
+        "description": "API testing \u2014 essential for AI integration"
+      }
+    ],
+    "EV": [
+      {
+        "name": "Ather Energy",
+        "url": "https://www.atherenergy.com/",
+        "description": "Indian electric scooter maker"
+      },
+      {
+        "name": "Statiq",
+        "url": "https://statiq.in/",
+        "description": "EV charging network \u2014 7000+ chargers across India"
+      },
+      {
+        "name": "ChargeZone",
+        "url": "https://chargezone.co.in/",
+        "description": "High-speed public charging for highways"
+      }
+    ],
+    "Founders": [
+      {
+        "name": "Amaha",
+        "url": "https://www.amahahealth.com/",
+        "description": "Online therapy \u2014 founder burnout support"
+      },
+      {
+        "name": "Y Combinator Library",
+        "url": "https://www.ycombinator.com/library",
+        "description": "Free founder education and essays"
+      },
+      {
+        "name": "First Round Review",
+        "url": "https://review.firstround.com/",
+        "description": "Tactical advice from experienced operators"
+      }
+    ],
+    "Education": [
+      {
+        "name": "UpGrad",
+        "url": "https://www.upgrad.com/",
+        "description": "Online higher education \u2014 outcome-linked programs"
+      },
+      {
+        "name": "Scaler Academy",
+        "url": "https://www.scaler.com/",
+        "description": "Tech education with job guarantee"
+      }
+    ],
+    "Hospitality": [
+      {
+        "name": "Zomato for Business",
+        "url": "https://www.zomato.com/business",
+        "description": "Restaurant listing, delivery, advertising"
+      },
+      {
+        "name": "Swiggy Partner",
+        "url": "https://partner.swiggy.com/",
+        "description": "Food delivery partnership and analytics"
+      },
+      {
+        "name": "Petpooja",
+        "url": "https://www.petpooja.com/",
+        "description": "Restaurant POS and management \u2014 Indian-built"
+      }
+    ],
+    "RealEstate": [
+      {
+        "name": "Strata",
+        "url": "https://www.strataprop.com/",
+        "description": "Fractional real estate ownership from \u20b925L"
+      },
+      {
+        "name": "NoBroker",
+        "url": "https://www.nobroker.in/",
+        "description": "India's largest brokerage-free property platform"
+      }
+    ],
+    "Climate": [
+      {
+        "name": "Ecofy",
+        "url": "https://www.ecofy.in/",
+        "description": "Green loans for solar, EV, efficiency"
+      }
+    ],
+    "Gaming": [
+      {
+        "name": "Loco",
+        "url": "https://loco.gg/",
+        "description": "Indian game streaming platform"
+      },
+      {
+        "name": "Unity",
+        "url": "https://unity.com/",
+        "description": "Game development engine"
+      }
+    ]
+  },
+  "resourceFamilies": []
+}

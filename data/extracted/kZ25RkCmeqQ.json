@@ -1,0 +1,121 @@
+{
+  "video_id": "kZ25RkCmeqQ",
+  "title": "32% Retention but Stuck at \u20b930 Cr? How to Use AI to Hit a \u20b9500 Cr Goal | Ft. The Little Farm Co.",
+  "word_count": 14439,
+  "entities": {
+    "PERSON": [
+      "Ada",
+      "Aditya",
+      "Arjun",
+      "Ashosh",
+      "D2C.",
+      "Diwali",
+      "Herka",
+      "Instagram",
+      "Jimmy",
+      "Ketchup",
+      "Kulk Scale",
+      "Maduray",
+      "Maggie",
+      "Oracle",
+      "Pulman",
+      "kari wowi",
+      "max"
+    ],
+    "ORG": [
+      "AIO",
+      "AO",
+      "AR",
+      "Adita",
+      "Amazon",
+      "Amazon Flipkart",
+      "Arjun",
+      "Arjun uh Arjun",
+      "Cass Business School London",
+      "D2C",
+      "Delhi NCR",
+      "GBT",
+      "GPT",
+      "Google",
+      "Gulkand",
+      "Instagram",
+      "MIS",
+      "MNC",
+      "MT",
+      "Meta",
+      "NCR",
+      "Nostalgia",
+      "Papa",
+      "QCOM",
+      "SKU",
+      "SQ",
+      "SQS",
+      "VC",
+      "WhatsApp",
+      "cuc"
+    ],
+    "PRODUCT": [
+      "G2",
+      "Google K",
+      "VC"
+    ],
+    "MONEY": [
+      "more than 1 billion",
+      "multi-billion dollar"
+    ],
+    "GPE": [
+      "AI",
+      "BB",
+      "Blinket",
+      "Bombay",
+      "Delhi",
+      "Diwali",
+      "GT",
+      "India",
+      "Kirana",
+      "MT",
+      "NCR",
+      "QCOM",
+      "Qong",
+      "Shopify",
+      "UK",
+      "US",
+      "USA"
+    ]
+  },
+  "intelligence": {
+    "category": "D2C",
+    "guests": [
+      "Arjun",
+      "Aditya"
+    ],
+    "key_insights": [
+      "Use AI to optimize business growth and hit a \u20b9500 Cr goal",
+      "Focus on building strong relationships with mentors and partners for guidance and support",
+      "Prioritize accurate forecasting and inventory management to improve supply chain efficiency"
+    ],
+    "market_gaps": [
+      "The organized sector in the pickle market is still highly unorganized, with a huge scope for growth",
+      "There are regional brands that have traditionally been successful in general trade across India"
+    ],
+    "companies_discussed": [
+      "Little Farm Co.",
+      "Amazon",
+      "Flipkart"
+    ],
+    "books_mentioned": [],
+    "tools_mentioned": [
+      "AI tools for optimizing business growth and forecasting",
+      "Spreadsheets for order planning and forecasting (although Aditya mentions this is not efficient)"
+    ],
+    "strategies": [
+      "The 0 to 1 journey framework for building small businesses",
+      "Focusing on a specific product line or category, rather than trying to be everything"
+    ],
+    "quotable_moments": [
+      "Retail is very much like that. And I'll say something which you know which many people would have told you is that the quick commerce is the new retail."
+    ],
+    "target_audience": "Founders and entrepreneurs in the D2C space, particularly those looking to scale their businesses"
+  },
+  "extraction_method": "spacy+ollama"
+}

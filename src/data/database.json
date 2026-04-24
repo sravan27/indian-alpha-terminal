@@ -3,72 +3,128 @@
     {
       "id": "k1",
       "host": "Kamath Alpha",
-      "video_title": "WTF is Really A.I.? ft. Yann LeCun",
+      "video_title": "WTF is the Future of Real Estate in India?",
       "framework": [
-        "1. Identify deterministic tasks currently done by entry-level knowledge workers.",
-        "2. Implement open-source models (like Llama) internally instead of relying on closed APIs.",
-        "3. Build a fine-tuned RAG layer over proprietary company data to create an 'expert' agent."
+        "1. Avoid purely residential plays; focus strictly on commercial yield compression.",
+        "2. Utilize micro-fractionalization to drop the barrier of entry from ₹25L to ₹50K.",
+        "3. Focus on Tier-2 cities where the IT corridor is currently migrating (e.g. Coimbatore, Indore)."
       ],
-      "market_gap": "Nobody in India is building localized, vertical-specific foundation models tailored for regional vernaculars; relying on Western LLMs for Indian context is a huge opportunity gap.",
-      "resource": "Meta's Llama 3 weights, Yann LeCun's Joint Embedding Predictive Architecture (JEPA)",
-      "timestamp_url": "https://youtu.be/example1?t=1240",
-      "category": "Technology"
+      "market_gap": "There is a massive lack of transparent secondary markets for fractional commercial real estate ownership outside Tier-1 cities.",
+      "resource": "Indian REIT (Real Estate Investment Trust) guidelines, SEBI regulations for Fractional Ownership Platforms (FOPs)",
+      "timestamp_url": "https://youtu.be/LqSEfz4YUFA?t=1255",
+      "category": "Real Estate"
     },
     {
       "id": "k2",
       "host": "Kamath Alpha",
-      "video_title": "WTF is the Future of Real Estate in India?",
+      "video_title": "WTF is Happening in the Beauty & Skincare Market?",
       "framework": [
-        "1. Target fractional ownership in commercial real estate over residential.",
-        "2. Use REIT structures and tech platforms to lower the minimum investment threshold.",
-        "3. Focus on Tier-2 cities where IT hubs are migrating due to cost of living."
+        "1. Identity the exact active ingredients that Western brands charge a premium for.",
+        "2. Formulate locally using contract manufacturers in Baddi to strip out logistics premiums.",
+        "3. Lead with dermatological truth, not influencer lifestyle (trust > aspiration)."
       ],
-      "market_gap": "There is a massive lack of transparent secondary markets for fractional commercial real estate ownership in India.",
-      "resource": "Indian REIT (Real Estate Investment Trust) guidelines, SEBI regulations",
-      "timestamp_url": "https://youtu.be/example2?t=850",
-      "category": "Real Estate"
+      "market_gap": "Indian consumers are deeply underserved for clinical-grade skincare designed specifically for high-melanin and humid-weather profiles.",
+      "resource": "Baddi Contract Manufacturing Hub, Cosmetic CDSCO guidelines",
+      "timestamp_url": "https://youtu.be/AdI_XWv-ZTk?t=3450",
+      "category": "D2C Brands"
+    },
+    {
+      "id": "k3",
+      "host": "Kamath Alpha",
+      "video_title": "WTF Goes into Building an Indian Consumer Brand?",
+      "framework": [
+        "1. Nail exactly ONE hero SKU before expanding the catalog; survive purely on hero retention.",
+        "2. Exploit marketplace search intent rather than paying meta ad premiums.",
+        "3. Package trust directly into the unboxing experience to combat counterfeit anxiety."
+      ],
+      "market_gap": "Most founders scale SKUs instead of depth. There is a wide open space for localized, single-purpose trusted brands that don't dilute their focus.",
+      "resource": "Amazon India Brand Analytics Toolkit",
+      "timestamp_url": "https://youtu.be/hjiZ11lKCrU?t=2215",
+      "category": "D2C Brands"
     },
     {
       "id": "d1",
       "host": "Deshpande Ops",
-      "video_title": "Building a Barbershop Empire | Service Business Masterclass",
+      "video_title": "Building a Service Empire - Operational Masterclass",
       "framework": [
-        "1. Standardize the training protocol: creating a 'university' for talent before they hit the floor.",
-        "2. Implement a subscription model to turn a transactional service into recurring revenue.",
-        "3. Use micro-influencer marketing hyper-locally (within a 3km radius)."
+        "1. Standardize your training protocol; build a 'university' instead of relying on individual talent.",
+        "2. Transition your revenue model to subscriptions early to lock in LTV and predict cash flow.",
+        "3. Run dense, hyper-local micro-influencer operations within a strict 3km radius of the venue."
       ],
-      "market_gap": "There's no operating system (SaaS) built specifically for Indian salon and spa chains to manage subscriptions and talent retention.",
-      "resource": "Zenoti, The E-Myth Revisited by Michael E. Gerber",
-      "timestamp_url": "https://youtu.be/example3?t=430",
+      "market_gap": "There's no comprehensive operating system (SaaS) built specifically for Indian salon and wellness chains capable of managing dynamic subscriptions.",
+      "resource": "Zenoti, 'The E-Myth Revisited' by Michael E. Gerber",
+      "timestamp_url": "https://youtu.be/gIhdMxEce0M?t=730",
       "category": "Service Economy"
+    },
+    {
+      "id": "d2",
+      "host": "Deshpande Ops",
+      "video_title": "The Brutal Reality of Venture Capital Decisions",
+      "framework": [
+        "1. Do not raise venture capital if your growth model requires linear human headcount.",
+        "2. Raise for speed and distribution monopolies, never for validation.",
+        "3. Protect the cap table like your operational life depends on it; dilution limits future pivots."
+      ],
+      "market_gap": "Founders fundamentally misunderstand cap tables. We desperately need transparent SaaS focused on scenario modeling pre-term sheet.",
+      "resource": "Carta India alternatives, 'Venture Deals' by Brad Feld",
+      "timestamp_url": "https://youtu.be/VwEG4LYf0ag?t=1505",
+      "category": "Capital Strategy"
+    },
+    {
+      "id": "d3",
+      "host": "Deshpande Ops",
+      "video_title": "Acquiring Companies & High-Velocity Operations",
+      "framework": [
+        "1. Identify stalled D2C operators who hit a revenue ceiling due to poor working capital management.",
+        "2. Acquire for exactly 1x to 1.5x revenue via earn-out structures.",
+        "3. Plug their supply chain into a shared centralized distribution infrastructure immediately."
+      ],
+      "market_gap": "The rollover and rollup model (Thrasio style) needs a uniquely Indian operational tweak focused heavily on offline distribution networks rather than just Amazon.",
+      "resource": "Udaan Wholesale Platform, Rollup M&A Legal Frameworks",
+      "timestamp_url": "https://youtu.be/xjuvJK5Jm44?t=2055",
+      "category": "M&A Strategy"
     },
     {
       "id": "s1",
       "host": "Shamani Hustle",
       "video_title": "How to Build a 100 Crore FMCG Brand from Scratch",
       "framework": [
-        "1. Start with white-label manufacturing to test market fit without CapEx.",
-        "2. Build distribution through quick-commerce (Zepto, Blinkit) rather than traditional retail first.",
-        "3. Optimize packaging for the 'thumbnail scale' - it must look premium and distinct on a mobile screen."
+        "1. Start exclusively with white-label co-manufacturers to validate product-market fit at near-zero CapEx.",
+        "2. Attack distribution via quick-commerce exclusively (Zepto/Blinkit) before touching General Trade.",
+        "3. Design packaging strictly for 'thumbnail scale' visibility on 6-inch mobile screens."
       ],
-      "market_gap": "Nobody is doing hyper-local, health-focused snacks optimized purely for 10-minute delivery apps; traditional FMCGs are too slow to adapt.",
-      "resource": "Blinkit Seller Hub, Zepto Ads platform",
-      "timestamp_url": "https://youtu.be/example4?t=1520",
+      "market_gap": "Nobody is designing hyper-local, health-focused snack brands strictly built and optimized for the 10-minute delivery algorithms.",
+      "resource": "Blinkit Seller Hub, Zepto Ad Console",
+      "timestamp_url": "https://youtu.be/5EXdVDEpWIs?t=4110",
       "category": "FMCG"
     },
     {
       "id": "s2",
       "host": "Shamani Hustle",
-      "video_title": "The D2C Playbook: Scaling with Facebook Ads",
+      "video_title": "The WhatsApp D2C Playbook: Scaling Ad Spend",
       "framework": [
-        "1. Create 5 variations of UGC (User-Generated Content) video hooks.",
-        "2. Run ABO (Ad Set Budget Optimization) tests at low budgets to isolate the winning hook.",
-        "3. Scale the winner vertically while building an email list for retargeting."
+        "1. Strip out website checkouts entirely; route traffic straight to WhatsApp.",
+        "2. Run raw UGC hooks via Instagram Reels (5 variations per week).",
+        "3. Retarget abandoning clients natively utilizing WhatsApp Broadcasts to avoid cart drop-offs."
       ],
-      "market_gap": "Indian D2C brands heavily underestimate WhatsApp marketing; building an automated WhatsApp checkout flow is a massive conversion opportunity.",
-      "resource": "Shopify, Meta Business Manager, Interakt (WhatsApp API)",
-      "timestamp_url": "https://youtu.be/example5?t=1115",
+      "market_gap": "D2C brands underestimate conversational commerce. A complete end-to-end checkout bot powered by local UPI integrations is a multi-million dollar whitespace.",
+      "resource": "Shopify API, Interakt (WhatsApp API), Razorpay Payment Links",
+      "timestamp_url": "https://youtu.be/DvL1bJMB_p4?t=880",
       "category": "D2C Marketing"
+    },
+    {
+      "id": "s3",
+      "host": "Shamani Hustle",
+      "video_title": "Building a Content Engine that Prints Revenue",
+      "framework": [
+        "1. Treat content not as marketing, but as a standalone margin-generating business unit.",
+        "2. Build vertical-specific newsletters to own the audience email list out of algorithm reach.",
+        "3. Convert high-intent readers directly into cohort-based education platforms."
+      ],
+      "market_gap": "There is a massive lack of tools designed specifically to help top Indian creators launch parallel e-learning businesses effortlessly.",
+      "resource": "ConvertKit, Graphy by Unacademy",
+      "timestamp_url": "https://youtu.be/5HLxbOMXCck?t=3100",
+      "category": "Creator Economy"
     }
   ]
 }

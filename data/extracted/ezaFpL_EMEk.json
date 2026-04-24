@@ -1,0 +1,134 @@
+{
+  "video_id": "ezaFpL_EMEk",
+  "title": "Choosing The Right Investors, Bootstrapping & Building for the Long Run | TBWS x Bombae",
+  "word_count": 13953,
+  "entities": {
+    "PERSON": [
+      "Affordable",
+      "Angel Investing",
+      "Benchmark",
+      "Chachi",
+      "Ferris",
+      "Founders",
+      "Gupta",
+      "High Learning",
+      "Instagram",
+      "McKinsey",
+      "Moxie",
+      "Network",
+      "Outreach",
+      "Performance Marketing",
+      "Rahul",
+      "Raising",
+      "Raji",
+      "Raymond",
+      "Seekers",
+      "Shivani",
+      "Spectrum",
+      "Steve",
+      "Tom",
+      "Vinita",
+      "Woodsman",
+      "intro"
+    ],
+    "ORG": [
+      "ABN",
+      "Angel Investors",
+      "Angels",
+      "Beyond Capital",
+      "Blue Chip private Equity Fund",
+      "Brotherhood",
+      "Builder",
+      "Capital",
+      "Choice",
+      "Equitable",
+      "Express",
+      "FFF",
+      "Focus",
+      "Founders",
+      "Google",
+      "IP",
+      "Insight",
+      "Instagram",
+      "Investments",
+      "Journey",
+      "Karachi",
+      "LPS",
+      "Milestone",
+      "NDA",
+      "NDS",
+      "NPS",
+      "National",
+      "Nikita",
+      "Nito",
+      "Park Founders",
+      "Partners",
+      "Press",
+      "Quantum",
+      "Sequoia",
+      "Sisterhood",
+      "The Breakfast Club",
+      "The Party Starts Now",
+      "VC",
+      "VCS",
+      "VCS Angels",
+      "Vani of kalari",
+      "Venture",
+      "Venture Capital",
+      "XYZ",
+      "XYZ Investments",
+      "d2c"
+    ],
+    "PRODUCT": [
+      "CA",
+      "Founder",
+      "Kiva",
+      "VC",
+      "Vibe"
+    ],
+    "MONEY": [
+      "100 million dollars"
+    ],
+    "GPE": [
+      "Bombay",
+      "Brands",
+      "Capital",
+      "India",
+      "Kunal",
+      "Milestones"
+    ]
+  },
+  "intelligence": {
+    "category": "Founders, Capital",
+    "guests": [
+      "Nikita",
+      "Twinkle",
+      "Prachi",
+      "Kunal"
+    ],
+    "key_insights": [
+      "Raising capital should be done when you really need it to grow your business.",
+      "It's essential to choose the right investors who align with your vision and values.",
+      "Bootstrapping can be beneficial for building a sustainable large economic engine."
+    ],
+    "market_gaps": [],
+    "companies_discussed": [
+      "Moxie",
+      "Kiva",
+      "Google"
+    ],
+    "books_mentioned": [],
+    "tools_mentioned": [],
+    "strategies": [
+      "Raising capital at the right time",
+      "Choosing the right investors",
+      "Bootstrapping and building for the long run"
+    ],
+    "quotable_moments": [
+      "If you don't have the patience to solve a deep problem, you can never build a sustainable large economic engine.",
+      "The less you have to do the selling, the more you can put your energy behind doing the right things around building."
+    ],
+    "target_audience": "Founders and entrepreneurs who are looking for advice on raising capital and choosing the right investors"
+  },
+  "extraction_method": "spacy+ollama"
+}

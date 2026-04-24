@@ -1,0 +1,143 @@
+{
+  "video_id": "DvL1bJMB_p4",
+  "title": "Building SNAPDEAL, Angel Investing & more | S1E8 | Rohit Bansal, Co Founder Snapdeal & Titan Capital",
+  "word_count": 12095,
+  "entities": {
+    "PERSON": [
+      "Angel",
+      "Bangalore",
+      "Batch",
+      "Benny",
+      "Billy",
+      "Binny",
+      "Biryani",
+      "Carey",
+      "Chandigarh",
+      "Cinemas",
+      "Gita",
+      "Groupon",
+      "Journeys",
+      "Ken",
+      "Kunal",
+      "Maslow",
+      "McKinsey",
+      "Pharma",
+      "Sachin",
+      "Saturn Acosta",
+      "Snapdeal",
+      "Works",
+      "ntsc"
+    ],
+    "ORG": [
+      "ABC",
+      "Academia",
+      "Agricultural Society",
+      "Amazon",
+      "Angel Investments",
+      "BMC",
+      "BSC Etc",
+      "Big City Life",
+      "Bombay Bangalore",
+      "CVC",
+      "Capital One",
+      "Channel",
+      "Cinemas",
+      "College",
+      "DHL",
+      "Evolution Logistics",
+      "Flipkart",
+      "GTM",
+      "Happiness",
+      "IIT",
+      "IIT Etc",
+      "ISD",
+      "KRV",
+      "Lab Partners",
+      "Marketplace",
+      "Microsoft",
+      "NTC",
+      "NTS",
+      "OG",
+      "School",
+      "Snapdeal",
+      "Social Circle",
+      "Target",
+      "Times of India",
+      "UPenn",
+      "University",
+      "VCS Etc",
+      "VLC",
+      "Vijay",
+      "Visa",
+      "Visa Kunal",
+      "WhatsApp"
+    ],
+    "PRODUCT": [
+      "Merchant",
+      "Town"
+    ],
+    "MONEY": [
+      "a hundred thousand dollar",
+      "a hundred thousand dollars",
+      "multi-billion dollar"
+    ],
+    "GPE": [
+      "China",
+      "Delhi",
+      "Hostel",
+      "IIT Delhi",
+      "India",
+      "Israel",
+      "Japan",
+      "Kunal",
+      "Logistics",
+      "North Delhi",
+      "Pakistan",
+      "Portland",
+      "Second City",
+      "Snapdeal",
+      "South Delhi",
+      "U.S",
+      "UK",
+      "US",
+      "West Delhi"
+    ]
+  },
+  "intelligence": {
+    "category": "Entrepreneurship",
+    "guests": [
+      "Rohit Bansal",
+      "Kunal"
+    ],
+    "key_insights": [
+      "Don't let fear of failure hold you back from pursuing your entrepreneurial dreams.",
+      "It's essential to have a strong support system, including family and friends who understand and encourage your endeavors.",
+      "Pivoting and iterating are crucial in entrepreneurship; being open to change and willing to adapt is vital for success."
+    ],
+    "market_gaps": [
+      "Limited awareness of entrepreneurship as a viable career path in India",
+      "Need for accessible resources and support systems for entrepreneurs",
+      "Gap in consumer education on e-commerce and digital marketplaces"
+    ],
+    "companies_discussed": [
+      "Snapdeal",
+      "BookMyShow"
+    ],
+    "books_mentioned": [],
+    "tools_mentioned": [],
+    "strategies": [
+      "Pivoting and iterating to adapt to changing market conditions",
+      "Focusing on solving specific problems or pain points in the market"
+    ],
+    "quotable_moments": [
+      "Between security and opportunity, always choose opportunity.",
+      "Entrepreneurship is a lot of fun but an equally hard thing to do no matter when you do it."
+    ],
+    "target_audience": [
+      "Early-stage entrepreneurs",
+      "Aspiring founders",
+      "Small business owners"
+    ]
+  },
+  "extraction_method": "spacy+ollama"
+}

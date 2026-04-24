@@ -1,0 +1,142 @@
+{
+  "video_id": "GYW7MeU5Lfc",
+  "title": "A Woman's Community worth $5Mn? | Raiser's Edge | SE2E6 | Aspire For Her",
+  "word_count": 11895,
+  "entities": {
+    "PERSON": [
+      "Angel",
+      "Arjun",
+      "Arjun Ashwin",
+      "Ashu",
+      "Aspire",
+      "Avail",
+      "Benchmark",
+      "Comfort",
+      "Dei",
+      "Delhi Winters",
+      "Divya",
+      "Keen",
+      "Madura",
+      "McKenzie",
+      "McKinsey",
+      "Melinda",
+      "Seeker",
+      "Seekers",
+      "Tech",
+      "Trojan",
+      "VC",
+      "Workhorse",
+      "entrepreneuri",
+      "entrepreneuri entrepreneuri",
+      "shantana",
+      "xlri"
+    ],
+    "ORG": [
+      "Allied",
+      "Amazon",
+      "Aspire",
+      "Authority",
+      "Bond",
+      "Bridging",
+      "CS",
+      "CVS",
+      "Capital",
+      "Community",
+      "Consulting",
+      "Crisis",
+      "DI",
+      "Decline",
+      "ESG",
+      "EXO",
+      "Edge",
+      "Equity",
+      "Equity Seekers",
+      "Field Sports and Salesforce",
+      "Force Founders",
+      "GSG ESG",
+      "Goldman Sachs",
+      "Google",
+      "Hindustan Unilever",
+      "I.T Outsourcing",
+      "IMS",
+      "MIT",
+      "Madura",
+      "Mahindra",
+      "Microsoft",
+      "NASDAQ",
+      "Partners",
+      "RBI",
+      "Racket",
+      "Revenue",
+      "Standard Chartered",
+      "Times",
+      "UPL",
+      "Unleashed",
+      "VC",
+      "VCS",
+      "Venture Capital",
+      "Workforce",
+      "colossa Ventures",
+      "the p l"
+    ],
+    "PRODUCT": [
+      "Boards",
+      "Tier 1"
+    ],
+    "MONEY": [
+      "80 bucks",
+      "a billion dollars",
+      "a million dollar million",
+      "about a million dollars",
+      "another trillion dollars",
+      "three trillion dollars"
+    ],
+    "GPE": [
+      "Aditi",
+      "Aspire",
+      "Bombay",
+      "Breadwinners",
+      "Capital",
+      "China",
+      "Dei",
+      "India",
+      "U.S",
+      "US"
+    ]
+  },
+  "intelligence": {
+    "category": "Capital",
+    "guests": [
+      "Divya Sampath",
+      "Madura",
+      "Shantanu Deshpande",
+      "Arjun",
+      "Ashu Suyash",
+      "Toshin"
+    ],
+    "key_insights": [
+      "The importance of building a sustainable business model, rather than relying on external funding.",
+      "The need for organizations to prioritize DEI (Diversity, Equity, and Inclusion) initiatives internally, rather than outsourcing them.",
+      "The value of having a clear and well-defined customer proposition and market fit."
+    ],
+    "market_gaps": [
+      "The underutilization of women's potential in the Indian economy, with only 18% of the economy being contributed by 50% of India's population.",
+      "The lack of internal DEI capabilities among many Indian companies, leading to a reliance on external consultants."
+    ],
+    "companies_discussed": [
+      "Aspire for Her",
+      "Bombay Shaving Company"
+    ],
+    "books_mentioned": [],
+    "tools_mentioned": [],
+    "strategies": [
+      "The 'e-cubed' formula (MC^3) used by Aspire for Her to address the market gaps.",
+      "The importance of building a strong technology platform and investing in member acquisition."
+    ],
+    "quotable_moments": [
+      "Melinda Gates: 'For us to reach gender parity at the rate we're going, it's going to take us another 210 years.'"
+    ],
+    "target_audience": "Founders of startups, particularly those focused on DEI and women's empowerment initiatives."
+  },
+  "extraction_method": "spacy+ollama"
+}

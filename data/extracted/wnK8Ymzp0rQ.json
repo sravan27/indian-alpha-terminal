@@ -1,0 +1,117 @@
+{
+  "video_id": "wnK8Ymzp0rQ",
+  "title": "Billions of Dollars in Valuation & Defining an ENTIRE Market: The OfBusiness Success Story",
+  "word_count": 19019,
+  "entities": {
+    "PERSON": [
+      "Ash",
+      "Ashi",
+      "Chan",
+      "Christopher",
+      "Diksha",
+      "Ed Sheiran Kibbadi",
+      "George Bernard Chavar",
+      "Gina",
+      "Kushi",
+      "Luis Kapali",
+      "McKenzie",
+      "Mckenzie",
+      "Rajie",
+      "Rasho",
+      "Ruchi",
+      "Ruchi Kalva",
+      "Salesforce",
+      "Sha",
+      "Shanti",
+      "Shantu",
+      "Venita",
+      "Wembley"
+    ],
+    "ORG": [
+      "AI ML",
+      "Agra",
+      "B2B.",
+      "BA",
+      "BCG",
+      "Bombay Shaving Company",
+      "Colgate",
+      "D2C",
+      "ERP",
+      "ESOP",
+      "FS",
+      "Financial",
+      "GAN",
+      "Grace",
+      "HDFC Bank",
+      "IML",
+      "IPO",
+      "Louisis Kapali",
+      "MDTI",
+      "MSVS",
+      "McKenzie",
+      "Mckenzie",
+      "NBSC Oxiso",
+      "Oxis of Financial Services",
+      "Reliance",
+      "Richie",
+      "Rohit",
+      "Ruchi",
+      "SAS",
+      "Sashi",
+      "Shantanu",
+      "Shantulu",
+      "Smemes",
+      "Standups",
+      "XYZ"
+    ],
+    "PRODUCT": [
+      "Shiv Roi"
+    ],
+    "MONEY": [
+      "every penny"
+    ],
+    "GPE": [
+      "AI",
+      "Bombay",
+      "Delhi Delhi",
+      "India",
+      "LinkedIn",
+      "Mckenzie",
+      "Shantino",
+      "Sza",
+      "US",
+      "nirvana"
+    ]
+  },
+  "intelligence": {
+    "category": "Entrepreneurship",
+    "guests": [
+      "Aruchi",
+      "Ashish"
+    ],
+    "key_insights": [
+      "The importance of understanding the world as an input into what you're doing when building a business.",
+      "Defining how to build and run a business based on someone who has built and run a business, rather than someone who hasn't.",
+      "The value of being vulnerable about problems or issues in order to build trust with others."
+    ],
+    "market_gaps": [
+      "The need for India-specific solutions in the B2B space",
+      "The lack of institutions that can provide long-term support and guidance to entrepreneurs"
+    ],
+    "companies_discussed": [
+      "OfBusiness",
+      "OBSO"
+    ],
+    "books_mentioned": [],
+    "tools_mentioned": [],
+    "strategies": [
+      "Company first: prioritizing the company's goals over individual interests",
+      "Vulnerability: being open and honest about problems or issues in order to build trust with others"
+    ],
+    "quotable_moments": [
+      "When you start thinking company first, you start doing things that you guys have done, which is amazing."
+    ],
+    "target_audience": "Entrepreneurs, founders, and business leaders looking for insights on building successful companies and institutions in India"
+  },
+  "extraction_method": "spacy+ollama"
+}

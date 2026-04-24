@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project Signal
 
-## Getting Started
+Project Signal is a neural-style founder brain built on top of transcript-backed podcast conversations from Nikhil Kamath and Shantanu Deshpande.
 
-First, run the development server:
+Instead of dumping transcripts into a UI, the product now compiles:
+
+- strategies
+- market gaps and opportunity theses
+- brands
+- tools
+- funds
+- transcript evidence clips
+- resource nodes
+- build roadmaps
+- creator-specific outreach copy
+
+The current product focuses on:
+
+- `WTF / People by WTF` from Nikhil Kamath
+- `The BarberShop with Shantanu`
+
+It currently includes:
+
+- a central animated neural atlas of linked topics
+- six resource vaults around the atlas
+- transcript cache for 36 source episodes
+- extracted source backbone for 36 source episodes
+- route-handler APIs for the brain, catalog, search, and per-episode detail
+
+## Stack
+
+- `Next.js 16`
+- `React 19`
+- `Tailwind CSS 4`
+- `framer-motion`
+- `lucide-react`
+
+## Data model
+
+The neural data model is generated into [src/data/project-signal-brain.json](/Users/sravansridhar/indian-alpha/src/data/project-signal-brain.json), typed in [src/lib/project-signal.ts](/Users/sravansridhar/indian-alpha/src/lib/project-signal.ts), and rendered through [src/components/project-signal-app.tsx](/Users/sravansridhar/indian-alpha/src/components/project-signal-app.tsx).
+
+Backend routes:
+
+- brain API: [src/app/api/brain/route.ts](/Users/sravansridhar/indian-alpha/src/app/api/brain/route.ts)
+- catalog API: [src/app/api/catalog/route.ts](/Users/sravansridhar/indian-alpha/src/app/api/catalog/route.ts)
+- search API: [src/app/api/search/route.ts](/Users/sravansridhar/indian-alpha/src/app/api/search/route.ts)
+- episode detail API: [src/app/api/episodes/[id]/route.ts](/Users/sravansridhar/indian-alpha/src/app/api/episodes/[id]/route.ts)
+
+Supporting artifacts:
+
+- generated brain dataset: [src/data/project-signal-brain.json](/Users/sravansridhar/indian-alpha/src/data/project-signal-brain.json)
+- live-source snapshot: [data/ingest/live-source-snapshot.json](/Users/sravansridhar/indian-alpha/data/ingest/live-source-snapshot.json)
+- transcript cache: [data/transcripts](/Users/sravansridhar/indian-alpha/data/transcripts)
+- ingest/build script: [scripts/ingest_project_signal.py](/Users/sravansridhar/indian-alpha/scripts/ingest_project_signal.py)
+
+## Commands
 
 ```bash
+npm install
+npm run signal:build
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Verification:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run lint
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Notes
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- The generator now fetches YouTube auto-captions with `yt-dlp`, normalizes them into transcript segments, and builds the graph dataset from that evidence layer.
+- Source refresh metadata is written to [data/ingest/live-source-snapshot.json](/Users/sravansridhar/indian-alpha/data/ingest/live-source-snapshot.json).
+- Transcript artifacts are cached in [data/transcripts](/Users/sravansridhar/indian-alpha/data/transcripts) so repeat builds are fast.
+- The node layer is intentionally synthesis-first while the episode layer preserves transcript evidence snippets for proof.

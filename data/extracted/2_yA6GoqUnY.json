@@ -1,0 +1,59 @@
+{
+  "video_id": "2_yA6GoqUnY",
+  "title": "Ep. #19 | WTF is \u201cMaking it\u201d in an Offbeat Career? Nikhil Kamath Ft. Kriti Sanon, Badshah & KL Rahul",
+  "word_count": 3397,
+  "entities": {
+    "PERSON": [
+      "100 Cr",
+      "Badshah",
+      "Chandigarh",
+      "Eminem",
+      "Gurdas Maan",
+      "India",
+      "Jay Sean",
+      "KL Rahul",
+      "Kathak",
+      "Limewire",
+      "Mom",
+      "Rishi Rich's",
+      "X. Subtitles"
+    ],
+    "ORG": [
+      "Bhakra Beas Management Board",
+      "CAT",
+      "Chandigarh to Himachal",
+      "Cool Equal",
+      "Himachal",
+      "Punjab Engineering College",
+      "SDO",
+      "Spotify",
+      "the Delhi Electricity Board"
+    ],
+    "PRODUCT": [],
+    "MONEY": [
+      "three marks"
+    ],
+    "GPE": [
+      "BBMB",
+      "Bombay",
+      "Canada",
+      "Delhi",
+      "India",
+      "Rahul",
+      "USA"
+    ]
+  },
+  "intelligence": {
+    "category": "General",
+    "guests": [],
+    "key_insights": [],
+    "market_gaps": [],
+    "companies_discussed": [],
+    "books_mentioned": [],
+    "tools_mentioned": [],
+    "strategies": [],
+    "quotable_moments": [],
+    "target_audience": "founders and entrepreneurs"
+  },
+  "extraction_method": "spacy+ollama"
+}
