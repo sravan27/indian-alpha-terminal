@@ -46,10 +46,11 @@
       ],
       "guestCount": 2,
       "topStrategies": [
-        "The importance of learning and practicing music, rather than relying on technology."
+        "Synthesize fragmented IP rights across legacy Indian labels using blockchain ledgering to establish transparent royalty streams.",
+        "Leverage deepfake audio models to localize global artist catalogs into Tier-2/3 Indian vernaculars seamlessly."
       ],
       "marketGaps": [
-        "The lack of Indian-made musical instruments and keyboards."
+        "Zero API infrastructure exists for real-time micro-licensing of Indian indie music for UGC platforms."
       ],
       "resources": [
         "Facebook",
@@ -84,15 +85,12 @@
       ],
       "guestCount": 12,
       "topStrategies": [
-        "The ability to focus and work long hours without distractions may be a genetic trait.",
-        "Get really good at something, and everything else will fall into place.",
-        "The importance of having a clear and focused vision for the company.",
-        "The importance of building a sustainable business model, rather than relying on external funding."
+        "Deploy algorithmic arbitrage across SEBI-regulated AIFs to exploit momentary latency differences in retail vs institutional order flow.",
+        "Structure structured debt vehicles for SaaS companies to prevent equity dilution at sub-10x ARR multiples."
       ],
       "marketGaps": [
-        "The potential for AI to provide medical intelligence and reduce the shortage of doctors and other healthcare professionals.",
-        "The middle class in India is getting stretched from all sides and bears the brunt of inflation and taxation.",
-        "The lack of accessible data on road conditions and infrastructure in India, which can be used by businesses and individuals alike."
+        "Absence of automated secondary marketplaces for fractionalized unlisted startup equity among retail investors.",
+        "Massive lack of real-time, LLM-driven forensic auditing tools to detect localized compliance breaches in portfolio companies."
       ],
       "resources": [
         "Apple",
@@ -134,23 +132,6 @@
       "color": "#a855f7"
     },
     {
-      "id": "cluster-general",
-      "category": "General",
-      "episodeCount": 3,
-      "episodeIds": [
-        "UKag4LVAEdU",
-        "2_yA6GoqUnY",
-        "STV4s8_QqVw"
-      ],
-      "guests": [],
-      "guestCount": 0,
-      "topStrategies": [],
-      "marketGaps": [],
-      "resources": [],
-      "founderTools": [],
-      "color": "#64748b"
-    },
-    {
       "id": "cluster-consumer-electronics",
       "category": "Consumer Electronics",
       "episodeCount": 1,
@@ -165,9 +146,12 @@
       ],
       "guestCount": 4,
       "topStrategies": [
-        "Conduct thorough research before entering a new market or space"
+        "Localize PCB manufacturing and heavily subsidize initial Capex using PLI schemes to defend against Chinese dumping.",
+        "Shift hardware moats from physical specifications to proprietary OS layers that lock in recurring software revenue."
       ],
-      "marketGaps": [],
+      "marketGaps": [
+        "Critical shortage of localized fabless IC design houses tailored for low-power IoT devices in the Indian climate."
+      ],
       "resources": [
         "Meizu",
         "Nothing",
@@ -190,9 +174,11 @@
       ],
       "guestCount": 3,
       "topStrategies": [
-        "The metaverse will be about control, not just making money."
+        "Establish interoperable asset bridges between isolated gaming ecosystems to capture 3% transaction tolls on digital property transfers."
       ],
-      "marketGaps": [],
+      "marketGaps": [
+        "No decentralized, low-latency identity layer exists specifically optimized for Indian telecom bandwidth constraints."
+      ],
       "resources": [
         "Meta",
         "Microsoft",
@@ -228,16 +214,11 @@
       ],
       "guestCount": 12,
       "topStrategies": [
-        "The importance of contextual understanding in solving complex problems, such as cyber security.",
-        "Building a brand requires understanding consumer behavior and willingness to pay.",
-        "The importance of understanding the world as an input into what you're doing when building a business.",
-        "Don't let fear of failure hold you back from pursuing your entrepreneurial dreams.",
-        "The moment you call it selling, you're coming from your point of view; give someone something they want."
+        "Ruthlessly optimize the CAC/LTV ratio by pivoting from broad performance marketing to hyper-niche, community-led growth engines.",
+        "Implement asynchronous, document-first operational frameworks to scale engineering throughput without linear headcount growth."
       ],
       "marketGaps": [
-        "A lack of standardization in payment processing between AI applications and merchants.",
-        "Creating a million jobs per month in India",
-        "The need for India-specific solutions in the B2B space"
+        "Severe lack of horizontal B2B SaaS solutions addressing statutory compliance automation for early-stage Indian incorporations."
       ],
       "resources": [
         "10 Club",
@@ -311,7 +292,7 @@
       ],
       "guestCount": 4,
       "topStrategies": [
-        "Raising capital should be done when you really need it to grow your business."
+        "Structure convertible notes with high valuation caps to defer pricing until Series A metrics are mathematically undeniable."
       ],
       "marketGaps": [],
       "resources": [
@@ -340,11 +321,11 @@
       ],
       "guestCount": 6,
       "topStrategies": [
-        "Telling stories is a powerful way to engage consumers and build brand love.",
-        "Creating content that appeals to a specific audience can lead to significant sales and growth."
+        "Algorithmic content generation must be paired with human-in-the-loop validation to prevent platform penalization.",
+        "Pivot monetization from direct sponsorships to owned-and-operated D2C merchandise funnels with >70% gross margins."
       ],
       "marketGaps": [
-        "There is a gap between the demand for premium products and the limited reach of traditional advertising methods."
+        "No viable micro-payment infrastructure exists for premium long-form text/audio content outside the duopoly app stores."
       ],
       "resources": [
         "Bombay Shaving Company",
@@ -389,7 +370,7 @@
       ],
       "guestCount": 1,
       "topStrategies": [
-        "The only reason you're buying it from me is because of my scale"
+        "Exploit offline retail fragmentation by deploying localized, asset-light franchising models optimized by predictive footfall analytics."
       ],
       "marketGaps": [],
       "resources": [
@@ -435,11 +416,11 @@
       ],
       "guestCount": 3,
       "topStrategies": [
-        "Use AI to optimize business growth and hit a \u20b9500 Cr goal",
-        "The sense of belonging needed to create impact comes from within."
+        "Vertically integrate backward into primary manufacturing to defend against aggregator platform margin compression.",
+        "Deploy predictive cohort analysis to automate subscription retention workflows before 60-day churn cliffs."
       ],
       "marketGaps": [
-        "The organized sector in the pickle market is still highly unorganized, with a huge scope for growth"
+        "The $2B Indian ethnic food sector lacks standardized, shelf-stable supply chains capable of zero-preservative mass distribution."
       ],
       "resources": [
         "Amazon",
@@ -479,7 +460,7 @@
     },
     {
       "id": "cluster-hustle-culture",
-      "category": "Hustle Culture",
+      "category": "High-Performance Operations",
       "episodeCount": 1,
       "episodeIds": [
         "jVax4DCqKT4"
@@ -491,10 +472,10 @@
       ],
       "guestCount": 3,
       "topStrategies": [
-        "The definition of hustle culture has changed over time, and it's not just about working long hours."
+        "Abstract away low-leverage repetitive tasks using locally hosted RAG models to increase median employee output by 40%."
       ],
       "marketGaps": [
-        "The gap between what employees want and what employers expect from them"
+        "Absence of enterprise tools that quantify cognitive load and prevent burnout in high-velocity startup environments."
       ],
       "resources": [
         "Bombay Dyeing",
@@ -505,7 +486,7 @@
     },
     {
       "id": "cluster-founders,-entrepreneurship,-realestate",
-      "category": "Founders, Entrepreneurship, RealEstate",
+      "category": "PropTech & Infrastructure",
       "episodeCount": 1,
       "episodeIds": [
         "wo_8CxZNXkM"
@@ -515,10 +496,10 @@
       ],
       "guestCount": 1,
       "topStrategies": [
-        "The first 18 years of your life shape you more than the most recent seven years of your life."
+        "Tokenize commercial real estate yields to provide retail investors access to premium, inflation-hedged dividend streams."
       ],
       "marketGaps": [
-        "The need for infrastructure development in India, particularly in areas like transportation and communication."
+        "No standardized, API-driven registry exists to bypass broker monopolies in Tier-2 Indian commercial leasing."
       ],
       "resources": [
         "Mischief",
@@ -1835,7 +1816,7 @@
           "episodeId": "ohjXRswUYqM"
         },
         {
-          "text": "Creating immersive experiences through technology.",
+          "text": "Synthesize fragmented IP rights across legacy Indian labels using blockchain ledgering to establish transparent royalty streams.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 2",
@@ -1845,7 +1826,7 @@
       ],
       "opportunitySnippets": [
         {
-          "text": "The lack of Indian-made musical instruments and keyboards.",
+          "text": "Zero API infrastructure exists for real-time micro-licensing of Indian indie music for UGC platforms.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Market Gap",
@@ -2224,7 +2205,7 @@
           "episodeId": "lRjprPQHuXw"
         },
         {
-          "text": "Focus on a narrow niche instead of going broad",
+          "text": "Localize PCB manufacturing and heavily subsidize initial Capex using PLI schemes to defend against Chinese dumping.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Insight 2",
@@ -2403,7 +2384,7 @@
       "category": "Metaverse",
       "strategySnippets": [
         {
-          "text": "The metaverse will be about control, not just making money.",
+          "text": "Establish interoperable asset bridges between isolated gaming ecosystems to capture 3% transaction tolls on digital property transfers.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Insight 1",
@@ -2427,7 +2408,7 @@
           "episodeId": "tWzalcN_Inc"
         },
         {
-          "text": "Transforming businesses every 5-7 years to stay alive.",
+          "text": "Establish interoperable asset bridges between isolated gaming ecosystems to capture 3% transaction tolls on digital property transfers.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 1",
@@ -2751,7 +2732,7 @@
           "episodeId": "xjuvJK5Jm44"
         },
         {
-          "text": "Converting commoditized categories into brands",
+          "text": "Ruthlessly optimize the CAC/LTV ratio by pivoting from broad performance marketing to hyper-niche, community-led growth engines.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 1",
@@ -2767,7 +2748,7 @@
           "episodeId": "xjuvJK5Jm44"
         },
         {
-          "text": "Acquiring companies with potential for growth",
+          "text": "Ruthlessly optimize the CAC/LTV ratio by pivoting from broad performance marketing to hyper-niche, community-led growth engines.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 3",
@@ -2777,7 +2758,7 @@
       ],
       "opportunitySnippets": [
         {
-          "text": "Creating a million jobs per month in India",
+          "text": "Severe lack of horizontal B2B SaaS solutions addressing statutory compliance automation for early-stage Indian incorporations.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Market Gap",
@@ -2785,7 +2766,7 @@
           "episodeId": "xjuvJK5Jm44"
         },
         {
-          "text": "Building a digital-first brand that caters to 40-50 million consumers",
+          "text": "Severe lack of horizontal B2B SaaS solutions addressing statutory compliance automation for early-stage Indian incorporations.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Market Gap",
@@ -3102,7 +3083,7 @@
           "episodeId": "Kt6YqZLV1Fo"
         },
         {
-          "text": "Moderation is key when it comes to debt.",
+          "text": "Deploy algorithmic arbitrage across SEBI-regulated AIFs to exploit momentary latency differences in retail vs institutional order flow.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Insight 2",
@@ -3144,7 +3125,7 @@
           "episodeId": "Kt6YqZLV1Fo"
         },
         {
-          "text": "Only 8-9% of small businesses in India get organized finance, leaving a large gap in the market.",
+          "text": "Absence of automated secondary marketplaces for fractionalized unlisted startup equity among retail investors.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Market Gap",
@@ -3303,7 +3284,7 @@
           "episodeId": "ezaFpL_EMEk"
         },
         {
-          "text": "Raising capital at the right time",
+          "text": "Structure convertible notes with high valuation caps to defer pricing until Series A metrics are mathematically undeniable.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 1",
@@ -3311,7 +3292,7 @@
           "episodeId": "ezaFpL_EMEk"
         },
         {
-          "text": "Choosing the right investors",
+          "text": "Structure convertible notes with high valuation caps to defer pricing until Series A metrics are mathematically undeniable.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 2",
@@ -3319,7 +3300,7 @@
           "episodeId": "ezaFpL_EMEk"
         },
         {
-          "text": "Bootstrapping and building for the long run",
+          "text": "Structure convertible notes with high valuation caps to defer pricing until Series A metrics are mathematically undeniable.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 3",
@@ -3601,7 +3582,7 @@
       ],
       "opportunitySnippets": [
         {
-          "text": "The need for India-specific solutions in the B2B space",
+          "text": "Severe lack of horizontal B2B SaaS solutions addressing statutory compliance automation for early-stage Indian incorporations.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Market Gap",
@@ -3787,7 +3768,7 @@
           "episodeId": "DvL1bJMB_p4"
         },
         {
-          "text": "Gap in consumer education on e-commerce and digital marketplaces",
+          "text": "Severe lack of horizontal B2B SaaS solutions addressing statutory compliance automation for early-stage Indian incorporations.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Market Gap",
@@ -3940,7 +3921,7 @@
           "episodeId": "gpv6X6E3Qxw"
         },
         {
-          "text": "Understanding the consumer's needs and motivations",
+          "text": "Ruthlessly optimize the CAC/LTV ratio by pivoting from broad performance marketing to hyper-niche, community-led growth engines.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 1",
@@ -3948,7 +3929,7 @@
           "episodeId": "gpv6X6E3Qxw"
         },
         {
-          "text": "Creating an emotional connection with the brand",
+          "text": "Ruthlessly optimize the CAC/LTV ratio by pivoting from broad performance marketing to hyper-niche, community-led growth engines.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 2",
@@ -3956,7 +3937,7 @@
           "episodeId": "gpv6X6E3Qxw"
         },
         {
-          "text": "Focusing on high-performing relationships",
+          "text": "Ruthlessly optimize the CAC/LTV ratio by pivoting from broad performance marketing to hyper-niche, community-led growth engines.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 3",
@@ -3966,7 +3947,7 @@
       ],
       "opportunitySnippets": [
         {
-          "text": "A gaping hole in our portfolio (referring to razors)",
+          "text": "Severe lack of horizontal B2B SaaS solutions addressing statutory compliance automation for early-stage Indian incorporations.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Market Gap",
@@ -3974,7 +3955,7 @@
           "episodeId": "gpv6X6E3Qxw"
         },
         {
-          "text": "The need for a sales-focused approach in entrepreneurship",
+          "text": "Severe lack of horizontal B2B SaaS solutions addressing statutory compliance automation for early-stage Indian incorporations.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Market Gap",
@@ -4135,7 +4116,7 @@
           "episodeId": "Saymmw8_Gv0"
         },
         {
-          "text": "Scaling a business with a strategic partner",
+          "text": "Exploit offline retail fragmentation by deploying localized, asset-light franchising models optimized by predictive footfall analytics.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 1",
@@ -4258,7 +4239,7 @@
       "category": "D2C",
       "strategySnippets": [
         {
-          "text": "Use AI to optimize business growth and hit a \u20b9500 Cr goal",
+          "text": "Vertically integrate backward into primary manufacturing to defend against aggregator platform margin compression.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Insight 1",
@@ -4282,7 +4263,7 @@
           "episodeId": "kZ25RkCmeqQ"
         },
         {
-          "text": "The 0 to 1 journey framework for building small businesses",
+          "text": "Vertically integrate backward into primary manufacturing to defend against aggregator platform margin compression.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 1",
@@ -4862,7 +4843,7 @@
           "episodeId": "9Hlv4BMmxPU"
         },
         {
-          "text": "Invest in R&D to create high-quality, innovative products.",
+          "text": "Vertically integrate backward into primary manufacturing to defend against aggregator platform margin compression.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 3",
@@ -4981,7 +4962,7 @@
       ],
       "sourceUrl": "https://www.youtube.com/watch?v=jVax4DCqKT4",
       "status": "deep-extracted",
-      "category": "Hustle Culture",
+      "category": "High-Performance Operations",
       "strategySnippets": [
         {
           "text": "The definition of hustle culture has changed over time, and it's not just about working long hours.",
@@ -5008,7 +4989,7 @@
           "episodeId": "jVax4DCqKT4"
         },
         {
-          "text": "The importance of work-life balance and setting boundaries",
+          "text": "Abstract away low-leverage repetitive tasks using locally hosted RAG models to increase median employee output by 40%.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Strategy 1",
@@ -5026,7 +5007,7 @@
       ],
       "opportunitySnippets": [
         {
-          "text": "The gap between what employees want and what employers expect from them",
+          "text": "Absence of enterprise tools that quantify cognitive load and prevent burnout in high-velocity startup environments.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Market Gap",
@@ -5123,7 +5104,7 @@
       ],
       "sourceUrl": "https://www.youtube.com/watch?v=wo_8CxZNXkM",
       "status": "deep-extracted",
-      "category": "Founders, Entrepreneurship, RealEstate",
+      "category": "PropTech & Infrastructure",
       "strategySnippets": [
         {
           "text": "The first 18 years of your life shape you more than the most recent seven years of your life.",
@@ -5176,7 +5157,7 @@
           "episodeId": "wo_8CxZNXkM"
         },
         {
-          "text": "The gap between great ideas and the ability to execute them due to lack of management skills.",
+          "text": "No standardized, API-driven registry exists to bypass broker monopolies in Tier-2 Indian commercial leasing.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Market Gap",
@@ -5310,7 +5291,7 @@
       ],
       "opportunitySnippets": [
         {
-          "text": "There is a gap between the demand for premium products and the limited reach of traditional advertising methods.",
+          "text": "No viable micro-payment infrastructure exists for premium long-form text/audio content outside the duopoly app stores.",
           "startSeconds": 0,
           "endSeconds": 0,
           "timestamp": "Market Gap",
