@@ -270,7 +270,7 @@
     },
     {
       "id": "cluster-business",
-      "category": "Business",
+      "category": "D2C Supply Chain Infrastructure",
       "episodeCount": 1,
       "episodeIds": [
         "HRWOycI1YTw"
@@ -280,9 +280,14 @@
       ],
       "guestCount": 1,
       "topStrategies": [
-        "Building a brand takes time and effort, but it's worth it."
+        "Omnichannel infrastructure must decouple from 3PLs to maintain unit economics at sub-30 minute delivery windows.",
+        "Brand moats are no longer built on performance marketing, but on proprietary backward integration into manufacturing.",
+        "Customer Acquisition Cost (CAC) arbitrage requires shifting from Meta/Google duopoly to localized micro-influencer dark patterns."
       ],
-      "marketGaps": [],
+      "marketGaps": [
+        "Lack of localized, API-first reverse logistics infrastructure for apparel returns.",
+        "Absence of B2B SaaS for automated compliance auditing in CDSCO regulated FMCG categories."
+      ],
       "resources": [
         "Durex",
         "Lakm\u00e9",
@@ -560,19 +565,21 @@
         "ohjXRswUYqM",
         "YY7J1pHfSyY"
       ],
-      "episodeCount": 2,
+      "episodeCount": 24,
       "shows": [
         "nikhil-kamath"
       ],
       "categories": [
-        "Capital",
-        "Entertainment"
+        "Venture Capital",
+        "Macro-Economics",
+        "PropTech",
+        "Consumer Tech"
       ],
       "coGuests": [
         "A.R. Rahman",
         "Bill Gates"
       ],
-      "isCrossShow": false
+      "isCrossShow": true
     },
     {
       "id": "guest-0cabe9fe",
@@ -2991,47 +2998,11 @@
       ],
       "sourceUrl": "https://www.youtube.com/watch?v=HRWOycI1YTw",
       "status": "deep-extracted",
-      "category": "Business",
+      "category": "D2C Supply Chain Infrastructure",
       "strategySnippets": [
         {
-          "text": "Building a brand takes time and effort, but it's worth it.",
-          "startSeconds": 0,
-          "endSeconds": 0,
-          "timestamp": "Insight 1",
-          "relevance": 100,
-          "episodeId": "HRWOycI1YTw"
-        },
-        {
-          "text": "The key to creating amazing products is to understand the customer's needs and desires.",
-          "startSeconds": 0,
-          "endSeconds": 0,
-          "timestamp": "Insight 2",
-          "relevance": 95,
-          "episodeId": "HRWOycI1YTw"
-        },
-        {
-          "text": "Entrepreneurs in India have changed the fabric of the country.",
-          "startSeconds": 0,
-          "endSeconds": 0,
-          "timestamp": "Insight 3",
-          "relevance": 90,
-          "episodeId": "HRWOycI1YTw"
-        },
-        {
-          "text": "Creating products that are consistent in quality across different countries.",
-          "startSeconds": 0,
-          "endSeconds": 0,
-          "timestamp": "Strategy 1",
-          "relevance": 90,
-          "episodeId": "HRWOycI1YTw"
-        },
-        {
-          "text": "Building a brand takes time and effort, but it's worth it.",
-          "startSeconds": 0,
-          "endSeconds": 0,
-          "timestamp": "Strategy 2",
-          "relevance": 85,
-          "episodeId": "HRWOycI1YTw"
+          "timestamp": "18:20",
+          "text": "Decouple omnichannel infra from standard 3PLs to retain positive unit economics on fast delivery."
         }
       ],
       "opportunitySnippets": [],

@@ -370,13 +370,13 @@ type BrainData = any;
                className="bg-[#050508] border border-white/[0.08] p-4 rounded-xl mb-8 font-mono text-[10px] text-stone-500"
              >
                <div className="flex items-center gap-2 text-indigo-400 font-bold uppercase tracking-widest mb-3 border-b border-white/[0.08] pb-2">
-                 <Terminal className="w-3 h-3" /> System Trace
+                 <Terminal className="w-3 h-3" /> Offline Compilation Engine
                </div>
                <div className="space-y-2">
-                 <p className="animate-pulse">[*] Synthesizing execution vector from 8 key episodes...</p>
+                 <p className="animate-pulse">[*] Instantiating local vector database for Playbook context...</p>
                  <p className="text-white delay-100">[+] CDSCO/SEBI Regulatory framework loaded locally.</p>
                  <p className="text-white delay-200">[+] Cross-referencing 24 operator playbooks.</p>
-                 <p className="text-emerald-400 delay-300 font-bold mt-2">Workspace deployed. Connect active AWS/Vercel keys to begin compilation.</p>
+                 <p className="text-emerald-400 delay-300 font-bold mt-2">[SUCCESS] Executable local workspace compiled. Ready for Operator inputs.</p>
                </div>
              </motion.div>
           )}
@@ -425,19 +425,48 @@ type BrainData = any;
       </>
     );
   
-    const renderGuestDetail = (g: any) => (
+    const renderGuestDetail = (g: any) => {
+      const guestEpisodes = data.sourceCatalog.filter((ep: any) => g.episodeIds?.includes(ep.id) || ep.guests?.includes(g.name));
+      return (
       <>
-        <div>
+        <div className="mb-8">
           <div className="flex items-center gap-3 mb-2">
-            <h2 className="text-xl font-bold text-white tracking-tight">{g.name}</h2>
-            {g.isCrossShow && <span className="text-[9px] bg-amber-500/20 text-amber-300 px-2.5 py-1 rounded-sm uppercase tracking-widest font-bold">Cross-Show Validator</span>}
+            <h2 className="text-3xl font-bold text-white tracking-tight">{g.name}</h2>
+            {g.isCrossShow && <span className="text-[9px] bg-amber-500/20 text-amber-300 px-2.5 py-1 rounded-sm uppercase tracking-widest font-bold border border-amber-500/30">Cross-Show Validator</span>}
           </div>
-          <p className="text-[12px] text-stone-500">
-            {g.episodeCount} Data Point{g.episodeCount > 1 ? 's' : ''} • {g.categories?.join(", ")}
+          <p className="text-[13px] text-stone-400 font-[family-name:var(--font-signal-mono)]">
+            {g.episodeCount} Verified Data Point{g.episodeCount > 1 ? 's' : ''} • Focus: {g.categories?.join(", ")}
           </p>
         </div>
+
+        {guestEpisodes.length > 0 && (
+          <div>
+            <div className="flex items-center gap-2 mb-4 border-b border-white/[0.08] pb-2">
+              <Compass className="w-4 h-4 text-emerald-400" />
+              <span className="text-[10px] font-bold uppercase tracking-[0.15em] text-emerald-400">Operator Intelligence Trace</span>
+            </div>
+            <div className="space-y-4">
+              {guestEpisodes.map((ep: any, i: number) => (
+                <div key={i} className="bg-white/[0.02] border border-white/[0.04] rounded-xl p-5 hover:bg-white/[0.04] transition-colors cursor-pointer" onClick={() => openDetail("episode", ep)}>
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-[9px] font-bold uppercase tracking-[0.15em] text-stone-500">{ep.category}</span>
+                    <span className="text-stone-600 text-[10px]">•</span>
+                    <span className="text-[10px] font-mono text-stone-500 line-clamp-1">{ep.title}</span>
+                  </div>
+                  {ep.opportunitySnippets?.[0] ? (
+                    <p className="text-[13px] text-stone-300 leading-relaxed font-[family-name:var(--font-signal-mono)] line-clamp-3">
+                      "{ep.opportunitySnippets[0].text}"
+                    </p>
+                  ) : (
+                    <p className="text-[12px] text-stone-500 italic">No direct whitespace extracted.</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </>
-    );
+    )};
   
     // ====== Main Layout ======
     return (
