@@ -31,7 +31,7 @@ Founders building premium consumer brands in highly trust-sensitive categories.
 Indian-climate and skin-tone specific skincare systems with stronger science communication, diaspora portability, and trustable ingredient education.
 
 ## Resource stack
-- Tira: Reference point for specialty beauty retail and discovery-led assortment strategy. (https://www.trbt.ly/l/2YgzHk)
+- Tira: Reference point for specialty beauty retail and discovery-led assortment strategy. (https://www.tirabeauty.com/)
 - Quick-commerce beauty: Use convenience channels for refill behavior, impulse discovery, and routine retention.
 - Dermat-backed creator content: High-trust education layer for claims-heavy categories such as serums, sunscreen, and actives.
 

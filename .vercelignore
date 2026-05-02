@@ -1,0 +1,41 @@
+# Vercel only needs the app source + package.json + the static export.
+# Everything below is local-only build/runtime data that bloats uploads.
+
+# Build artifacts (Vercel builds fresh)
+.next
+.turbo
+out
+
+# Tauri native bundle (not part of the web deploy)
+src-tauri
+
+# Raw + intermediate corpus data (ingested locally, brain.json is in src/data)
+data/transcripts
+data/deep_extracted
+data/extracted
+data/dossiers
+data/ingest
+
+# Native bundles distributed via .dmg / .app
+*.dmg
+*.app
+
+# Python venv + caches
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+
+# OS / editor cruft
+.DS_Store
+.idea
+.vscode
+
+# Test fixtures
+test_*.py
+test_*.json3
+test_*.json
+
+# Backup files
+*.backup.json
+*.backup

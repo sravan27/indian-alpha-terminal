@@ -1,0 +1,504 @@
+{
+  "_about": {
+    "title": "Indian Founder Library",
+    "purpose": "Hand-curated, link-verified resources every young Indian founder needs. Each entry has been chosen because it appears in the WTF + BarberShop corpus, is operated by a guest on those shows, or is a canonical Indian-founder resource (gov.in registry, an SEBI-registered fund, or a long-standing operator-grade tool).",
+    "verifiedAt": "2026-04-28",
+    "rule": "No entry without a working URL on a stable domain. No entry whose existence cannot be checked from a publicly-listed source. No invented founders, funds, or initiatives."
+  },
+  "sections": [
+    {
+      "id": "register",
+      "title": "Register the company",
+      "subtitle": "The exact statutory rails every Indian founder must clear in the first 90 days.",
+      "icon": "shield-check",
+      "items": [
+        {
+          "name": "MCA · Company Incorporation (SPICe+)",
+          "url": "https://www.mca.gov.in/",
+          "description": "Single web form (SPICe+) to incorporate a Pvt Ltd / OPC, get PAN, TAN, EPFO, ESIC, GST, and a bank-account opening slot in one filing.",
+          "kind": "gov"
+        },
+        {
+          "name": "Startup India · DPIIT Recognition",
+          "url": "https://www.startupindia.gov.in/content/sih/en/registration.html",
+          "description": "Free recognition that unlocks 80-IAC tax holiday, angel-tax exemption, and access to the Fund of Funds for Startups (FFS).",
+          "kind": "gov"
+        },
+        {
+          "name": "Udyam · MSME Registration",
+          "url": "https://udyamregistration.gov.in/",
+          "description": "Free MSME (Micro/Small/Medium) registration. Required for priority-sector lending, GeM listing, and most state-level subsidies.",
+          "kind": "gov"
+        },
+        {
+          "name": "GST · Registration & e-Invoicing",
+          "url": "https://www.gst.gov.in/",
+          "description": "Mandatory once turnover crosses ₹40 L (goods) / ₹20 L (services). Get this before opening a payment gateway — gateways will ask for it.",
+          "kind": "gov"
+        },
+        {
+          "name": "GeM · Government e-Marketplace",
+          "url": "https://gem.gov.in/",
+          "description": "The procurement rail every CPSE, ministry, and state government buys through. Sellers with Udyam recognition get preference and an EMD waiver.",
+          "kind": "gov"
+        },
+        {
+          "name": "DPDP Act · Practitioner Brief",
+          "url": "https://www.meity.gov.in/data-protection-framework",
+          "description": "MeitY's official Digital Personal Data Protection Act page — current consent, breach-notification, and data-fiduciary obligations.",
+          "kind": "gov"
+        }
+      ]
+    },
+    {
+      "id": "capital-government",
+      "title": "Capital · Government rails",
+      "subtitle": "Non-dilutive Indian rupee capital that exists today, with eligibility windows you can actually meet.",
+      "icon": "landmark",
+      "items": [
+        {
+          "name": "Startup India Seed Fund Scheme (SISFS)",
+          "url": "https://seedfund.startupindia.gov.in/",
+          "description": "Up to ₹20 L grant (PoC) or ₹50 L convertible note via 200+ DPIIT-approved incubators. DPIIT recognition + ≤2 years old.",
+          "kind": "gov-grant"
+        },
+        {
+          "name": "SIDBI Venture Capital · Fund of Funds for Startups",
+          "url": "https://www.sidbivcf.in/en",
+          "description": "₹10,000 Cr fund that backs SEBI-registered AIFs which then invest in DPIIT-recognised startups. Founders access it via the AIFs SIDBI has anchored.",
+          "kind": "gov-fund-of-funds"
+        },
+        {
+          "name": "PM Mudra Yojana (PMMY)",
+          "url": "https://www.mudra.org.in/",
+          "description": "Loans up to ₹20 L (Tarun-Plus) for non-farm, non-corporate small businesses. Active rail through 30+ scheduled commercial banks; the default first-cheque for tier-2/3 founders without VC reach.",
+          "kind": "gov-loan"
+        },
+        {
+          "name": "CGTMSE Credit Guarantee",
+          "url": "https://www.cgtmse.in/",
+          "description": "Collateral-free credit guarantee up to ₹5 Cr for MSMEs. The mechanism behind 'collateral-free working capital' from most public-sector banks.",
+          "kind": "gov-guarantee"
+        },
+        {
+          "name": "BIRAC · Biotech Ignition Grant (BIG)",
+          "url": "https://birac.nic.in/cfp_view.php?scheme_type=2",
+          "description": "Grants up to ₹50 L for early-stage biotech and life-sciences ventures. Twice-yearly call. The default starting line for any Indian deeptech / health founder.",
+          "kind": "gov-grant"
+        },
+        {
+          "name": "MeitY · TIDE 2.0 / Genesis",
+          "url": "https://www.meity.gov.in/schemes-supporting-startups",
+          "description": "MeitY-anchored grants and incubation support across 51 EIRs. Defaults sit at ₹4 L–₹25 L per startup over 12 months.",
+          "kind": "gov-grant"
+        }
+      ]
+    },
+    {
+      "id": "capital-private",
+      "title": "Capital · Private funds",
+      "subtitle": "VCs, founder-led funds, and venture-debt platforms repeatedly named on WTF + BarberShop. SEBI-registered or named publicly by a podcast guest.",
+      "icon": "trending-up",
+      "items": [
+        {
+          "name": "Rainmatter Capital",
+          "url": "https://rainmatter.com/",
+          "description": "Zerodha's in-house long-horizon fund — climate, capital markets, health, and frontier consumer. Operated by Nikhil Kamath's team; cheque sizes ₹2 Cr–₹50 Cr.",
+          "kind": "vc",
+          "tag": "WTF host fund"
+        },
+        {
+          "name": "WTFund",
+          "url": "https://wtfund.com/",
+          "description": "₹25 L grant + 1-year program for founders under 25. Run by Nikhil Kamath; explicitly grant-first, no equity at the entry round.",
+          "kind": "grant",
+          "tag": "WTF host fund"
+        },
+        {
+          "name": "Peak XV Partners",
+          "url": "https://www.peakxv.com/",
+          "description": "Formerly Sequoia India & SEA. Largest India-anchored multi-stage VC; runs Surge accelerator (~$3M) for first cheque.",
+          "kind": "vc"
+        },
+        {
+          "name": "Z47",
+          "url": "https://z47.com/",
+          "description": "Formerly Matrix Partners India. Seed-to-Series-B firm; long-time backer of Razorpay, Ola, Country Delight.",
+          "kind": "vc"
+        },
+        {
+          "name": "Accel India",
+          "url": "https://www.accel.com/",
+          "description": "Early-stage firm that wrote the first cheques into Flipkart, Freshworks, Swiggy, and BlackBuck. Atoms accelerator runs once a year.",
+          "kind": "vc"
+        },
+        {
+          "name": "Elevation Capital",
+          "url": "https://www.elevationcapital.com/",
+          "description": "Formerly SAIF Partners India. Series A specialist. Notable bets: Paytm, Swiggy, Meesho, Spinny.",
+          "kind": "vc"
+        },
+        {
+          "name": "Blume Ventures",
+          "url": "https://blume.vc/",
+          "description": "Domestic seed-stage VC anchored in INR LP base. Seed cheques ₹4 Cr–₹15 Cr, very founder-friendly term sheets.",
+          "kind": "vc"
+        },
+        {
+          "name": "3one4 Capital",
+          "url": "https://3one4capital.com/",
+          "description": "Bengaluru-based early-stage fund (Pranav & Siddarth Pai). Focused on consumer, fintech, and SaaS; LP base includes domestic family offices.",
+          "kind": "vc"
+        },
+        {
+          "name": "Stellaris Venture Partners",
+          "url": "https://stellarisvp.com/",
+          "description": "Early-stage SaaS / consumer / fintech fund. Notable: Mamaearth, Whatfix, Slintel.",
+          "kind": "vc"
+        },
+        {
+          "name": "Lightspeed India",
+          "url": "https://lsip.com/",
+          "description": "Series A/B fund. Bets: OYO, Udaan, Byju's, Yellow.ai. Co-leads with Peak XV / Accel on most large rounds.",
+          "kind": "vc"
+        },
+        {
+          "name": "Fireside Ventures",
+          "url": "https://firesideventures.com/",
+          "description": "Pure-play consumer brand fund (Kanwal Singh). Backed boAt, Mamaearth, Yoga Bar, Anveshan.",
+          "kind": "vc"
+        },
+        {
+          "name": "Sauce.vc",
+          "url": "https://sauce.vc/",
+          "description": "Manu Chandra's seed-stage consumer fund. Cheque sizes ₹2 Cr–₹10 Cr; hands-on with brand and hiring.",
+          "kind": "vc"
+        },
+        {
+          "name": "Titan Capital",
+          "url": "https://www.titancapital.vc/",
+          "description": "Kunal Bahl & Rohit Bansal's family office. Has angel-invested in 250+ Indian startups including Razorpay, Urban Company, Mamaearth.",
+          "kind": "founder-fund",
+          "tag": "BarberShop guest fund"
+        },
+        {
+          "name": "100X.VC",
+          "url": "https://www.100x.vc/",
+          "description": "Sanjay Mehta's seed fund. iSAFE notes (₹1.25 Cr at ₹15 Cr cap) for pre-revenue founders. Two cohorts a year.",
+          "kind": "seed-program"
+        },
+        {
+          "name": "Antler India",
+          "url": "https://www.antler.co/location/india",
+          "description": "Pre-team residency program — 6 months in Bengaluru, ₹40 L for ~10% post co-founder match. Starts with no idea required.",
+          "kind": "incubator"
+        },
+        {
+          "name": "Alteria Capital",
+          "url": "https://www.alteriacapital.com/",
+          "description": "Largest Indian venture-debt platform. Tickets ₹5 Cr–₹100 Cr against ARR / inventory. Useful between Series A and B.",
+          "kind": "venture-debt"
+        },
+        {
+          "name": "Trifecta Capital",
+          "url": "https://www.trifectacapital.in/",
+          "description": "Venture debt + growth equity. Has funded Cars24, BharatPe, Pharmeasy. Often pairs alongside Alteria for larger debt rounds.",
+          "kind": "venture-debt"
+        },
+        {
+          "name": "Recur Club",
+          "url": "https://www.recur.club/",
+          "description": "Non-dilutive revenue-based financing for SaaS / subscription businesses. Trade ARR for cash within 48 hrs; ticket sizes ₹50 L–₹100 Cr.",
+          "kind": "rbf"
+        }
+      ]
+    },
+    {
+      "id": "founder-stack",
+      "title": "Operator stack",
+      "subtitle": "The default tooling layer underneath every Indian D2C / SaaS / consumer brand built on the shows.",
+      "icon": "wrench",
+      "items": [
+        {
+          "name": "Shopify · India",
+          "url": "https://www.shopify.com/in",
+          "description": "Default D2C storefront referenced across the WTF brand-build, beauty, and ecommerce episodes. Plug-and-play with Razorpay, Shiprocket, Meta, GA4.",
+          "kind": "ecommerce"
+        },
+        {
+          "name": "Razorpay",
+          "url": "https://razorpay.com/",
+          "description": "Payments + payroll + capital. The default Indian payment gateway; 100+ payment modes including UPI, EMI, COD reconciliation.",
+          "kind": "payments"
+        },
+        {
+          "name": "Cashfree Payments",
+          "url": "https://www.cashfree.com/",
+          "description": "Bank-grade payment + payouts API. Common alternative to Razorpay; strong in marketplace + B2B payouts use cases.",
+          "kind": "payments"
+        },
+        {
+          "name": "Shiprocket",
+          "url": "https://www.shiprocket.in/",
+          "description": "D2C shipping aggregator integrated with 17+ couriers. The shipping rail behind most ₹10 Cr–₹500 Cr Indian D2C brands.",
+          "kind": "logistics"
+        },
+        {
+          "name": "Meesho · Supplier Panel",
+          "url": "https://supplier.meesho.com/",
+          "description": "Zero-commission supplier dashboard. The fastest way to test value-tier demand in tier-2/tier-3 India for a new SKU.",
+          "kind": "marketplace"
+        },
+        {
+          "name": "Udaan",
+          "url": "https://www.udaan.com/",
+          "description": "B2B distribution rail. Useful for FMCG / electronics / fashion brands trying to reach 1.6M kirana retailers without owning the field force.",
+          "kind": "marketplace"
+        },
+        {
+          "name": "Amazon Seller Central · India",
+          "url": "https://sell.amazon.in/",
+          "description": "Marketplace + advertising + FBA logistics. Use the Search Term reports as a free demand-mapping tool before committing inventory.",
+          "kind": "marketplace"
+        },
+        {
+          "name": "Flipkart Seller Hub",
+          "url": "https://seller.flipkart.com/",
+          "description": "Tier-2/3 strength, especially in fashion and electronics. Sell-Through report exposes regional preference patterns Meta ads can't.",
+          "kind": "marketplace"
+        },
+        {
+          "name": "Meta for Business",
+          "url": "https://business.facebook.com/",
+          "description": "Cheapest creative-testing rail in India — Ads Manager, Meta Pixel, Conversions API. The creative learnings feed back into the brand voice, not just the funnel.",
+          "kind": "ads"
+        },
+        {
+          "name": "Google Ads · India",
+          "url": "https://ads.google.com/intl/en_in/home/",
+          "description": "Search + YouTube + Performance Max. Most accurate intent data for a category before you commit to a wedge.",
+          "kind": "ads"
+        },
+        {
+          "name": "Zoho · One",
+          "url": "https://www.zoho.com/one/",
+          "description": "Indian-built operating-system bundle: CRM, books, mail, payroll, support. Cheapest viable stack for sub-50-person teams.",
+          "kind": "ops"
+        },
+        {
+          "name": "Notion",
+          "url": "https://www.notion.so/",
+          "description": "Working-doc layer for early teams. The hand-off OS that keeps async ops sustainable below 30 people.",
+          "kind": "ops"
+        },
+        {
+          "name": "Linear",
+          "url": "https://linear.app/",
+          "description": "Issue tracker for product / engineering teams. Fast keyboard-first UX; replaces Jira for tech-first companies.",
+          "kind": "ops"
+        },
+        {
+          "name": "Slack",
+          "url": "https://slack.com/",
+          "description": "Default async comms layer. Channels-not-DMs is the cultural hack you implement on day one.",
+          "kind": "ops"
+        },
+        {
+          "name": "Keka",
+          "url": "https://www.keka.com/",
+          "description": "Indian-grown HRMS used across 8,000+ Indian companies. Payroll + leave + PF + ESIC + appraisals in one stack.",
+          "kind": "hr"
+        }
+      ]
+    },
+    {
+      "id": "books",
+      "title": "Books named on the shows",
+      "subtitle": "Books referenced by guests on WTF or BarberShop. Sourced from the dossiers and ingest-script's RESOURCE_SEEDS.",
+      "icon": "book-open",
+      "items": [
+        {
+          "name": "Principles · Ray Dalio",
+          "url": "https://www.principles.com/",
+          "description": "Operating system for decisions, incentives, and truth-seeking. Discussed at length in WTF Ep #2 (Ray Dalio).",
+          "kind": "book"
+        },
+        {
+          "name": "The Psychology of Money · Morgan Housel",
+          "url": "https://www.harriman-house.com/authors/morgan-housel/the-psychology-of-money/9780857197689",
+          "description": "How behaviour, not IQ, shapes wealth. Frequently cited across WTF Finance and BarberShop wealth episodes.",
+          "kind": "book"
+        },
+        {
+          "name": "Zero to One · Peter Thiel",
+          "url": "https://www.penguinrandomhouse.com/books/232363/zero-to-one-by-peter-thiel-with-blake-masters/",
+          "description": "Framework for monopolies and category creation. Ground-zero reading for the BarberShop S1 Aman Gupta and Asish Mohapatra arcs.",
+          "kind": "book"
+        },
+        {
+          "name": "The Hard Thing About Hard Things · Ben Horowitz",
+          "url": "https://www.harpercollins.com/products/the-hard-thing-about-hard-things-ben-horowitz",
+          "description": "Field guide for hard calls under pressure. Surfaces in Toshan Tamhane / Rohit Kapoor leadership conversations on BarberShop.",
+          "kind": "book"
+        },
+        {
+          "name": "Poor Charlie's Almanack · Charlie Munger",
+          "url": "https://www.stripe.press/poor-charlies-almanack",
+          "description": "Mental models for compounding builders. Stripe Press edition is now the canonical print. Cited by Nikhil in WTF wealth conversations.",
+          "kind": "book"
+        },
+        {
+          "name": "Blue Ocean Strategy · Kim & Mauborgne",
+          "url": "https://www.blueoceanstrategy.com/book/",
+          "description": "Category creation and uncontested-market positioning. The intellectual scaffolding behind the BarberShop Solara / baby-care theses.",
+          "kind": "book"
+        },
+        {
+          "name": "Sapiens · Yuval Noah Harari",
+          "url": "https://www.ynharari.com/book/sapiens-2/",
+          "description": "Long-range context for belief systems and institutions. Repeatedly recommended on WTF as a foundation read.",
+          "kind": "book"
+        }
+      ]
+    },
+    {
+      "id": "compliance",
+      "title": "Compliance & sectoral regulators",
+      "subtitle": "The named bodies a founder will eventually have to deal with. Knowing the URLs cuts weeks off the cycle.",
+      "icon": "scale",
+      "items": [
+        {
+          "name": "SEBI · Securities and Exchange Board of India",
+          "url": "https://www.sebi.gov.in/",
+          "description": "Regulator for any AIF, PMS, mutual fund, or capital-markets product. Mandatory once you touch investor money or run a wealth product.",
+          "kind": "regulator"
+        },
+        {
+          "name": "RBI · Reserve Bank of India",
+          "url": "https://www.rbi.org.in/",
+          "description": "Regulates banks, NBFCs, payment systems, and account aggregators. PA / PG licences live here; RBI's payments-vision-doc is the ground truth.",
+          "kind": "regulator"
+        },
+        {
+          "name": "IRDAI · Insurance Regulatory and Development Authority",
+          "url": "https://www.irdai.gov.in/",
+          "description": "Insurance regulator. Required for insurtech, embedded insurance, or motor / health-claims businesses.",
+          "kind": "regulator"
+        },
+        {
+          "name": "CDSCO · Central Drugs Standard Control Organization",
+          "url": "https://cdsco.gov.in/",
+          "description": "Drugs, devices, and cosmetics regulator. Indian baby-care / beauty / supplement brands all clear CDSCO before public launch.",
+          "kind": "regulator"
+        },
+        {
+          "name": "FSSAI · Food Safety and Standards Authority of India",
+          "url": "https://www.fssai.gov.in/",
+          "description": "Required for any consumable — F&B, supplements, beverages. License classes (Basic / State / Central) tied to turnover.",
+          "kind": "regulator"
+        },
+        {
+          "name": "BIS · Bureau of Indian Standards",
+          "url": "https://www.bis.gov.in/",
+          "description": "Mandatory ISI / Compulsory Registration Scheme (CRS) for electronics, helmets, and 700+ product categories. Skip it and Customs holds shipments.",
+          "kind": "regulator"
+        },
+        {
+          "name": "Trade Marks Registry · IP India",
+          "url": "https://ipindia.gov.in/trade-mark-registry",
+          "description": "Trademark filing for brand mark + logo. Apply through the official portal — saves the ₹15K agent markup.",
+          "kind": "regulator"
+        }
+      ]
+    },
+    {
+      "id": "communities",
+      "title": "Founder communities",
+      "subtitle": "Where the operators on these shows actually go when they need help.",
+      "icon": "users",
+      "items": [
+        {
+          "name": "NASSCOM",
+          "url": "https://nasscom.in/",
+          "description": "Indian IT industry body — flagship NASSCOM Product Conclave; 10,000 Startups program; CoE labs for AI / IoT / cyber.",
+          "kind": "industry-body"
+        },
+        {
+          "name": "TiE · Global Indian-Entrepreneur Network",
+          "url": "https://tie.org/",
+          "description": "63-chapter global network with strong Bengaluru / Delhi / Mumbai chapters. Best for first-time founder mentorship + angel intros.",
+          "kind": "community"
+        },
+        {
+          "name": "iSPIRT Foundation",
+          "url": "https://ispirt.in/",
+          "description": "The think tank behind India Stack (Aadhaar, UPI, ONDC, DigiLocker). PlayBookHQ events for product founders are invitation-only but free.",
+          "kind": "think-tank"
+        },
+        {
+          "name": "Headstart Network",
+          "url": "https://headstart.in/",
+          "description": "Indian volunteer-run network — Startup Saturdays in 30+ cities. Lowest-friction path to a first peer cohort.",
+          "kind": "community"
+        },
+        {
+          "name": "ONDC · Open Network for Digital Commerce",
+          "url": "https://ondc.org/",
+          "description": "DPIIT-backed open commerce protocol. Onboarding as a seller / buyer app is free; lowers acquisition cost vs. closed marketplaces.",
+          "kind": "protocol"
+        },
+        {
+          "name": "Y Combinator · Apply",
+          "url": "https://www.ycombinator.com/apply",
+          "description": "$500K standard deal (post-W24). Indian founders consistently in the top 5 country cohorts since 2018; the bar moved high but still applicable.",
+          "kind": "accelerator"
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "title": "Free learning paths",
+      "subtitle": "Operator-grade study material that costs nothing and doesn't require a subscription.",
+      "icon": "graduation-cap",
+      "items": [
+        {
+          "name": "Varsity by Zerodha",
+          "url": "https://zerodha.com/varsity/",
+          "description": "Long-form modules on markets, options, derivatives, personal finance. Built by the same Zerodha team that hosts WTF.",
+          "kind": "course",
+          "tag": "WTF host project"
+        },
+        {
+          "name": "Varsity · YouTube",
+          "url": "https://www.youtube.com/@varsitybyzerodha",
+          "description": "Free on-air sessions with practising market operators. Companion stream to Varsity's text modules.",
+          "kind": "course"
+        },
+        {
+          "name": "Stripe Atlas Guides",
+          "url": "https://stripe.com/atlas/guides",
+          "description": "Long-form playbooks on equity, hiring, fundraising, and selling worldwide. The closest thing to an MBA you can read in a weekend.",
+          "kind": "guide"
+        },
+        {
+          "name": "First Round Review",
+          "url": "https://review.firstround.com/",
+          "description": "Operator-written essays — hiring, GTM, founder mode. Indian founders use it to short-cut leadership lessons that take a decade to learn live.",
+          "kind": "essays"
+        },
+        {
+          "name": "a16z Future Library",
+          "url": "https://a16z.com/posts/",
+          "description": "Andreessen Horowitz's open writing library — venture / fintech / consumer / bio / crypto theses. Free, quotable, unusually well-edited.",
+          "kind": "essays"
+        },
+        {
+          "name": "Paul Graham Essays",
+          "url": "https://www.paulgraham.com/articles.html",
+          "description": "PG essay archive. Required reading: 'Do Things That Don't Scale', 'How to Start a Startup', 'Startup = Growth'.",
+          "kind": "essays"
+        }
+      ]
+    }
+  ]
+}

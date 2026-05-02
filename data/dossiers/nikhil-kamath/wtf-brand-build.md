@@ -33,4 +33,4 @@ Indian mid-market lifestyle brands that convert online demand validation into of
 ## Resource stack
 - Shopify: Use owned-store data to test offer structure, bundles, and post-purchase retention. (https://www.shopify.com/in)
 - Amazon and Flipkart search reports: Demand mapping layer for identifying hot keywords, reviews, and price expectations.
-- Meta creative testing: Fastest feedback channel for message-market fit and audience-language experimentation. (https://www.facebook.com/business/tools/meta-ads-manager)
+- Meta for Business: Fastest feedback channel for message-market fit and audience-language experimentation. (https://business.facebook.com/)

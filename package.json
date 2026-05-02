@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "tauri:dev": "cd src-tauri && cargo tauri dev",
+    "tauri:build": "cd src-tauri && cargo tauri build",
+    "tauri:check": "cd src-tauri && cargo check",
     "signal:build": "python3 scripts/ingest_project_signal.py"
   },
   "dependencies": {

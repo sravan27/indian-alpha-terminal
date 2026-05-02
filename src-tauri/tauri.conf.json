@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "IndianAlphaDirectory",
+  "productName": "India Alpha",
   "version": "0.1.0",
-  "identifier": "com.tauri.dev",
+  "identifier": "com.indianalpha.terminal",
   "build": {
     "frontendDist": "../out",
     "devUrl": "http://localhost:3000",
@@ -12,26 +12,68 @@
   "app": {
     "windows": [
       {
-        "title": "Indian Alpha Directory",
-        "width": 800,
-        "height": 600,
+        "label": "main",
+        "title": "India Alpha · Sovereign Intel",
+        "width": 1440,
+        "height": 900,
+        "minWidth": 1080,
+        "minHeight": 720,
         "resizable": true,
-        "fullscreen": false
+        "fullscreen": false,
+        "transparent": false,
+        "decorations": true,
+        "titleBarStyle": "Overlay",
+        "hiddenTitle": true,
+        "trafficLightPosition": {
+          "x": 16,
+          "y": 22
+        },
+        "shadow": true,
+        "center": true,
+        "acceptFirstMouse": true,
+        "tabbingIdentifier": "indian-alpha-terminal"
       }
     ],
     "security": {
       "csp": null
-    }
+    },
+    "macOSPrivateApi": true
   },
   "bundle": {
     "active": true,
     "targets": "all",
+    "category": "Productivity",
+    "shortDescription": "Sovereign offline intelligence terminal for India's founders.",
+    "longDescription": "India Alpha is a 100% offline, native macOS intelligence terminal. It surfaces VC-grade business strategies, market gaps, and execution playbooks distilled from India's highest-signal founder podcasts — all queried locally against a bundled SQLite FTS5 index.",
+    "copyright": "© 2026 India Alpha",
     "icon": [
       "icons/32x32.png",
       "icons/128x128.png",
       "icons/128x128@2x.png",
       "icons/icon.icns",
       "icons/icon.ico"
-    ]
+    ],
+    "resources": [
+      "brain.db"
+    ],
+    "macOS": {
+      "minimumSystemVersion": "11.0",
+      "exceptionDomain": "",
+      "dmg": {
+        "background": null,
+        "appPosition": {
+          "x": 180,
+          "y": 220
+        },
+        "applicationFolderPosition": {
+          "x": 480,
+          "y": 220
+        },
+        "windowSize": {
+          "width": 660,
+          "height": 400
+        }
+      }
+    }
   }
 }

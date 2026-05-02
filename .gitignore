@@ -39,3 +39,33 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python venv (don't commit)
+.venv/
+
+# Native bundles — built per-machine, don't commit binaries
+*.dmg
+/India Alpha.app/
+
+# Raw + intermediate corpus data (regenerable via scripts/)
+/data/transcripts/
+/data/deep_extracted/
+/data/extracted/
+/data/ingest/
+
+# Test fixtures
+test_*.json3
+test_*.json
+test_*.py
+
+# Tauri build artefacts
+/src-tauri/target/
+/src-tauri/gen/schemas/
+
+# Backup snapshots
+*.backup.json
+*.backup
+
+# Python bytecode
+scripts/__pycache__/
+.claude/
