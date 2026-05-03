@@ -1,7 +1,7 @@
 {
   "meta": {
     "productName": "India Alpha",
-    "generatedAt": "2026-05-02",
+    "generatedAt": "2026-05-03",
     "indexedEpisodeCount": 75,
     "deepExtractedCount": 38,
     "resourceCount": 52,
@@ -10,7 +10,7 @@
     "categoryCount": 19,
     "playbookCount": 8,
     "crossShowGuestCount": 2,
-    "totalWordsProcessed": 560244,
+    "totalWordsProcessed": 1119796,
     "totalStrategies": 62,
     "totalMarketGaps": 39,
     "totalTools": 54,
@@ -91,7 +91,8 @@
         "'Wealth can easily be created, but it's not worth anything unless you can convert it into money to spend.' (Ray Dalio)"
       ],
       "targetAudience": "Individual investors and finance enthusiasts looking to understand wealth creation strategies",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=0YKTsHr5bDE"
     },
     {
       "id": "2B8gABDfh7I",
@@ -133,7 +134,8 @@
         "'Businesses that succeed are always adapting and adjusting.' - Dara Khosrowshahi"
       ],
       "targetAudience": "Platform founders, investors, and strategists looking to understand Uber's approach to competition and innovation",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=2B8gABDfh7I"
     },
     {
       "id": "2_yA6GoqUnY",
@@ -160,7 +162,8 @@
         "'If it has come to mind, you should go.' - Badshah"
       ],
       "targetAudience": "Aspiring actors, musicians, and athletes interested in offbeat careers.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=2_yA6GoqUnY"
     },
     {
       "id": "68ylaeBbdsg",
@@ -225,7 +228,8 @@
         "\"We need to guide AI's development, not just let it happen.\" - Nikhil Kamath"
       ],
       "targetAudience": "AI researchers, policymakers, and anyone interested in understanding the implications of AI on society.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=68ylaeBbdsg"
     },
     {
       "id": "7ka9jrX-M5U",
@@ -279,7 +283,8 @@
         "\"We don't want any input at all. It's just the geo sensor that gets activated on the mobile.\" - Nar"
       ],
       "targetAudience": "Entrepreneurs, investors, and business owners interested in mapping technologies, market gaps, and growth strategies",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=7ka9jrX-M5U"
     },
     {
       "id": "8uFOBdle3WY",
@@ -335,7 +340,8 @@
         "'Passion is almost an output... I believe I'm passionate or talented at something when I do something and I'm a little bit better at it than my peer group.' (Nikhil Kamath)"
       ],
       "targetAudience": "Content creators, YouTube users, and anyone interested in the platform's strategies and creator ecosystem.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=8uFOBdle3WY"
     },
     {
       "id": "9Hlv4BMmxPU",
@@ -396,7 +402,8 @@
         "'The company is not for us, the companies for many more years after us.' - Rita"
       ],
       "targetAudience": "Aspiring and existing D2C founders looking to conquer the Indian market.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=9Hlv4BMmxPU"
     },
     {
       "id": "APU6KeQAANU",
@@ -447,7 +454,8 @@
         "'You're placing tremendous trust in your ability to tell a story that engages consumers...' - Piyush Pandey"
       ],
       "targetAudience": "Content creators, advertisers, and anyone interested in storytelling and creative direction.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=APU6KeQAANU"
     },
     {
       "id": "AdI_XWv-ZTk",
@@ -504,7 +512,8 @@
         "'We have a unique opportunity in India because we understand the local consumer better than anyone else.' - Dipesh Gaur"
       ],
       "targetAudience": "Entrepreneurs and marketers interested in understanding the Indian beauty and skincare market, with a focus on men's grooming.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=AdI_XWv-ZTk"
     },
     {
       "id": "DvL1bJMB_p4",
@@ -549,7 +558,8 @@
         "'We just went nuts because after two and a half three years of hunger energy and sort of breaking our heads against a wall we were finally realizing that when we put in effort result also comes.'"
       ],
       "targetAudience": "Entrepreneurs, aspiring entrepreneurs, and anyone interested in consumer e-commerce strategies.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=DvL1bJMB_p4"
     },
     {
       "id": "FPV5fAkqyBs",
@@ -600,7 +610,8 @@
         "\"I don't need to attend a high-end college, I'd like to attend a regular college that has minimal fee.\""
       ],
       "targetAudience": "Aspiring entrepreneurs in India looking for opportunities and strategies in the consumer market.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=FPV5fAkqyBs"
     },
     {
       "id": "GYW7MeU5Lfc",
@@ -674,7 +685,8 @@
         "'We want to create a generation of financially independent women.' - Arjun"
       ],
       "targetAudience": "Women in India looking for career opportunities, mentorship, and community support.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=GYW7MeU5Lfc"
     },
     {
       "id": "HRWOycI1YTw",
@@ -725,7 +737,8 @@
         "'Durex stands for great sex that moves you and celebrates mutual pleasure.' - Sukhleen Aneja & Sudhir"
       ],
       "targetAudience": "Consumer brand managers, marketing professionals, and entrepreneurs looking to expand their brands in the Indian market.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=HRWOycI1YTw"
     },
     {
       "id": "Kt6YqZLV1Fo",
@@ -795,7 +808,8 @@
         "'Create a mind which is equinimous.' - Bhagavad Gita"
       ],
       "targetAudience": "Entrepreneurs, small business owners, and finance professionals interested in understanding market gaps and strategies for growth.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=Kt6YqZLV1Fo"
     },
     {
       "id": "N0S048D2tj4",
@@ -840,7 +854,8 @@
         "\"The most important thing is not to be afraid of making mistakes.\" - Yuval Noah Harari"
       ],
       "targetAudience": "Individuals and organizations interested in understanding and leveraging AI for decision-making and predicting future trends.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=N0S048D2tj4"
     },
     {
       "id": "O7O204wD82s",
@@ -901,7 +916,8 @@
         "\"If you're not embarrassed by your first version, you've launched too late.\""
       ],
       "targetAudience": "",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=O7O204wD82s"
     },
     {
       "id": "RHi26oDdKQI",
@@ -961,7 +977,8 @@
         "'Skills before Thrills' - Tanmay"
       ],
       "targetAudience": "Content creators, entrepreneurs, and businesses looking to build trust and engage audiences through effective content strategies.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=RHi26oDdKQI"
     },
     {
       "id": "STV4s8_QqVw",
@@ -1012,7 +1029,8 @@
         "'Scale wins over control.' - Savi"
       ],
       "targetAudience": "Founders, investors, and acquirers looking to facilitate startup acquisitions and exits.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=STV4s8_QqVw"
     },
     {
       "id": "Saymmw8_Gv0",
@@ -1062,7 +1080,8 @@
         "'For me, yoga was more about how can you be a really good version of yourself.' - Suhasini Sampath"
       ],
       "targetAudience": "Entrepreneurs in the health and consumer goods sector looking to grow their business.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=Saymmw8_Gv0"
     },
     {
       "id": "SfOaZIGJ_gs",
@@ -1111,7 +1130,8 @@
         "\"AI will make us more human.\" - Sam Altman"
       ],
       "targetAudience": "Entrepreneurs, investors, and anyone interested in understanding the impact of AI on business and society.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=SfOaZIGJ_gs"
     },
     {
       "id": "UKag4LVAEdU",
@@ -1165,7 +1185,8 @@
         "\"If you want to be successful in e-commerce, you need to understand social influencers.\" - Kishore Biyani"
       ],
       "targetAudience": "Entrepreneurs, business owners, and investors interested in expanding their reach into rural markets and understanding the consumer behavior of lower-income segments.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=UKag4LVAEdU"
     },
     {
       "id": "YY7J1pHfSyY",
@@ -1226,7 +1247,8 @@
         "'I think it's a rate of change that's greater than most most periods of history.' - Bill Gates"
       ],
       "targetAudience": "AI enthusiasts, tech industry professionals, futurists, and anyone interested in understanding the implications of AI on society.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=YY7J1pHfSyY"
     },
     {
       "id": "ef3D5Ak1HP4",
@@ -1287,7 +1309,8 @@
         "\"We believe that voice will replace everything.\" - Both"
       ],
       "targetAudience": "Investors, entrepreneurs, and innovators interested in voice technology and AI.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=ef3D5Ak1HP4"
     },
     {
       "id": "ezaFpL_EMEk",
@@ -1334,7 +1357,8 @@
         "'Nobody is doing you a favor. You are going with an opportunity.' - Shantanu"
       ],
       "targetAudience": "Early-stage consumer product founders looking to raise capital strategically.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=ezaFpL_EMEk"
     },
     {
       "id": "fL2wyVLX08o",
@@ -1397,7 +1421,8 @@
         "'We will see billions of humanoids on the planet in our lifetime... They will do everything for us.' - Brett Adcock"
       ],
       "targetAudience": "Investors, entrepreneurs, and enthusiasts interested in AI, robotics, and hardware advancements.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=fL2wyVLX08o"
     },
     {
       "id": "gpv6X6E3Qxw",
@@ -1456,7 +1481,8 @@
         "\"People buy because they can sense what your passion, your purpose is.\" - Rohit"
       ],
       "targetAudience": "Entrepreneurs and aspiring entrepreneurs in consumer goods and digital sales.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=gpv6X6E3Qxw"
     },
     {
       "id": "hAgqDdPgA3g",
@@ -1511,7 +1537,8 @@
         "\"You have to be really, really, really curious.\" - Chamath Palihapitiya"
       ],
       "targetAudience": "Investors, entrepreneurs, and anyone interested in understanding successful investment strategies.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=hAgqDdPgA3g"
     },
     {
       "id": "jVax4DCqKT4",
@@ -1564,7 +1591,8 @@
         "'Commitment and belief are key in high-risk, high-reward situations.'"
       ],
       "targetAudience": "Aspiring entrepreneurs, founders, and anyone interested in understanding the work dynamics of successful leaders.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=jVax4DCqKT4"
     },
     {
       "id": "kZ25RkCmeqQ",
@@ -1627,7 +1655,8 @@
         "\"You're capital employers, right? Where would you rather go? My view is you should not proliferate more than this some change for this is enough but go deeper in you have to be at 15-20% market share in quick. Correct.\" - Aditya"
       ],
       "targetAudience": "Direct-to-Consumer (D2C) brands looking to scale their business, particularly those operating in the food and beverage sector.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=kZ25RkCmeqQ"
     },
     {
       "id": "lJ3Wt-ng1Ls",
@@ -1688,7 +1717,8 @@
         "\"How are we supposed to screen 70 cr people manually visually? It's not possible or scalable at all.\" - Dr. Janti, Astray Service"
       ],
       "targetAudience": "AI enthusiasts, founders, investors interested in AI startups.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=lJ3Wt-ng1Ls"
     },
     {
       "id": "lRjprPQHuXw",
@@ -1751,7 +1781,8 @@
         "'Glasses are the future, that's where buyers are going to move.'"
       ],
       "targetAudience": "Entrepreneurs and innovators in consumer electronics looking for market gaps and strategies.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=lRjprPQHuXw"
     },
     {
       "id": "ohjXRswUYqM",
@@ -1816,7 +1847,8 @@
         "'The good thing about music is you never understand it.' - A.R. Rahman"
       ],
       "targetAudience": "Music enthusiasts, entertainment industry professionals, and anyone interested in understanding A.R. Rahman's creative process.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=ohjXRswUYqM"
     },
     {
       "id": "tWzalcN_Inc",
@@ -1874,7 +1906,8 @@
         "'The metaverse is like democracy... it's like democratization of the creation phase.' - Nikhil Kamath"
       ],
       "targetAudience": "Tech enthusiasts, investors, and creators interested in understanding and navigating the metaverse landscape.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=tWzalcN_Inc"
     },
     {
       "id": "tlicx3KKzmQ",
@@ -1910,7 +1943,8 @@
         "'The sheep-to-supermodel ratio is highest in New Zealand.' - Nikhil Kamath"
       ],
       "targetAudience": "Citizens interested in politics, public service improvement, and global affairs.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=tlicx3KKzmQ"
     },
     {
       "id": "vPvnzWoK24Q",
@@ -1969,7 +2003,8 @@
         "\"If you're building technology, think about those scenarios. Think of a scenario that if Nikhil gave agency to an agent and somebody took over that agent, what chaos would they be able to cause?\" - Nikesh Arora"
       ],
       "targetAudience": "Entrepreneurs, investors, and professionals interested in AI, cybersecurity, and technology trends.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=vPvnzWoK24Q"
     },
     {
       "id": "wnK8Ymzp0rQ",
@@ -2041,7 +2076,8 @@
         "'The company is being talked about in a great spirit. People are looking up to it. Can it set an example? Can it set a benchmark?' - Aruchi"
       ],
       "targetAudience": "Entrepreneurs, business owners, and investors interested in platform growth strategies",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=wnK8Ymzp0rQ"
     },
     {
       "id": "wo_8CxZNXkM",
@@ -2088,7 +2124,8 @@
         "\"Love will work like your own child will find your way that child will come to you and stick to you and grow with you.\""
       ],
       "targetAudience": "Aspiring entrepreneurs and entertainment enthusiasts interested in learning about the business side of Bollywood.",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=wo_8CxZNXkM"
     },
     {
       "id": "xjuvJK5Jm44",
@@ -2187,7 +2224,8 @@
         "'The minute you know you can start making money and become financially independent you don't have to be disrespectful but just the fact that I think when you say no somebody takes you a little bit more seriously'"
       ],
       "targetAudience": "Entrepreneurs, investors, and business enthusiasts interested in M&A strategies",
-      "extractionMethod": "deep_v2_mistral-nemo:12b"
+      "extractionMethod": "deep_v2_mistral-nemo:12b",
+      "sourceUrl": "https://www.youtube.com/watch?v=xjuvJK5Jm44"
     },
     {
       "id": "-HkBwSazZsM",
@@ -3798,7 +3836,7 @@
   ],
   "guestNetwork": [
     {
-      "id": "guest-0552a0e0",
+      "id": "guest-006a5ccb",
       "name": "Nikhil Kamath",
       "episodeIds": [
         "0YKTsHr5bDE",
@@ -3867,7 +3905,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05e45a06",
+      "id": "guest-00a5081f",
       "name": "Shantanu Deshpande",
       "episodeIds": [
         "7ka9jrX-M5U",
@@ -3903,7 +3941,7 @@
       "isCrossShow": true
     },
     {
-      "id": "guest-02978bc9",
+      "id": "guest-03049ab0",
       "name": "Tanmay Bhat",
       "episodeIds": [
         "tWzalcN_Inc",
@@ -3940,7 +3978,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01e446b1",
+      "id": "guest-03abb7f4",
       "name": "Nithin Kamath",
       "episodeIds": [
         "6HE6d0lKh4o",
@@ -3977,7 +4015,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0367fe60",
+      "id": "guest-04a41299",
       "name": "Aneesh Bhasin",
       "episodeIds": [
         "0JDsFpU6pGQ",
@@ -4010,7 +4048,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00f72fd7",
+      "id": "guest-05e339c1",
       "name": "Aprameya Radhakrishna",
       "episodeIds": [
         "tWzalcN_Inc",
@@ -4037,7 +4075,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02f7dce4",
+      "id": "guest-042e81c1",
       "name": "Arjun Vaidya",
       "episodeIds": [
         "kZ25RkCmeqQ",
@@ -4057,7 +4095,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01b97c4e",
+      "id": "guest-01360287",
       "name": "Asish Mohapatra",
       "episodeIds": [
         "gIhdMxEce0M",
@@ -4075,7 +4113,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03df8014",
+      "id": "guest-01fdbf32",
       "name": "Karthik Reddy",
       "episodeIds": [
         "zCTm1wHcfkI",
@@ -4102,7 +4140,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03768722",
+      "id": "guest-0349c1b8",
       "name": "Kishore Biyani",
       "episodeIds": [
         "UKag4LVAEdU",
@@ -4130,7 +4168,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0325bc9d",
+      "id": "guest-04fb737e",
       "name": "Mukesh Bansal",
       "episodeIds": [
         "6HE6d0lKh4o",
@@ -4159,7 +4197,7 @@
       "isCrossShow": true
     },
     {
-      "id": "guest-03faf7cb",
+      "id": "guest-056bb1ee",
       "name": "Prajakta Koli",
       "episodeIds": [
         "JjDjDvNgkFo",
@@ -4186,7 +4224,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04b8b078",
+      "id": "guest-03c659f6",
       "name": "Prashanth Prakash",
       "episodeIds": [
         "fEUoJSTYtyc",
@@ -4219,7 +4257,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-043a60ad",
+      "id": "guest-00b4560f",
       "name": "Rajan Anandan",
       "episodeIds": [
         "zCTm1wHcfkI",
@@ -4246,7 +4284,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00595940",
+      "id": "guest-0548b7f9",
       "name": "Rohit Bansal",
       "episodeIds": [
         "DvL1bJMB_p4",
@@ -4266,7 +4304,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03110921",
+      "id": "guest-056a9bde",
       "name": "Toshan Tamhane",
       "episodeIds": [
         "h-TJU3LenZk",
@@ -4283,7 +4321,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-054fdc4e",
+      "id": "guest-03df59c8",
       "name": "Umang Bedi",
       "episodeIds": [
         "tWzalcN_Inc",
@@ -4310,7 +4348,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02d8e711",
+      "id": "guest-042168b4",
       "name": "A.R. Rahman",
       "episodeIds": [
         "ohjXRswUYqM"
@@ -4328,7 +4366,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-017789b3",
+      "id": "guest-039f3948",
       "name": "Aadit Palicha",
       "episodeIds": [
         "nGpir4oUfJI"
@@ -4353,7 +4391,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0265f69d",
+      "id": "guest-0472d5b7",
       "name": "Adithya Balasubramanian",
       "episodeIds": [
         "wHQiewz8k9g"
@@ -4377,7 +4415,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0001b342",
+      "id": "guest-0223e4df",
       "name": "Aditya Chand",
       "episodeIds": [
         "0JDsFpU6pGQ"
@@ -4402,7 +4440,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05d86f68",
+      "id": "guest-05d84040",
       "name": "Ajay Bharadwaj",
       "episodeIds": [
         "58i057QXl1A"
@@ -4431,7 +4469,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-021d9f60",
+      "id": "guest-01c12583",
       "name": "Ajay Bijli",
       "episodeIds": [
         "hNV6urpwrk8"
@@ -4453,7 +4491,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01465165",
+      "id": "guest-032780f2",
       "name": "Akshat Rathee",
       "episodeIds": [
         "VIlfHB7Jk2s"
@@ -4472,7 +4510,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0143ec85",
+      "id": "guest-052162b7",
       "name": "Aman Gupta",
       "episodeIds": [
         "5EXdVDEpWIs"
@@ -4488,7 +4526,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0505f86a",
+      "id": "guest-00bf5667",
       "name": "Amit Khatri",
       "episodeIds": [
         "lRjprPQHuXw"
@@ -4507,7 +4545,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-022be7ab",
+      "id": "guest-04c4dc56",
       "name": "Ananth Narayanan",
       "episodeIds": [
         "hjiZ11lKCrU"
@@ -4530,7 +4568,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-008f8670",
+      "id": "guest-057d0a02",
       "name": "Anish Rohit",
       "episodeIds": [
         "STV4s8_QqVw"
@@ -4552,7 +4590,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0402a23a",
+      "id": "guest-01ab6fd3",
       "name": "Ankur Warikoo",
       "episodeIds": [
         "5HLxbOMXCck"
@@ -4568,7 +4606,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-036bf514",
+      "id": "guest-040ba014",
       "name": "Anmol Singh Jaggi",
       "episodeIds": [
         "iuyy1bIgR1s"
@@ -4593,7 +4631,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0115d33f",
+      "id": "guest-05391139",
       "name": "Anuj Paul",
       "episodeIds": [
         "KJje-SUREaE"
@@ -4611,7 +4649,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03ad264b",
+      "id": "guest-01bc5d9d",
       "name": "Anuj Tandon",
       "episodeIds": [
         "VIlfHB7Jk2s"
@@ -4630,7 +4668,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02869c6a",
+      "id": "guest-03933492",
       "name": "Arun Chandavarkar",
       "episodeIds": [
         "58i057QXl1A"
@@ -4659,7 +4697,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0564d00f",
+      "id": "guest-04701b82",
       "name": "Aseem Dhru",
       "episodeIds": [
         "Kt6YqZLV1Fo"
@@ -4675,7 +4713,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0509d4f9",
+      "id": "guest-04e4113e",
       "name": "Ashish Mohan",
       "episodeIds": [
         "wnK8Ymzp0rQ"
@@ -4706,7 +4744,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-012a1a42",
+      "id": "guest-01bb1b49",
       "name": "Ashish Wadhwani",
       "episodeIds": [
         "wnK8Ymzp0rQ"
@@ -4737,7 +4775,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0497bd90",
+      "id": "guest-027177cb",
       "name": "Ashu Suyash",
       "episodeIds": [
         "7ka9jrX-M5U"
@@ -4758,7 +4796,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05cbdb4d",
+      "id": "guest-034b15d0",
       "name": "Ashutosh Valani",
       "episodeIds": [
         "STV4s8_QqVw"
@@ -4780,7 +4818,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05d3b59a",
+      "id": "guest-023792a0",
       "name": "Bhakti Modi",
       "episodeIds": [
         "AdI_XWv-ZTk"
@@ -4801,7 +4839,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04d4ca04",
+      "id": "guest-04cd8f02",
       "name": "Bhavna Suresh",
       "episodeIds": [
         "xjuvJK5Jm44"
@@ -4826,7 +4864,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-042078b0",
+      "id": "guest-041afb79",
       "name": "Bhumi Pednekar",
       "episodeIds": [
         "2q7-cTPwf-g"
@@ -4846,7 +4884,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-052bed6a",
+      "id": "guest-00099836",
       "name": "Bill Gates",
       "episodeIds": [
         "YY7J1pHfSyY"
@@ -4864,7 +4902,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03778ce5",
+      "id": "guest-02c8eee6",
       "name": "Brett Adcock",
       "episodeIds": [
         "fL2wyVLX08o"
@@ -4882,7 +4920,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0003c0ab",
+      "id": "guest-00c00c7f",
       "name": "Bryan Johnson",
       "episodeIds": [
         "fEUoJSTYtyc"
@@ -4907,7 +4945,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02647811",
+      "id": "guest-03fbc1b2",
       "name": "Carl Pei",
       "episodeIds": [
         "lRjprPQHuXw"
@@ -4926,7 +4964,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-057ad78b",
+      "id": "guest-02b0eb6a",
       "name": "Carlos (CEO of Tracio)",
       "episodeIds": [
         "xjuvJK5Jm44"
@@ -4951,7 +4989,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-009fc688",
+      "id": "guest-01114d3c",
       "name": "Chamath Palihapitiya",
       "episodeIds": [
         "hAgqDdPgA3g"
@@ -4969,7 +5007,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05e55fd6",
+      "id": "guest-04459a73",
       "name": "Chetan Maini",
       "episodeIds": [
         "iuyy1bIgR1s"
@@ -4994,7 +5032,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-035f8d76",
+      "id": "guest-02c6ad68",
       "name": "Christopher Luxon",
       "episodeIds": [
         "tlicx3KKzmQ"
@@ -5012,7 +5050,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01eb9b37",
+      "id": "guest-05161e61",
       "name": "Dara Khosrowshahi",
       "episodeIds": [
         "2B8gABDfh7I"
@@ -5030,7 +5068,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0154c7a8",
+      "id": "guest-034900d3",
       "name": "Dario Amodei",
       "episodeIds": [
         "68ylaeBbdsg"
@@ -5048,7 +5086,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01f10235",
+      "id": "guest-03a949a6",
       "name": "Deven Parulekar",
       "episodeIds": [
         "I57n5qEC7dU"
@@ -5064,7 +5102,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-047045fa",
+      "id": "guest-04762bae",
       "name": "Diipa Khosla",
       "episodeIds": [
         "AdI_XWv-ZTk"
@@ -5085,7 +5123,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01244c27",
+      "id": "guest-04d26c35",
       "name": "Dinesh Nayak",
       "episodeIds": [
         "58i057QXl1A"
@@ -5114,7 +5152,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0458c95b",
+      "id": "guest-025f2ef0",
       "name": "Dipesh Gaur",
       "episodeIds": [
         "AdI_XWv-ZTk"
@@ -5135,7 +5173,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-003acd85",
+      "id": "guest-02520cf9",
       "name": "Dr. Janti",
       "episodeIds": [
         "lJ3Wt-ng1Ls"
@@ -5159,7 +5197,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00a821d2",
+      "id": "guest-004046ee",
       "name": "Dr. Ramesh",
       "episodeIds": [
         "9Hlv4BMmxPU"
@@ -5186,7 +5224,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02829d28",
+      "id": "guest-0562a804",
       "name": "Elon Musk",
       "episodeIds": [
         "Rni7Fz7208c"
@@ -5204,7 +5242,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03db25be",
+      "id": "guest-01afa006",
       "name": "Founders of Reva",
       "episodeIds": [
         "iuyy1bIgR1s"
@@ -5229,7 +5267,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00fed393",
+      "id": "guest-01933255",
       "name": "Gaurav Munjal",
       "episodeIds": [
         "01qfxLY2rhQ"
@@ -5249,7 +5287,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-003396fb",
+      "id": "guest-02cd7c07",
       "name": "Ghazal Alagh",
       "episodeIds": [
         "FPV5fAkqyBs"
@@ -5272,7 +5310,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02b75c7f",
+      "id": "guest-012cf6b2",
       "name": "Irfan Razack",
       "episodeIds": [
         "LqSEfz4YUFA"
@@ -5291,7 +5329,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03584c86",
+      "id": "guest-016b5b86",
       "name": "Jay Kotak",
       "episodeIds": [
         "01qfxLY2rhQ"
@@ -5311,7 +5349,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-040466ff",
+      "id": "guest-05d46cab",
       "name": "Jitendra Chouksey",
       "episodeIds": [
         "fEUoJSTYtyc"
@@ -5336,7 +5374,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-032f2f43",
+      "id": "guest-016709c4",
       "name": "KL Rahul",
       "episodeIds": [
         "2_yA6GoqUnY"
@@ -5355,7 +5393,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02773f3a",
+      "id": "guest-022e4175",
       "name": "Kaivalya Vohra",
       "episodeIds": [
         "nGpir4oUfJI"
@@ -5380,7 +5418,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-022774df",
+      "id": "guest-024c3e0f",
       "name": "Kanan Gill",
       "episodeIds": [
         "SkU3J2vWUK8"
@@ -5399,7 +5437,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-031a98f8",
+      "id": "guest-000ae23b",
       "name": "Karan Johar",
       "episodeIds": [
         "wo_8CxZNXkM"
@@ -5417,7 +5455,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04d00458",
+      "id": "guest-014a6beb",
       "name": "Karan Virwani",
       "episodeIds": [
         "LqSEfz4YUFA"
@@ -5436,7 +5474,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-008ae1b3",
+      "id": "guest-047938e4",
       "name": "Karthik R.",
       "episodeIds": [
         "zCTm1wHcfkI"
@@ -5461,7 +5499,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02b43b82",
+      "id": "guest-03327f1b",
       "name": "Kent Yoshimura",
       "episodeIds": [
         "-b12vdrC_-8"
@@ -5477,7 +5515,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05c2db43",
+      "id": "guest-023a69a0",
       "name": "Kiran Mazumdar-Shaw",
       "episodeIds": [
         "58i057QXl1A"
@@ -5506,7 +5544,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03254f35",
+      "id": "guest-0445bc98",
       "name": "Kriti Sanon",
       "episodeIds": [
         "2_yA6GoqUnY"
@@ -5525,7 +5563,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05a62093",
+      "id": "guest-03da044a",
       "name": "Kunal Bahl",
       "episodeIds": [
         "DvL1bJMB_p4"
@@ -5543,7 +5581,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05da0b69",
+      "id": "guest-02d8932e",
       "name": "Les Hawkins",
       "episodeIds": [
         "58i057QXl1A"
@@ -5572,7 +5610,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05916b64",
+      "id": "guest-037a6552",
       "name": "Manish Poddar",
       "episodeIds": [
         "FPV5fAkqyBs"
@@ -5595,7 +5633,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0177aa27",
+      "id": "guest-003ad412",
       "name": "Mati Staniszewski",
       "episodeIds": [
         "ef3D5Ak1HP4"
@@ -5613,7 +5651,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-009a1904",
+      "id": "guest-01564297",
       "name": "Matt Chitharanjan",
       "episodeIds": [
         "wHQiewz8k9g"
@@ -5637,7 +5675,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-001213b5",
+      "id": "guest-02ff9487",
       "name": "Mirik Gogri",
       "episodeIds": [
         "2q7-cTPwf-g"
@@ -5657,7 +5695,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04956599",
+      "id": "guest-00b88055",
       "name": "Murali Krishnan",
       "episodeIds": [
         "58i057QXl1A"
@@ -5686,7 +5724,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-043ab56f",
+      "id": "guest-01fd6746",
       "name": "Nandan Nilekani",
       "episodeIds": [
         "58i057QXl1A"
@@ -5715,7 +5753,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03cd6161",
+      "id": "guest-011284a3",
       "name": "Navroz Dubash",
       "episodeIds": [
         "2q7-cTPwf-g"
@@ -5735,7 +5773,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05d777a5",
+      "id": "guest-00815a2c",
       "name": "Navya Naveli Nanda",
       "episodeIds": [
         "nGpir4oUfJI"
@@ -5760,7 +5798,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04bc15eb",
+      "id": "guest-025ded74",
       "name": "Neal Mohan",
       "episodeIds": [
         "8uFOBdle3WY"
@@ -5778,7 +5816,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02034a9d",
+      "id": "guest-05b69f2c",
       "name": "Nikesh Arora",
       "episodeIds": [
         "vPvnzWoK24Q"
@@ -5796,7 +5834,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-014fb22f",
+      "id": "guest-0152016e",
       "name": "Nikhil (Udaan)",
       "episodeIds": [
         "UKag4LVAEdU"
@@ -5817,7 +5855,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01791100",
+      "id": "guest-006b73b9",
       "name": "Nikhil Garmad",
       "episodeIds": [
         "58i057QXl1A"
@@ -5846,7 +5884,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01fe537b",
+      "id": "guest-01e22f15",
       "name": "Nikhil Sharma",
       "episodeIds": [
         "AdI_XWv-ZTk"
@@ -5867,7 +5905,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0154ea72",
+      "id": "guest-00596543",
       "name": "Nikita, Anmol, Aram, Albinder",
       "episodeIds": [
         "7O9zclnd-Hs"
@@ -5883,7 +5921,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-024e745f",
+      "id": "guest-03c5ac0d",
       "name": "Nikita, Twinkle, Raji, Prachi, Shantanu, Vinita, Bhavi Agarwal, Nito, Kirti",
       "episodeIds": [
         "ezaFpL_EMEk"
@@ -5899,7 +5937,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02c82bc9",
+      "id": "guest-028a3a82",
       "name": "Nirupa Shankar",
       "episodeIds": [
         "LqSEfz4YUFA"
@@ -5918,7 +5956,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-005e5c45",
+      "id": "guest-00451069",
       "name": "Nuseir Yassin",
       "episodeIds": [
         "JjDjDvNgkFo"
@@ -5943,7 +5981,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03616940",
+      "id": "guest-04e51594",
       "name": "Paul Raa",
       "episodeIds": [
         "0JDsFpU6pGQ"
@@ -5968,7 +6006,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01cdfe38",
+      "id": "guest-03d42858",
       "name": "Piyush Pandey",
       "episodeIds": [
         "APU6KeQAANU"
@@ -5984,7 +6022,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01a83e12",
+      "id": "guest-008fb29d",
       "name": "Pooja Dhingra",
       "episodeIds": [
         "M72Wu2rZE7Y"
@@ -6003,7 +6041,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05a2847b",
+      "id": "guest-010735a0",
       "name": "Prashant Gulati",
       "episodeIds": [
         "g0CjWbgsdTQ"
@@ -6022,7 +6060,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03ad944f",
+      "id": "guest-04261ba9",
       "name": "Prashanth P.",
       "episodeIds": [
         "zCTm1wHcfkI"
@@ -6047,7 +6085,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0534009d",
+      "id": "guest-02d01001",
       "name": "Pravin Bhagvat",
       "episodeIds": [
         "jHFidX2ngQs"
@@ -6071,7 +6109,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0333eaa6",
+      "id": "guest-014f1909",
       "name": "Punit Goyal",
       "episodeIds": [
         "iuyy1bIgR1s"
@@ -6096,7 +6134,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02c9ebef",
+      "id": "guest-05165787",
       "name": "Puran Chan Jain",
       "episodeIds": [
         "58i057QXl1A"
@@ -6125,7 +6163,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-038162a0",
+      "id": "guest-03208588",
       "name": "Raghav Arora",
       "episodeIds": [
         "iuyy1bIgR1s"
@@ -6150,7 +6188,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02335fe0",
+      "id": "guest-013fd657",
       "name": "Rahul Reddy",
       "episodeIds": [
         "wHQiewz8k9g"
@@ -6174,7 +6212,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-027cd05b",
+      "id": "guest-04e9f9d8",
       "name": "Rahul Sharma",
       "episodeIds": [
         "lRjprPQHuXw"
@@ -6193,7 +6231,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-049cae40",
+      "id": "guest-04d7457d",
       "name": "Raj Shamani",
       "episodeIds": [
         "hjiZ11lKCrU"
@@ -6216,7 +6254,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0036e082",
+      "id": "guest-014f6507",
       "name": "Rajan A.",
       "episodeIds": [
         "zCTm1wHcfkI"
@@ -6241,7 +6279,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-046cf937",
+      "id": "guest-02f18f5a",
       "name": "Ranveer Allahbadia",
       "episodeIds": [
         "JjDjDvNgkFo"
@@ -6266,7 +6304,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05431439",
+      "id": "guest-053d8d50",
       "name": "Ray Dalio",
       "episodeIds": [
         "0YKTsHr5bDE"
@@ -6284,7 +6322,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04877b72",
+      "id": "guest-05eedd71",
       "name": "Revant Bhate",
       "episodeIds": [
         "jHFidX2ngQs"
@@ -6308,7 +6346,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0549cc02",
+      "id": "guest-01e42c7c",
       "name": "Ritesh Agarwal",
       "episodeIds": [
         "FPV5fAkqyBs"
@@ -6331,7 +6369,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0010dd47",
+      "id": "guest-0101df5a",
       "name": "Riyaaz Amlani",
       "episodeIds": [
         "M72Wu2rZE7Y"
@@ -6350,7 +6388,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04836f10",
+      "id": "guest-0594a480",
       "name": "Rohit Kapoor",
       "episodeIds": [
         "7Hgjat4MVeM"
@@ -6366,7 +6404,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05120348",
+      "id": "guest-053e42a6",
       "name": "Ronnie Screwvala",
       "episodeIds": [
         "01qfxLY2rhQ"
@@ -6386,7 +6424,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-037ca03b",
+      "id": "guest-024ae4dd",
       "name": "Ruchi Kalva",
       "episodeIds": [
         "wnK8Ymzp0rQ"
@@ -6417,7 +6455,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04564e3e",
+      "id": "guest-048bdd4d",
       "name": "Ruchi Singhi",
       "episodeIds": [
         "wnK8Ymzp0rQ"
@@ -6448,7 +6486,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-025f4264",
+      "id": "guest-04ba3ecb",
       "name": "Sajith S.",
       "episodeIds": [
         "hNV6urpwrk8"
@@ -6470,7 +6508,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03402748",
+      "id": "guest-0562f04f",
       "name": "Sajith Sivanandan",
       "episodeIds": [
         "hNV6urpwrk8"
@@ -6492,7 +6530,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04fd962c",
+      "id": "guest-00f61f70",
       "name": "Sam Altman",
       "episodeIds": [
         "SfOaZIGJ_gs"
@@ -6510,7 +6548,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03f7d824",
+      "id": "guest-053fcc3a",
       "name": "Samir Palatkar",
       "episodeIds": [
         "jHFidX2ngQs"
@@ -6534,7 +6572,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03236371",
+      "id": "guest-00234d17",
       "name": "Scott Gear KTS Orion",
       "episodeIds": [
         "xjuvJK5Jm44"
@@ -6559,7 +6597,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01752ef0",
+      "id": "guest-02fac047",
       "name": "Sean Hyunil Sohn",
       "episodeIds": [
         "VIlfHB7Jk2s"
@@ -6578,7 +6616,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00ef2dad",
+      "id": "guest-05627898",
       "name": "Seema Singh",
       "episodeIds": [
         "fEUoJSTYtyc"
@@ -6603,7 +6641,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01f7aa15",
+      "id": "guest-0331a2be",
       "name": "Shantanu Bhanja",
       "episodeIds": [
         "5kyQU4NsOVY"
@@ -6621,7 +6659,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-050ad636",
+      "id": "guest-0331b9fe",
       "name": "Sharad Sharma",
       "episodeIds": [
         "0JDsFpU6pGQ"
@@ -6646,7 +6684,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-003278dd",
+      "id": "guest-00766259",
       "name": "Shri Kumar",
       "episodeIds": [
         "58i057QXl1A"
@@ -6675,7 +6713,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-032241da",
+      "id": "guest-0034b86a",
       "name": "Siddhartha Shah",
       "episodeIds": [
         "gpv6X6E3Qxw"
@@ -6696,7 +6734,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01daaf68",
+      "id": "guest-03cbac8f",
       "name": "Suhasini Sampath",
       "episodeIds": [
         "Saymmw8_Gv0"
@@ -6712,7 +6750,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01772581",
+      "id": "guest-058748bd",
       "name": "Sujeet Kumar",
       "episodeIds": [
         "UKag4LVAEdU"
@@ -6733,7 +6771,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-020ff38d",
+      "id": "guest-03a68f17",
       "name": "Sukhleen Aneja",
       "episodeIds": [
         "HRWOycI1YTw"
@@ -6752,7 +6790,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02f18bc2",
+      "id": "guest-05b913ec",
       "name": "Suniel Shetty",
       "episodeIds": [
         "6HE6d0lKh4o"
@@ -6772,7 +6810,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04622edb",
+      "id": "guest-037a4ff6",
       "name": "Sunil Shetty",
       "episodeIds": [
         "wo_8CxZNXkM"
@@ -6790,7 +6828,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-015e735c",
+      "id": "guest-04488d8c",
       "name": "Sunita Narain",
       "episodeIds": [
         "2q7-cTPwf-g"
@@ -6810,7 +6848,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00fee04c",
+      "id": "guest-01e0e4d4",
       "name": "Surya Narayan",
       "episodeIds": [
         "58i057QXl1A"
@@ -6839,7 +6877,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-018f8fe5",
+      "id": "guest-0336456c",
       "name": "Tara Sutaria",
       "episodeIds": [
         "nGpir4oUfJI"
@@ -6864,7 +6902,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-048cdb6f",
+      "id": "guest-01abd128",
       "name": "Tarun Mehta",
       "episodeIds": [
         "iuyy1bIgR1s"
@@ -6889,7 +6927,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02b5d732",
+      "id": "guest-00243249",
       "name": "Varun Mayya",
       "episodeIds": [
         "-HkBwSazZsM"
@@ -6913,7 +6951,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0592dd16",
+      "id": "guest-044bc9b5",
       "name": "Vidit Aatrey",
       "episodeIds": [
         "UKag4LVAEdU"
@@ -6934,7 +6972,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03903d76",
+      "id": "guest-029995c7",
       "name": "Vijay S.",
       "episodeIds": [
         "hNV6urpwrk8"
@@ -6956,7 +6994,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-020d3be2",
+      "id": "guest-00f9b5bd",
       "name": "Vijay Subramaniam",
       "episodeIds": [
         "hNV6urpwrk8"
@@ -6978,7 +7016,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0395a8f9",
+      "id": "guest-05b8b44f",
       "name": "Vikas (Meesho)",
       "episodeIds": [
         "UKag4LVAEdU"
@@ -6999,7 +7037,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04dfde9d",
+      "id": "guest-055256ca",
       "name": "Vikram Achanta",
       "episodeIds": [
         "0JDsFpU6pGQ"
@@ -7024,7 +7062,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0538906a",
+      "id": "guest-0340edd7",
       "name": "Vineeta Singh",
       "episodeIds": [
         "C1pQE1aLX7A"
@@ -7040,7 +7078,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01cfed14",
+      "id": "guest-021f0f97",
       "name": "Vinod Khosla",
       "episodeIds": [
         "O7O204wD82s"
@@ -7056,7 +7094,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00de96d1",
+      "id": "guest-02f85ab7",
       "name": "Vivek Biyani",
       "episodeIds": [
         "jHFidX2ngQs"
@@ -7080,7 +7118,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03bd8dd9",
+      "id": "guest-0307a361",
       "name": "Yuval Noah Harari",
       "episodeIds": [
         "N0S048D2tj4"
@@ -7098,7 +7136,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-014f0aa7",
+      "id": "guest-0339f54a",
       "name": "Zorawar Kalra",
       "episodeIds": [
         "M72Wu2rZE7Y"

@@ -641,6 +641,11 @@ def reload_from_deep(ep: dict[str, Any]) -> dict[str, Any]:
 
 def clean_episode(ep: dict[str, Any]) -> dict[str, Any]:
     ep = reload_from_deep(ep)
+    # Always derive a working YouTube URL from the videoId — half the catalog
+    # came in with an empty sourceUrl, which silently broke "Watch Source
+    # Stream" in the detail panel.
+    if not ep.get("sourceUrl") and ep.get("id"):
+        ep["sourceUrl"] = f"https://www.youtube.com/watch?v={ep['id']}"
     ep["strategySnippets"] = [
         s
         for s in ep.get("strategySnippets", [])
@@ -817,6 +822,18 @@ def main() -> None:
     library_resource_count = (
         sum(len(s["items"]) for s in founder_library["sections"]) if founder_library else 0
     )
+    # Sum transcript word counts from deep extracts (deep_path same as id)
+    total_words = 0
+    for ep in cleaned_catalog:
+        if ep.get("stub"):
+            continue
+        deep_path = DEEP_DIR / f"{ep['id']}.json"
+        if deep_path.exists():
+            try:
+                d = json.loads(deep_path.read_text())
+                total_words += int(d.get("word_count", 0))
+            except Exception:
+                pass
 
     out = dict(brain)
     out["meta"] = {
@@ -832,6 +849,7 @@ def main() -> None:
         "totalStrategies": total_strategies,
         "totalMarketGaps": total_gaps,
         "totalLibraryResources": library_resource_count,
+        "totalWordsProcessed": total_words,
         "extractionMethod": "deterministic (no LLM at synthesis time)",
         "note": (
             f"Synthesised from {len(cleaned_catalog)} indexed episodes and "
