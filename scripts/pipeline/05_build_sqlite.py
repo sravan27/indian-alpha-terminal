@@ -12,7 +12,7 @@ import glob
 # Paths
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT_DIR, "..", "data")
-EXTRACTED_DIR = os.path.join(DATA_DIR, "extracted")
+EXTRACTED_DIR = os.path.join(DATA_DIR, "deep_extracted")
 TRANSCRIPT_DIR = os.path.join(DATA_DIR, "transcripts")
 TAURI_DIR = os.path.join(ROOT_DIR, "..", "src-tauri")
 
@@ -70,8 +70,9 @@ def build_db():
     # 1. Load Extracted Intelligence (Metadata)
     count = 0
     words = 0
-    extracted_files = glob.glob(os.path.join(EXTRACTED_DIR, "*.json"))
-    
+    extracted_files = [f for f in glob.glob(os.path.join(EXTRACTED_DIR, "*.json"))
+                       if not os.path.basename(f).startswith("_")]
+
     for ext_file in extracted_files:
         with open(ext_file, "r") as f:
             data = json.load(f)

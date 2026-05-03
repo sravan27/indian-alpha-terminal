@@ -8,7 +8,7 @@
 
 ## What it is
 
-A 100% offline native app that holds **71 indexed episodes**, **8 verified founder playbooks**, **51 sourced strategies**, **29 ranked market gaps**, and a hand-curated **71-resource Indian Founder Library**, all queryable in sub-millisecond against a bundled SQLite FTS5 index.
+A 100% offline native app that holds **75 indexed episodes**, **8 verified founder playbooks**, **62 sourced strategies**, **39 ranked market gaps**, and a hand-curated **71-resource Indian Founder Library**, all queryable in sub-millisecond against a bundled SQLite FTS5 index across **1.12 million words** of transcript.
 
 The shows you produced are now infrastructure, not inspiration.
 
@@ -18,11 +18,12 @@ The shows you produced are now infrastructure, not inspiration.
 
 | Layer | Count | What it does |
 |---|---|---|
-| **Episodes** | 71 indexed (57 deep-extracted + 14 stubs) | Real transcripts, real timestamps, real source URLs |
+| **Episodes** | 75 indexed (61 deep-extracted + 14 seed-list stubs) | Real transcripts, real timestamps, real source URLs |
+| **Words processed** | 1,119,796 | Filtered through a deterministic specificity gate |
 | **Verified Playbooks** | 8 | Hand-curated dossiers — thesis, framework, market whitespace, resource stack |
-| **Strategies** | 51 | Specific, sourced claims — every line traceable to a speaker |
-| **Market Gaps** | 29 | Severity-tagged, capital-tier-mapped, TAM-sized |
-| **Operators** | 90+ | Including 2 cross-show validators (Shantanu Deshpande, Mukesh Bansal) |
+| **Strategies** | 62 | Specific, sourced claims — every line traceable to a speaker |
+| **Market Gaps** | 39 | Severity-tagged, capital-tier-mapped, TAM-sized |
+| **Operators** | 145 | Including 2 cross-show validators (Shantanu Deshpande, Mukesh Bansal) |
 | **Founder Library** | 71 link-verified resources | Govt rails, capital sources, books, compliance, communities, learning |
 
 ---

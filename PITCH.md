@@ -9,13 +9,14 @@
 ## Cold-open numbers (memorise these)
 
 ```
-57 deep-extracted episodes        — both shows, transcript-grade
-8 verified founder playbooks       — 100% hand-curated dossiers
-51 high-signal strategies          — every line traceable to a speaker
-29 market gaps                     — sourced, ranked, severity-tagged
-71 link-verified resources         — Indian Founder Library
-2 cross-show operators             — Shantanu & Mukesh Bansal
-14 topic clusters                  — across Capital, D2C, AI, Health, etc.
+75 indexed episodes               — 61 deep-extracted + 14 seed-list stubs
+1,119,796 words processed         — full transcript corpus
+8 verified founder playbooks      — 100% hand-curated dossiers
+62 high-signal strategies         — every line traceable to a speaker
+39 market gaps                    — sourced, ranked, severity-tagged
+145 operators                     — including 2 cross-show validators
+71 link-verified resources        — Indian Founder Library
+19 topic clusters                 — across Capital, D2C, AI, Health, etc.
 ```
 
 These are in the footer — let them appear before you say a word.
@@ -27,13 +28,13 @@ These are in the footer — let them appear before you say a word.
 | Time  | Action | What you say |
 |---|---|---|
 | 0:00  | Double-click `India Alpha.app` | "100% offline. Zero network. The app reads its own SQLite brain." |
-| 0:05  | Boot sequence (~2 s) finishes; **Alpha Matrix** loads by default | "29 ranked market gaps from your transcripts. Severity, TAM, capital tier." |
+| 0:05  | Boot sequence (~2 s) finishes; **Alpha Matrix** loads by default | "39 ranked market gaps from your transcripts. Severity, TAM, capital tier." |
 | 0:15  | Click any **CRITICAL** row — detail panel slides in from the right | "Each row clicks through to the source episode. *Watch Source Stream* opens YouTube." |
 | 0:30  | Click **GRID** in the top toggle | "8 verified playbooks. Each one is a hand-curated dossier — thesis, framework, market whitespace, resource stack." |
 | 0:45  | Click **LIBRARY** | "71 verified resources. Government rails, capital sources, books, compliance, communities. Every link checked." |
 | 0:55  | Click **Capital · Private funds** pill | "Rainmatter is in here. WTFund is in here. Flagged as `★ WTF host fund` so a young founder sees them first." |
 | 1:05  | Click **NEURAL** | "Knowledge graph. Hosts at the centre. 8 violet playbook nodes anchored to source episodes. Two amber nodes — Shantanu and Mukesh Bansal — bridging both shows." |
-| 1:15  | Toggle **Strategies** in the Lens panel | "51 specific, sourced claims. Hover any rose dot — speaker, full text, episode." |
+| 1:15  | Toggle **Strategies** in the Lens panel | "62 specific, sourced claims. Hover any rose dot — speaker, full text, episode." |
 | 1:25  | Hit **`Cmd .`** (Pitch Mode) | "11-slide deck for any audience that doesn't have time for the full app." |
 | 1:30  | "**Built for** *Nikhil Kamath · Shantanu Deshpande*" appears as slide one | *Pause. Let it land.* |
 
@@ -66,7 +67,7 @@ These are in the footer — let them appear before you say a word.
 - Workspace overlay (90-day plan generator)
 
 ❌ **Do not promise:**
-- 100% episode coverage — corpus is currently **57 of 171** (114 IP-blocked, ingestion script is checked-in and idempotent; runs overnight)
+- 100% episode coverage — corpus is currently **75 of 171** (96 IP-blocked, ingestion script is checked-in and idempotent; runs overnight)
 - Real-time updates — the brain regenerates by re-running `synthesize_pitch_brain.py`
 - Multi-user / web — the offline-native pitch is the moat
 
@@ -132,6 +133,6 @@ If they ask "show me a single source of truth", point at the dossiers folder. 8 
 
 1. Disable Wi-Fi. Make them watch you do it.
 2. Re-open `India Alpha.app`.
-3. Confirm the footer says **57 episodes · 90 operators · 8 playbooks**.
+3. Confirm the footer says **75 episodes · 145 operators · 8 playbooks**.
 4. Confirm `bash scripts/ingest_status.sh` shows the 114 missing transcripts as a roadmap, not a gap.
 5. Breathe.
