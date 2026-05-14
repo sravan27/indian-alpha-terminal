@@ -48,7 +48,7 @@ interface PaletteResult {
 }
 
 export interface OmniAction {
-  type: "open-episode" | "open-playbook" | "open-thesis" | "open-pitch" | "open-workspace" | "filter-category" | "open-library" | "open-library-resource";
+  type: "open-episode" | "open-playbook" | "open-thesis" | "open-pitch" | "open-workspace" | "filter-category" | "open-library" | "open-library-resource" | "open-thread";
   id?: string;
   url?: string;
 }
@@ -56,6 +56,7 @@ export interface OmniAction {
 const COMMANDS: { trigger: string; label: string; description: string; action: OmniAction }[] = [
   { trigger: "/pitch", label: "Enter Pitch Mode", description: "Cinematic auto-cycling presentation of the top theses", action: { type: "open-pitch" } },
   { trigger: "/library", label: "Open Founder Library", description: "Hand-curated, link-verified Indian-founder resource catalogue", action: { type: "open-library" } },
+  { trigger: "/thread", label: "Open Thread Pull", description: "Search any topic and see everything related — episodes, operators, strategies, resources", action: { type: "open-thread", id: "" } },
   { trigger: "/workspace", label: "Open Workspace · top thesis", description: "Compile a full Founder OS workspace from the #1 ranked thesis", action: { type: "open-workspace" } },
   { trigger: "/thesis", label: "Browse all theses", description: "Jump to the Investment Theses view", action: { type: "open-thesis" } },
 ];
@@ -275,6 +276,17 @@ export function OmniSearch({
     const fetchResults = async () => {
       const q = query.trim();
       const local = buildLocalResults(q);
+
+      // Always add "Deep Dive" thread-pull option as first result when query is substantive
+      if (q.length >= 3 && !q.startsWith("/")) {
+        local.unshift({
+          kind: "command",
+          id: `thread-${q}`,
+          title: `Deep Dive → Pull everything about "${q}"`,
+          subtitle: "Thread Pull · Every episode, operator, strategy, market gap, and resource",
+          payload: { type: "open-thread", id: q } as OmniAction,
+        });
+      }
 
       if (q.startsWith("/") || !q) {
         if (alive) setResults(local);

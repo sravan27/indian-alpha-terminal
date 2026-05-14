@@ -16,6 +16,7 @@ import { BootSequence } from "./boot-sequence";
 import { AlphaMatrix } from "./views/alpha-matrix";
 import { ThesesView } from "./views/theses-view";
 import { FounderLibraryView } from "./views/founder-library-view";
+import { ThreadView } from "./views/thread-view";
 import { detectNative } from "@/lib/tauri-client";
 import { WorkspaceOverlay, type WorkspaceSeed } from "./workspace-overlay";
 import { PitchMode } from "./pitch-mode";
@@ -64,7 +65,8 @@ type DetailPanel =
     const [searchTerm, setSearchTerm] = useState("");
     // Default view: "alpha" gives the strongest first impression — 21 critical
     // signals, ranked, sortable. Investors land here and immediately see scale.
-    const [viewMode, setViewMode] = useState<"grid" | "neural" | "alpha" | "theses" | "library">("alpha");
+    const [viewMode, setViewMode] = useState<"grid" | "neural" | "alpha" | "theses" | "library" | "thread">("alpha");
+    const [threadQuery, setThreadQuery] = useState("");
     const [, setSelectedNode] = useState<unknown | null>(null);
     const [isOmniOpen, setIsOmniOpen] = useState(false);
     const [isCopilotOpen, setIsCopilotOpen] = useState(false);
@@ -136,6 +138,11 @@ type DetailPanel =
       setIsWorkspaceOpen(true);
     }, []);
 
+    const openThread = useCallback((query: string) => {
+      setThreadQuery(query);
+      setViewMode("thread");
+    }, []);
+
     const handleOmniAction = useCallback((action: OmniAction) => {
       switch (action.type) {
         case "open-pitch":
@@ -168,8 +175,11 @@ type DetailPanel =
         case "filter-category":
           if (action.id) setActiveCategory(action.id);
           break;
+        case "open-thread":
+          if (action.id) openThread(action.id);
+          break;
       }
-    }, [data, openEpisodeById, openPlaybookById, openWorkspaceForThesis]);
+    }, [data, openEpisodeById, openPlaybookById, openWorkspaceForThesis, openThread]);
   
     const creatorMap = useMemo(
       () => Object.fromEntries(data.creators.map((c) => [c.id, c.handle] as const)),
@@ -845,6 +855,13 @@ type DetailPanel =
                 <BookOpen className="w-3 h-3" /> Library
               </button>
               <button
+                onClick={() => { setThreadQuery(""); setViewMode("thread"); }}
+                className={`shrink-0 px-2.5 sm:px-4 h-full rounded-lg text-[11px] font-bold uppercase tracking-[0.1em] transition-all flex items-center justify-center gap-1.5 ${viewMode === "thread" ? "bg-violet-500/15 text-violet-200 ring-1 ring-violet-500/40" : "text-stone-500 hover:text-violet-300"}`}
+                title="Thread Pull — search any topic and see everything related"
+              >
+                <Search className="w-3 h-3" /> Thread
+              </button>
+              <button
                 onClick={() => setViewMode("neural")}
                 className={`shrink-0 px-2.5 sm:px-4 h-full rounded-lg text-[11px] font-bold uppercase tracking-[0.1em] transition-all flex items-center justify-center ${viewMode === "neural" ? "bg-white/[0.08] text-white" : "text-stone-500 hover:text-white"}`}
               >
@@ -908,7 +925,7 @@ type DetailPanel =
           )}
   
           {/* Center — Content */}
-          <main className={`flex-1 min-w-0 overflow-hidden relative ${viewMode === 'grid' ? 'bg-[#09090b]' : viewMode === 'alpha' || viewMode === 'theses' || viewMode === 'library' ? 'bg-black' : ''}`}>
+          <main className={`flex-1 min-w-0 overflow-hidden relative ${viewMode === 'grid' ? 'bg-[#09090b]' : viewMode === 'alpha' || viewMode === 'theses' || viewMode === 'library' || viewMode === 'thread' ? 'bg-black' : ''}`}>
             
             {viewMode === "grid" && (
               <div className="h-full overflow-y-auto custom-scrollbar">
@@ -994,6 +1011,16 @@ type DetailPanel =
             )}
 
             {viewMode === "library" && <FounderLibraryView data={data} />}
+
+            {viewMode === "thread" && (
+              <ThreadView
+                data={data}
+                initialQuery={threadQuery}
+                onBack={() => setViewMode("alpha")}
+                onOpenEpisode={(ep) => openDetail({ type: "episode", data: ep })}
+                onOpenPlaybook={(pb) => openDetail({ type: "playbook", data: pb })}
+              />
+            )}
   
           </main>
   

@@ -9,14 +9,15 @@
 ## Cold-open numbers (memorise these)
 
 ```
-75 indexed episodes               — 61 deep-extracted + 14 seed-list stubs
-1,119,796 words processed         — full transcript corpus
-8 verified founder playbooks      — 100% hand-curated dossiers
-62 high-signal strategies         — every line traceable to a speaker
-39 market gaps                    — sourced, ranked, severity-tagged
-145 operators                     — including 2 cross-show validators
-71 link-verified resources        — Indian Founder Library
-19 topic clusters                 — across Capital, D2C, AI, Health, etc.
+110 indexed episodes               — 65% coverage of the full WTF + BarberShop archive
+1,737,663 words processed          — full transcript corpus
+8 verified founder playbooks       — 100% hand-curated dossiers
+62 high-signal strategies          — every line traceable to a speaker
+39 market gaps                     — sourced, ranked, severity-tagged
+145+ operators                     — including 2 cross-show validators
+99 link-verified resources         — Indian Founder Library (10 sections)
+20 topic clusters                  — across Capital, D2C, AI, Health, EV, etc.
+15 founder tool categories         — from payments to analytics
 ```
 
 These are in the footer — let them appear before you say a word.
@@ -27,14 +28,15 @@ These are in the footer — let them appear before you say a word.
 
 | Time  | Action | What you say |
 |---|---|---|
-| 0:00  | Double-click `India Alpha.app` | "100% offline. Zero network. The app reads its own SQLite brain." |
+| 0:00  | Double-click `India Alpha.app` | "100% offline. Zero network. The app reads its own SQLite brain — 110 episodes, 1.7M words." |
 | 0:05  | Boot sequence (~2 s) finishes; **Alpha Matrix** loads by default | "39 ranked market gaps from your transcripts. Severity, TAM, capital tier." |
 | 0:15  | Click any **CRITICAL** row — detail panel slides in from the right | "Each row clicks through to the source episode. *Watch Source Stream* opens YouTube." |
-| 0:30  | Click **GRID** in the top toggle | "8 verified playbooks. Each one is a hand-curated dossier — thesis, framework, market whitespace, resource stack." |
-| 0:45  | Click **LIBRARY** | "71 verified resources. Government rails, capital sources, books, compliance, communities. Every link checked." |
-| 0:55  | Click **Capital · Private funds** pill | "Rainmatter is in here. WTFund is in here. Flagged as `★ WTF host fund` so a young founder sees them first." |
-| 1:05  | Click **NEURAL** | "Knowledge graph. Hosts at the centre. 8 violet playbook nodes anchored to source episodes. Two amber nodes — Shantanu and Mukesh Bansal — bridging both shows." |
-| 1:15  | Toggle **Strategies** in the Lens panel | "62 specific, sourced claims. Hover any rose dot — speaker, full text, episode." |
+| 0:25  | Hit **`Cmd K`** → type "D2C" → click **Deep Dive →** | "Thread Pull. Type any topic and see *everything* — every episode, every operator, every strategy, every resource." |
+| 0:35  | Show the Thread View filling with results | "This is the kill feature. Pick any string and pull the entire graph." |
+| 0:45  | Click **LIBRARY** tab | "99 verified resources across 10 sections. Government schemes, VC funds, open-source tools, market intel." |
+| 0:55  | Click **Open-source founder stack** section | "ERPNext, PostHog, Medusa, n8n — every bootstrapped founder's alternative stack." |
+| 1:05  | Hit **`Cmd J`** → type "What did Aman Gupta say about hiring?" | "Jarvis-level copilot. Conversation memory, citations with timestamps, follow-up awareness. All offline." |
+| 1:15  | Click a suggested follow-up | "It remembers context. Ask 'tell me more' and it knows what you're talking about." |
 | 1:25  | Hit **`Cmd .`** (Pitch Mode) | "11-slide deck for any audience that doesn't have time for the full app." |
 | 1:30  | "**Built for** *Nikhil Kamath · Shantanu Deshpande*" appears as slide one | *Pause. Let it land.* |
 

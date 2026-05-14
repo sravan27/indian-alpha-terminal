@@ -1,23 +1,23 @@
 {
   "meta": {
     "productName": "India Alpha",
-    "generatedAt": "2026-05-03",
-    "indexedEpisodeCount": 75,
+    "generatedAt": "2026-05-07",
+    "indexedEpisodeCount": 110,
     "deepExtractedCount": 38,
     "resourceCount": 52,
     "creatorCount": 2,
-    "guestCount": 145,
-    "categoryCount": 19,
+    "guestCount": 154,
+    "categoryCount": 20,
     "playbookCount": 8,
     "crossShowGuestCount": 2,
-    "totalWordsProcessed": 1119796,
+    "totalWordsProcessed": 1737663,
     "totalStrategies": 62,
     "totalMarketGaps": 39,
     "totalTools": 54,
     "extractionMethod": "deterministic (no LLM at synthesis time)",
-    "note": "Synthesised from 75 indexed episodes and 8 hand-curated dossiers. AI-extracted strategies that failed the specificity gate were dropped. Founder Library is hand-curated and link-verified.",
+    "note": "Synthesised from 110 indexed episodes and 8 hand-curated dossiers. AI-extracted strategies that failed the specificity gate were dropped. Founder Library is hand-curated and link-verified.",
     "verifiedPlaybookCount": 8,
-    "totalLibraryResources": 71
+    "totalLibraryResources": 99
   },
   "creators": [
     {
@@ -3832,11 +3832,1043 @@
       "entitiesProducts": [],
       "entitiesMoney": [],
       "relatedEpisodes": []
+    },
+    {
+      "id": "2nRWYJ3b7Bo",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "2:11:14",
+      "title": "INSIDE THE MIND OF INDIA'S BIGGEST INVESTOR AND WHAT DOES HE LOOK FOR?",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=2nRWYJ3b7Bo",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 18738,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "51gRfs0RtdA",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:20:08",
+      "title": "From Home Tuitions to A $1Bn Acquisition By Byju's: This Is The Story Of Aakash Institute | TBWS",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=51gRfs0RtdA",
+      "status": "deep-extracted",
+      "category": "Consumer",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 3835,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "5v7bbjOaPOk",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:37:45",
+      "title": "INVESTING Money in Real Estate, Resolving the DILEMMA of Renting vs Buying a House & More! | FULL EP",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=5v7bbjOaPOk",
+      "status": "deep-extracted",
+      "category": "Content",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 20497,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "6a4TLZcYCsk",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:46:16",
+      "title": "Hacking Luck, Working at A Multi- Billion Dollar Company and Spotting Unicorns Early | TBWS E10",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=6a4TLZcYCsk",
+      "status": "deep-extracted",
+      "category": "Capital",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 20267,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "9X1vJYbtjG4",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:15:49",
+      "title": "Founder of Software with MILLIONS of Users REVEALS Business Fundamentals, Hiring Strategies | Odoo",
+      "guests": [
+        "MILLIONS of Users REVEALS Business Fundamentals",
+        "Hiring Strategies"
+      ],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=9X1vJYbtjG4",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 14358,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "BSFoT7GQFaU",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:31:45",
+      "title": "India's ₹2,00,000 Crore Alcohol Industry - Can This Startup Disrupt it? | Raiser's Edge",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=BSFoT7GQFaU",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 15380,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "EHlzqt5UrJ8",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:13:26",
+      "title": "How Is This Business Challenging The BIG Players in India's Alcohol Industry? | Raiser's Edge",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=EHlzqt5UrJ8",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 14697,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "GAGK1iWmHlQ",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "2:07:07",
+      "title": "How Urban Company Scaled to a ₹1900 Crore IPO | Co-Founders Share Service Business Secrets",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=GAGK1iWmHlQ",
+      "status": "deep-extracted",
+      "category": "AI",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 19602,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "GvL8IP4vt9Q",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:40:56",
+      "title": "How YouTube Changed Kenny Sebastian's Stand-Up Comedy Career: A Podcast with Shantanu Deshpande",
+      "guests": [
+        "Shantanu Deshpande"
+      ],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=GvL8IP4vt9Q",
+      "status": "deep-extracted",
+      "category": "Content",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 19401,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "IfOIzj3aBBA",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "33:54",
+      "title": "How to Crack Interviews: Lessons from McKinsey, Questions and Framework and Common Mistakes to Avoid",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=IfOIzj3aBBA",
+      "status": "deep-extracted",
+      "category": "Consumer",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 5703,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "JQSADGo4Py4",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:31:30",
+      "title": "How Did this HOMEGROWN Brand Scale to 600 CR Annual Revenue? | Sunil Agarwal | JOY Personal Care",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=JQSADGo4Py4",
+      "status": "deep-extracted",
+      "category": "Consumer",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 12397,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "NacJTU20E-o",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:58:35",
+      "title": "India's Political History, Working With The TATAs and MAHINDRAs & What Can India Do To Be A Leader?",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=NacJTU20E-o",
+      "status": "deep-extracted",
+      "category": "Capital",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 18286,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "QnwK7g6nLS8",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:57:17",
+      "title": "India’s NEWEST B-school, BEATING IIMs & ISB, and Living Up to FAMILY LEGACY | Pratham Mittal | TBWS",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=QnwK7g6nLS8",
+      "status": "deep-extracted",
+      "category": "Education",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 21258,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "RggvCRUVj60",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:36:11",
+      "title": "Failing IIT JEE Twice, The Power of Manifestation & Leading Multi Million Dollar Companies | S2E4",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=RggvCRUVj60",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 15230,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "S56OURXckEQ",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "2:15:54",
+      "title": "Insider Stories About India's BIGGEST ATHLETES: Vinesh Phogat, PV Sindhu, Neeraj Chopra & more |TBWS",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=S56OURXckEQ",
+      "status": "deep-extracted",
+      "category": "General",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 22767,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "SBcEAQ6U1oo",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "44:43",
+      "title": "Inside the Business of Health: @Foodpharmer Shares the Stories Behind Exposing Maggi, Horlicks",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=SBcEAQ6U1oo",
+      "status": "deep-extracted",
+      "category": "Content",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 8392,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "VTFa3od58AE",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "2:01:05",
+      "title": "Former CEO of Indigo, Co-founder of Akasa on Building Great Businesses, Running an Airline in India",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=VTFa3od58AE",
+      "status": "deep-extracted",
+      "category": "Consumer",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 19132,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "W4VzACFtyNQ",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "57:25",
+      "title": "How @Kenny Sebastian and Shantanu Plan to Compete with Davidoff and Chanel with their Perfume",
+      "guests": [
+        "Chanel with their Perfume"
+      ],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=W4VzACFtyNQ",
+      "status": "deep-extracted",
+      "category": "Consumer",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 10839,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "X2mbi6WLPnk",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "55:11",
+      "title": "MASTERCLASS in Entrepreneurship with Chairman of boAt, Founder of BSC & Former CEO Tech Mahindra!",
+      "guests": [
+        "Chairman of boAt",
+        "Founder of BSC",
+        "Former CEO Tech Mahindra!"
+      ],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=X2mbi6WLPnk",
+      "status": "deep-extracted",
+      "category": "AI",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 5682,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "YtrY0oyd-Ls",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "2:22:37",
+      "title": "MASTERCLASS on Business Building in India in 2024, Angel Investing, Good Hiring Practices & More!",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=YtrY0oyd-Ls",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 24201,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "Zh-oLOJxw8E",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:26:47",
+      "title": "How AI and Deepfakes are changing Content Creation for Modern Businesses? Varun Mayya | Shantanu",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=Zh-oLOJxw8E",
+      "status": "deep-extracted",
+      "category": "Consumer",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 19685,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "ZxOhZ_KgtAk",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "2:58:01",
+      "title": "Mamaearth Founders REVEAL How They Built Multiple Brands & A Personal Care Empire | TBWS",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=ZxOhZ_KgtAk",
+      "status": "deep-extracted",
+      "category": "Consumer",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 25868,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "d-x7-_0vMzM",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:45:56",
+      "title": "Is the Future of Indian Healthcare Hidden in a ₹10,000 Insurance Plan? Ft. Viren Shetty",
+      "guests": [
+        "Viren Shetty"
+      ],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=d-x7-_0vMzM",
+      "status": "deep-extracted",
+      "category": "Health",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 20677,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "fyy4gJslvgI",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "2:25:14",
+      "title": "From A Small Town in U.P. To Building Treebo Hotels, Working at McKinsey and Leaving Myntra...",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=fyy4gJslvgI",
+      "status": "deep-extracted",
+      "category": "Capital",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 23152,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "h86L4egDo9g",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:45:36",
+      "title": "Getting 3 CRORE NRIs to Invest in India? Founder REVEALS HOW | SBNRI, Curofy | Raiser's Edge FULL EP",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=h86L4egDo9g",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 12182,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "jUW_Ye_xLvo",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:56:27",
+      "title": "Leadership Lessons & Business Building 101 from FOUNDER of Rivigo, Anywhere Jobs | TBWS",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=jUW_Ye_xLvo",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 18502,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "jhjLaBMluts",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:36:26",
+      "title": "Founding GROFERS & BLINKIT, Building ZOMATO and Reaching IIT DELHI From Tier 3 India | FULL EPISODE",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=jhjLaBMluts",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 16434,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "kf_o6dc8vfs",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "2:49:03",
+      "title": "Founding ISB & Ashoka, Working With Governments Across The World and The Problem With IITs | FULL EP",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=kf_o6dc8vfs",
+      "status": "deep-extracted",
+      "category": "Education",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 22568,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "lTCzIDITaac",
+      "creatorId": "nikhil-kamath",
+      "publishedOrder": 0,
+      "duration": "2:59:44",
+      "title": "India vs. China vs. US: Who Wins the Next Decade? | WTF is Finance | Ep 1 ft. Ruchir Sharma",
+      "guests": [
+        "Ruchir Sharma"
+      ],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=lTCzIDITaac",
+      "status": "deep-extracted",
+      "category": "General",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 35475,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "m7G0ntWxw2o",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "2:01:00",
+      "title": "McKinsey Sr. Partner, CEO of India's Largest Employer|Suraj Moraje on Geopolitics, India & Business",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=m7G0ntWxw2o",
+      "status": "deep-extracted",
+      "category": "Hospitality",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 21692,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "pPEBfqxE-XM",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "2:27:36",
+      "title": "Founders of a Top PE Fund on Why They Invested in Manyavar, Lenskart, Building Organizations & More",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=pPEBfqxE-XM",
+      "status": "deep-extracted",
+      "category": "Consumer",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 27366,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "rYkbYLuuXF4",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:28:00",
+      "title": "Foodpharmer on Being a HEALTH CRUSADER, Solo Content Creator & INFLUENCING Health Policy | TBWS",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=rYkbYLuuXF4",
+      "status": "deep-extracted",
+      "category": "Content",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 15424,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "smtWjLiYn_M",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "1:08:42",
+      "title": "How to make viral songs like \"Rasode mein kaun tha\" | A MASTERCLASS by Yashraj and Shantanu",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=smtWjLiYn_M",
+      "status": "deep-extracted",
+      "category": "Content",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 10351,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "tJ0e0U-HVAE",
+      "creatorId": "shantanu-deshpande",
+      "publishedOrder": 0,
+      "duration": "2:07:44",
+      "title": "How We Sold Durex, Veet, Mortein, Harpic and more to India! | Ex-Global COO, Reckitt | Adi Sehgal",
+      "guests": [],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=tJ0e0U-HVAE",
+      "status": "deep-extracted",
+      "category": "Consumer",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 23050,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
+    },
+    {
+      "id": "yFyIBKK361E",
+      "creatorId": "nikhil-kamath",
+      "publishedOrder": 0,
+      "duration": "1:14:22",
+      "title": "Inside India’s Next Gen Startups | Nikhil Kamath ft. WTFund C2/24 Founders",
+      "guests": [
+        "WTFund C2/24 Founders"
+      ],
+      "tags": [],
+      "sourceUrl": "https://www.youtube.com/watch?v=yFyIBKK361E",
+      "status": "deep-extracted",
+      "category": "Founders",
+      "strategySnippets": [],
+      "opportunitySnippets": [],
+      "highlightSnippets": [],
+      "resourceMentions": [],
+      "resourceString": "",
+      "founderTools": [],
+      "booksMentioned": [],
+      "toolsMentioned": [],
+      "quotableMoments": [],
+      "targetAudience": "",
+      "wordCount": 14779,
+      "extractionMethod": "deep_v2_retry",
+      "entitiesPersons": [],
+      "entitiesOrgs": [],
+      "entitiesProducts": [],
+      "entitiesMoney": [],
+      "relatedEpisodes": []
     }
   ],
   "guestNetwork": [
     {
-      "id": "guest-006a5ccb",
+      "id": "guest-041c0779",
       "name": "Nikhil Kamath",
       "episodeIds": [
         "0YKTsHr5bDE",
@@ -3905,21 +4937,23 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00a5081f",
+      "id": "guest-055b2e2e",
       "name": "Shantanu Deshpande",
       "episodeIds": [
         "7ka9jrX-M5U",
         "AdI_XWv-ZTk",
         "gpv6X6E3Qxw",
-        "8k52Eht3oDo"
+        "8k52Eht3oDo",
+        "GvL8IP4vt9Q"
       ],
-      "episodeCount": 4,
+      "episodeCount": 5,
       "shows": [
         "nikhil-kamath",
         "shantanu-deshpande"
       ],
       "categories": [
         "Consumer",
+        "Content",
         "D2C",
         "Platforms"
       ],
@@ -3941,7 +4975,7 @@
       "isCrossShow": true
     },
     {
-      "id": "guest-03049ab0",
+      "id": "guest-02c5cd22",
       "name": "Tanmay Bhat",
       "episodeIds": [
         "tWzalcN_Inc",
@@ -3978,7 +5012,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03abb7f4",
+      "id": "guest-01dd20a3",
       "name": "Nithin Kamath",
       "episodeIds": [
         "6HE6d0lKh4o",
@@ -4015,7 +5049,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04a41299",
+      "id": "guest-004d230d",
       "name": "Aneesh Bhasin",
       "episodeIds": [
         "0JDsFpU6pGQ",
@@ -4048,7 +5082,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05e339c1",
+      "id": "guest-00688b6a",
       "name": "Aprameya Radhakrishna",
       "episodeIds": [
         "tWzalcN_Inc",
@@ -4075,7 +5109,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-042e81c1",
+      "id": "guest-005bfdb4",
       "name": "Arjun Vaidya",
       "episodeIds": [
         "kZ25RkCmeqQ",
@@ -4095,7 +5129,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01360287",
+      "id": "guest-0242a833",
       "name": "Asish Mohapatra",
       "episodeIds": [
         "gIhdMxEce0M",
@@ -4113,7 +5147,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01fdbf32",
+      "id": "guest-0474735b",
       "name": "Karthik Reddy",
       "episodeIds": [
         "zCTm1wHcfkI",
@@ -4140,7 +5174,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0349c1b8",
+      "id": "guest-01970a0c",
       "name": "Kishore Biyani",
       "episodeIds": [
         "UKag4LVAEdU",
@@ -4168,7 +5202,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04fb737e",
+      "id": "guest-02fd059f",
       "name": "Mukesh Bansal",
       "episodeIds": [
         "6HE6d0lKh4o",
@@ -4197,7 +5231,7 @@
       "isCrossShow": true
     },
     {
-      "id": "guest-056bb1ee",
+      "id": "guest-02582407",
       "name": "Prajakta Koli",
       "episodeIds": [
         "JjDjDvNgkFo",
@@ -4224,7 +5258,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03c659f6",
+      "id": "guest-018b7ee1",
       "name": "Prashanth Prakash",
       "episodeIds": [
         "fEUoJSTYtyc",
@@ -4257,7 +5291,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00b4560f",
+      "id": "guest-0435e1f6",
       "name": "Rajan Anandan",
       "episodeIds": [
         "zCTm1wHcfkI",
@@ -4284,7 +5318,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0548b7f9",
+      "id": "guest-04b50680",
       "name": "Rohit Bansal",
       "episodeIds": [
         "DvL1bJMB_p4",
@@ -4304,7 +5338,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-056a9bde",
+      "id": "guest-00e56bd5",
       "name": "Toshan Tamhane",
       "episodeIds": [
         "h-TJU3LenZk",
@@ -4321,7 +5355,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03df59c8",
+      "id": "guest-01ac7179",
       "name": "Umang Bedi",
       "episodeIds": [
         "tWzalcN_Inc",
@@ -4348,7 +5382,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-042168b4",
+      "id": "guest-04675d51",
       "name": "A.R. Rahman",
       "episodeIds": [
         "ohjXRswUYqM"
@@ -4366,7 +5400,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-039f3948",
+      "id": "guest-006cdf65",
       "name": "Aadit Palicha",
       "episodeIds": [
         "nGpir4oUfJI"
@@ -4391,7 +5425,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0472d5b7",
+      "id": "guest-00d3df1b",
       "name": "Adithya Balasubramanian",
       "episodeIds": [
         "wHQiewz8k9g"
@@ -4415,7 +5449,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0223e4df",
+      "id": "guest-0458fb85",
       "name": "Aditya Chand",
       "episodeIds": [
         "0JDsFpU6pGQ"
@@ -4440,7 +5474,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05d84040",
+      "id": "guest-007a17e7",
       "name": "Ajay Bharadwaj",
       "episodeIds": [
         "58i057QXl1A"
@@ -4469,7 +5503,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01c12583",
+      "id": "guest-01cedfef",
       "name": "Ajay Bijli",
       "episodeIds": [
         "hNV6urpwrk8"
@@ -4491,7 +5525,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-032780f2",
+      "id": "guest-0102f120",
       "name": "Akshat Rathee",
       "episodeIds": [
         "VIlfHB7Jk2s"
@@ -4510,7 +5544,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-052162b7",
+      "id": "guest-02323562",
       "name": "Aman Gupta",
       "episodeIds": [
         "5EXdVDEpWIs"
@@ -4526,7 +5560,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00bf5667",
+      "id": "guest-056c983b",
       "name": "Amit Khatri",
       "episodeIds": [
         "lRjprPQHuXw"
@@ -4545,7 +5579,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04c4dc56",
+      "id": "guest-04619009",
       "name": "Ananth Narayanan",
       "episodeIds": [
         "hjiZ11lKCrU"
@@ -4568,7 +5602,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-057d0a02",
+      "id": "guest-05f1bb75",
       "name": "Anish Rohit",
       "episodeIds": [
         "STV4s8_QqVw"
@@ -4590,7 +5624,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01ab6fd3",
+      "id": "guest-03492996",
       "name": "Ankur Warikoo",
       "episodeIds": [
         "5HLxbOMXCck"
@@ -4606,7 +5640,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-040ba014",
+      "id": "guest-00c5c7fb",
       "name": "Anmol Singh Jaggi",
       "episodeIds": [
         "iuyy1bIgR1s"
@@ -4631,7 +5665,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05391139",
+      "id": "guest-0574efdf",
       "name": "Anuj Paul",
       "episodeIds": [
         "KJje-SUREaE"
@@ -4649,7 +5683,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01bc5d9d",
+      "id": "guest-018b458e",
       "name": "Anuj Tandon",
       "episodeIds": [
         "VIlfHB7Jk2s"
@@ -4668,7 +5702,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03933492",
+      "id": "guest-01b852d4",
       "name": "Arun Chandavarkar",
       "episodeIds": [
         "58i057QXl1A"
@@ -4697,7 +5731,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04701b82",
+      "id": "guest-05b1219a",
       "name": "Aseem Dhru",
       "episodeIds": [
         "Kt6YqZLV1Fo"
@@ -4713,7 +5747,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04e4113e",
+      "id": "guest-03db44d1",
       "name": "Ashish Mohan",
       "episodeIds": [
         "wnK8Ymzp0rQ"
@@ -4744,7 +5778,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01bb1b49",
+      "id": "guest-010d0d9c",
       "name": "Ashish Wadhwani",
       "episodeIds": [
         "wnK8Ymzp0rQ"
@@ -4775,7 +5809,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-027177cb",
+      "id": "guest-03ac4e49",
       "name": "Ashu Suyash",
       "episodeIds": [
         "7ka9jrX-M5U"
@@ -4796,7 +5830,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-034b15d0",
+      "id": "guest-0411bc72",
       "name": "Ashutosh Valani",
       "episodeIds": [
         "STV4s8_QqVw"
@@ -4818,7 +5852,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-023792a0",
+      "id": "guest-01c94eb2",
       "name": "Bhakti Modi",
       "episodeIds": [
         "AdI_XWv-ZTk"
@@ -4839,7 +5873,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04cd8f02",
+      "id": "guest-01e92aed",
       "name": "Bhavna Suresh",
       "episodeIds": [
         "xjuvJK5Jm44"
@@ -4864,7 +5898,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-041afb79",
+      "id": "guest-025e1bfa",
       "name": "Bhumi Pednekar",
       "episodeIds": [
         "2q7-cTPwf-g"
@@ -4884,7 +5918,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00099836",
+      "id": "guest-04d8977a",
       "name": "Bill Gates",
       "episodeIds": [
         "YY7J1pHfSyY"
@@ -4902,7 +5936,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02c8eee6",
+      "id": "guest-05b37f8e",
       "name": "Brett Adcock",
       "episodeIds": [
         "fL2wyVLX08o"
@@ -4920,7 +5954,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00c00c7f",
+      "id": "guest-00205dd8",
       "name": "Bryan Johnson",
       "episodeIds": [
         "fEUoJSTYtyc"
@@ -4945,7 +5979,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03fbc1b2",
+      "id": "guest-03dbb73f",
       "name": "Carl Pei",
       "episodeIds": [
         "lRjprPQHuXw"
@@ -4964,7 +5998,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02b0eb6a",
+      "id": "guest-024202db",
       "name": "Carlos (CEO of Tracio)",
       "episodeIds": [
         "xjuvJK5Jm44"
@@ -4989,7 +6023,26 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01114d3c",
+      "id": "guest-0093c057",
+      "name": "Chairman of boAt",
+      "episodeIds": [
+        "X2mbi6WLPnk"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "coGuests": [
+        "Former CEO Tech Mahindra!",
+        "Founder of BSC"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-057e7d8b",
       "name": "Chamath Palihapitiya",
       "episodeIds": [
         "hAgqDdPgA3g"
@@ -5007,7 +6060,23 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04459a73",
+      "id": "guest-0262893d",
+      "name": "Chanel with their Perfume",
+      "episodeIds": [
+        "W4VzACFtyNQ"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Consumer"
+      ],
+      "coGuests": [],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-05745989",
       "name": "Chetan Maini",
       "episodeIds": [
         "iuyy1bIgR1s"
@@ -5032,7 +6101,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02c6ad68",
+      "id": "guest-03a88c73",
       "name": "Christopher Luxon",
       "episodeIds": [
         "tlicx3KKzmQ"
@@ -5050,7 +6119,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05161e61",
+      "id": "guest-05d8a9da",
       "name": "Dara Khosrowshahi",
       "episodeIds": [
         "2B8gABDfh7I"
@@ -5068,7 +6137,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-034900d3",
+      "id": "guest-0244c239",
       "name": "Dario Amodei",
       "episodeIds": [
         "68ylaeBbdsg"
@@ -5086,7 +6155,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03a949a6",
+      "id": "guest-0504a5e5",
       "name": "Deven Parulekar",
       "episodeIds": [
         "I57n5qEC7dU"
@@ -5102,7 +6171,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04762bae",
+      "id": "guest-048d3fc4",
       "name": "Diipa Khosla",
       "episodeIds": [
         "AdI_XWv-ZTk"
@@ -5123,7 +6192,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04d26c35",
+      "id": "guest-04238782",
       "name": "Dinesh Nayak",
       "episodeIds": [
         "58i057QXl1A"
@@ -5152,7 +6221,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-025f2ef0",
+      "id": "guest-005d7868",
       "name": "Dipesh Gaur",
       "episodeIds": [
         "AdI_XWv-ZTk"
@@ -5173,7 +6242,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02520cf9",
+      "id": "guest-05e947b5",
       "name": "Dr. Janti",
       "episodeIds": [
         "lJ3Wt-ng1Ls"
@@ -5197,7 +6266,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-004046ee",
+      "id": "guest-04ac4f2e",
       "name": "Dr. Ramesh",
       "episodeIds": [
         "9Hlv4BMmxPU"
@@ -5224,7 +6293,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0562a804",
+      "id": "guest-0021a7a4",
       "name": "Elon Musk",
       "episodeIds": [
         "Rni7Fz7208c"
@@ -5242,7 +6311,45 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01afa006",
+      "id": "guest-04be5a07",
+      "name": "Former CEO Tech Mahindra!",
+      "episodeIds": [
+        "X2mbi6WLPnk"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "coGuests": [
+        "Chairman of boAt",
+        "Founder of BSC"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-00dc1c77",
+      "name": "Founder of BSC",
+      "episodeIds": [
+        "X2mbi6WLPnk"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "AI"
+      ],
+      "coGuests": [
+        "Chairman of boAt",
+        "Former CEO Tech Mahindra!"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-0539763a",
       "name": "Founders of Reva",
       "episodeIds": [
         "iuyy1bIgR1s"
@@ -5267,7 +6374,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01933255",
+      "id": "guest-00dded9c",
       "name": "Gaurav Munjal",
       "episodeIds": [
         "01qfxLY2rhQ"
@@ -5287,7 +6394,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02cd7c07",
+      "id": "guest-015020b6",
       "name": "Ghazal Alagh",
       "episodeIds": [
         "FPV5fAkqyBs"
@@ -5310,7 +6417,25 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-012cf6b2",
+      "id": "guest-0594c132",
+      "name": "Hiring Strategies",
+      "episodeIds": [
+        "9X1vJYbtjG4"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Founders"
+      ],
+      "coGuests": [
+        "MILLIONS of Users REVEALS Business Fundamentals"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-04b006ae",
       "name": "Irfan Razack",
       "episodeIds": [
         "LqSEfz4YUFA"
@@ -5329,7 +6454,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-016b5b86",
+      "id": "guest-0464ccdd",
       "name": "Jay Kotak",
       "episodeIds": [
         "01qfxLY2rhQ"
@@ -5349,7 +6474,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05d46cab",
+      "id": "guest-045234ca",
       "name": "Jitendra Chouksey",
       "episodeIds": [
         "fEUoJSTYtyc"
@@ -5374,7 +6499,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-016709c4",
+      "id": "guest-029a2eda",
       "name": "KL Rahul",
       "episodeIds": [
         "2_yA6GoqUnY"
@@ -5393,7 +6518,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-022e4175",
+      "id": "guest-02bd02d8",
       "name": "Kaivalya Vohra",
       "episodeIds": [
         "nGpir4oUfJI"
@@ -5418,7 +6543,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-024c3e0f",
+      "id": "guest-01bd89de",
       "name": "Kanan Gill",
       "episodeIds": [
         "SkU3J2vWUK8"
@@ -5437,7 +6562,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-000ae23b",
+      "id": "guest-004985ac",
       "name": "Karan Johar",
       "episodeIds": [
         "wo_8CxZNXkM"
@@ -5455,7 +6580,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-014a6beb",
+      "id": "guest-03a45335",
       "name": "Karan Virwani",
       "episodeIds": [
         "LqSEfz4YUFA"
@@ -5474,7 +6599,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-047938e4",
+      "id": "guest-02f38148",
       "name": "Karthik R.",
       "episodeIds": [
         "zCTm1wHcfkI"
@@ -5499,7 +6624,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03327f1b",
+      "id": "guest-052a8c7b",
       "name": "Kent Yoshimura",
       "episodeIds": [
         "-b12vdrC_-8"
@@ -5515,7 +6640,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-023a69a0",
+      "id": "guest-02254831",
       "name": "Kiran Mazumdar-Shaw",
       "episodeIds": [
         "58i057QXl1A"
@@ -5544,7 +6669,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0445bc98",
+      "id": "guest-0406b824",
       "name": "Kriti Sanon",
       "episodeIds": [
         "2_yA6GoqUnY"
@@ -5563,7 +6688,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03da044a",
+      "id": "guest-0213c3d7",
       "name": "Kunal Bahl",
       "episodeIds": [
         "DvL1bJMB_p4"
@@ -5581,7 +6706,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02d8932e",
+      "id": "guest-0090a257",
       "name": "Les Hawkins",
       "episodeIds": [
         "58i057QXl1A"
@@ -5610,7 +6735,25 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-037a6552",
+      "id": "guest-01ddb1ee",
+      "name": "MILLIONS of Users REVEALS Business Fundamentals",
+      "episodeIds": [
+        "9X1vJYbtjG4"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Founders"
+      ],
+      "coGuests": [
+        "Hiring Strategies"
+      ],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-0215f519",
       "name": "Manish Poddar",
       "episodeIds": [
         "FPV5fAkqyBs"
@@ -5633,7 +6776,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-003ad412",
+      "id": "guest-05ef712d",
       "name": "Mati Staniszewski",
       "episodeIds": [
         "ef3D5Ak1HP4"
@@ -5651,7 +6794,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01564297",
+      "id": "guest-0442d035",
       "name": "Matt Chitharanjan",
       "episodeIds": [
         "wHQiewz8k9g"
@@ -5675,7 +6818,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02ff9487",
+      "id": "guest-03749cbc",
       "name": "Mirik Gogri",
       "episodeIds": [
         "2q7-cTPwf-g"
@@ -5695,7 +6838,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00b88055",
+      "id": "guest-05588814",
       "name": "Murali Krishnan",
       "episodeIds": [
         "58i057QXl1A"
@@ -5724,7 +6867,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01fd6746",
+      "id": "guest-02c78b70",
       "name": "Nandan Nilekani",
       "episodeIds": [
         "58i057QXl1A"
@@ -5753,7 +6896,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-011284a3",
+      "id": "guest-00c4522f",
       "name": "Navroz Dubash",
       "episodeIds": [
         "2q7-cTPwf-g"
@@ -5773,7 +6916,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00815a2c",
+      "id": "guest-00dce9ea",
       "name": "Navya Naveli Nanda",
       "episodeIds": [
         "nGpir4oUfJI"
@@ -5798,7 +6941,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-025ded74",
+      "id": "guest-0190fa1d",
       "name": "Neal Mohan",
       "episodeIds": [
         "8uFOBdle3WY"
@@ -5816,7 +6959,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05b69f2c",
+      "id": "guest-04e863eb",
       "name": "Nikesh Arora",
       "episodeIds": [
         "vPvnzWoK24Q"
@@ -5834,7 +6977,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0152016e",
+      "id": "guest-02e9da33",
       "name": "Nikhil (Udaan)",
       "episodeIds": [
         "UKag4LVAEdU"
@@ -5855,7 +6998,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-006b73b9",
+      "id": "guest-03a592fb",
       "name": "Nikhil Garmad",
       "episodeIds": [
         "58i057QXl1A"
@@ -5884,7 +7027,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01e22f15",
+      "id": "guest-034ad571",
       "name": "Nikhil Sharma",
       "episodeIds": [
         "AdI_XWv-ZTk"
@@ -5905,7 +7048,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00596543",
+      "id": "guest-03a9bfce",
       "name": "Nikita, Anmol, Aram, Albinder",
       "episodeIds": [
         "7O9zclnd-Hs"
@@ -5921,7 +7064,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03c5ac0d",
+      "id": "guest-0156a7c5",
       "name": "Nikita, Twinkle, Raji, Prachi, Shantanu, Vinita, Bhavi Agarwal, Nito, Kirti",
       "episodeIds": [
         "ezaFpL_EMEk"
@@ -5937,7 +7080,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-028a3a82",
+      "id": "guest-0560fc5c",
       "name": "Nirupa Shankar",
       "episodeIds": [
         "LqSEfz4YUFA"
@@ -5956,7 +7099,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00451069",
+      "id": "guest-038334b7",
       "name": "Nuseir Yassin",
       "episodeIds": [
         "JjDjDvNgkFo"
@@ -5981,7 +7124,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04e51594",
+      "id": "guest-03a19449",
       "name": "Paul Raa",
       "episodeIds": [
         "0JDsFpU6pGQ"
@@ -6006,7 +7149,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03d42858",
+      "id": "guest-009ab3f8",
       "name": "Piyush Pandey",
       "episodeIds": [
         "APU6KeQAANU"
@@ -6022,7 +7165,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-008fb29d",
+      "id": "guest-004de75f",
       "name": "Pooja Dhingra",
       "episodeIds": [
         "M72Wu2rZE7Y"
@@ -6041,7 +7184,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-010735a0",
+      "id": "guest-017d6f91",
       "name": "Prashant Gulati",
       "episodeIds": [
         "g0CjWbgsdTQ"
@@ -6060,7 +7203,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04261ba9",
+      "id": "guest-05777bd8",
       "name": "Prashanth P.",
       "episodeIds": [
         "zCTm1wHcfkI"
@@ -6085,7 +7228,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02d01001",
+      "id": "guest-04df0be0",
       "name": "Pravin Bhagvat",
       "episodeIds": [
         "jHFidX2ngQs"
@@ -6109,7 +7252,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-014f1909",
+      "id": "guest-01f244a5",
       "name": "Punit Goyal",
       "episodeIds": [
         "iuyy1bIgR1s"
@@ -6134,7 +7277,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05165787",
+      "id": "guest-037dfac4",
       "name": "Puran Chan Jain",
       "episodeIds": [
         "58i057QXl1A"
@@ -6163,7 +7306,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03208588",
+      "id": "guest-016c928e",
       "name": "Raghav Arora",
       "episodeIds": [
         "iuyy1bIgR1s"
@@ -6188,7 +7331,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-013fd657",
+      "id": "guest-00061fe0",
       "name": "Rahul Reddy",
       "episodeIds": [
         "wHQiewz8k9g"
@@ -6212,7 +7355,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04e9f9d8",
+      "id": "guest-033cd797",
       "name": "Rahul Sharma",
       "episodeIds": [
         "lRjprPQHuXw"
@@ -6231,7 +7374,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04d7457d",
+      "id": "guest-03c2b419",
       "name": "Raj Shamani",
       "episodeIds": [
         "hjiZ11lKCrU"
@@ -6254,7 +7397,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-014f6507",
+      "id": "guest-01d8390a",
       "name": "Rajan A.",
       "episodeIds": [
         "zCTm1wHcfkI"
@@ -6279,7 +7422,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02f18f5a",
+      "id": "guest-059a02d4",
       "name": "Ranveer Allahbadia",
       "episodeIds": [
         "JjDjDvNgkFo"
@@ -6304,7 +7447,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-053d8d50",
+      "id": "guest-02aa14f0",
       "name": "Ray Dalio",
       "episodeIds": [
         "0YKTsHr5bDE"
@@ -6322,7 +7465,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05eedd71",
+      "id": "guest-05023f03",
       "name": "Revant Bhate",
       "episodeIds": [
         "jHFidX2ngQs"
@@ -6346,7 +7489,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01e42c7c",
+      "id": "guest-02393432",
       "name": "Ritesh Agarwal",
       "episodeIds": [
         "FPV5fAkqyBs"
@@ -6369,7 +7512,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0101df5a",
+      "id": "guest-010edaa1",
       "name": "Riyaaz Amlani",
       "episodeIds": [
         "M72Wu2rZE7Y"
@@ -6388,7 +7531,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0594a480",
+      "id": "guest-02c4bf16",
       "name": "Rohit Kapoor",
       "episodeIds": [
         "7Hgjat4MVeM"
@@ -6404,7 +7547,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-053e42a6",
+      "id": "guest-0083da1c",
       "name": "Ronnie Screwvala",
       "episodeIds": [
         "01qfxLY2rhQ"
@@ -6424,7 +7567,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-024ae4dd",
+      "id": "guest-010ee57a",
       "name": "Ruchi Kalva",
       "episodeIds": [
         "wnK8Ymzp0rQ"
@@ -6455,7 +7598,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-048bdd4d",
+      "id": "guest-02c478aa",
       "name": "Ruchi Singhi",
       "episodeIds": [
         "wnK8Ymzp0rQ"
@@ -6486,7 +7629,23 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04ba3ecb",
+      "id": "guest-00cc6796",
+      "name": "Ruchir Sharma",
+      "episodeIds": [
+        "lTCzIDITaac"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "General"
+      ],
+      "coGuests": [],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-01afc1e3",
       "name": "Sajith S.",
       "episodeIds": [
         "hNV6urpwrk8"
@@ -6508,7 +7667,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0562f04f",
+      "id": "guest-037e00a2",
       "name": "Sajith Sivanandan",
       "episodeIds": [
         "hNV6urpwrk8"
@@ -6530,7 +7689,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00f61f70",
+      "id": "guest-0249c340",
       "name": "Sam Altman",
       "episodeIds": [
         "SfOaZIGJ_gs"
@@ -6548,7 +7707,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-053fcc3a",
+      "id": "guest-00e21c33",
       "name": "Samir Palatkar",
       "episodeIds": [
         "jHFidX2ngQs"
@@ -6572,7 +7731,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00234d17",
+      "id": "guest-01eddda4",
       "name": "Scott Gear KTS Orion",
       "episodeIds": [
         "xjuvJK5Jm44"
@@ -6597,7 +7756,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02fac047",
+      "id": "guest-00c9b6e9",
       "name": "Sean Hyunil Sohn",
       "episodeIds": [
         "VIlfHB7Jk2s"
@@ -6616,7 +7775,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05627898",
+      "id": "guest-02717ecd",
       "name": "Seema Singh",
       "episodeIds": [
         "fEUoJSTYtyc"
@@ -6641,7 +7800,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0331a2be",
+      "id": "guest-03fae127",
       "name": "Shantanu Bhanja",
       "episodeIds": [
         "5kyQU4NsOVY"
@@ -6659,7 +7818,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0331b9fe",
+      "id": "guest-025e441e",
       "name": "Sharad Sharma",
       "episodeIds": [
         "0JDsFpU6pGQ"
@@ -6684,7 +7843,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00766259",
+      "id": "guest-031749d0",
       "name": "Shri Kumar",
       "episodeIds": [
         "58i057QXl1A"
@@ -6713,7 +7872,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0034b86a",
+      "id": "guest-020308a1",
       "name": "Siddhartha Shah",
       "episodeIds": [
         "gpv6X6E3Qxw"
@@ -6734,7 +7893,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03cbac8f",
+      "id": "guest-02764ebf",
       "name": "Suhasini Sampath",
       "episodeIds": [
         "Saymmw8_Gv0"
@@ -6750,7 +7909,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-058748bd",
+      "id": "guest-02e0e59b",
       "name": "Sujeet Kumar",
       "episodeIds": [
         "UKag4LVAEdU"
@@ -6771,7 +7930,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-03a68f17",
+      "id": "guest-01f68467",
       "name": "Sukhleen Aneja",
       "episodeIds": [
         "HRWOycI1YTw"
@@ -6790,7 +7949,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05b913ec",
+      "id": "guest-013139b7",
       "name": "Suniel Shetty",
       "episodeIds": [
         "6HE6d0lKh4o"
@@ -6810,7 +7969,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-037a4ff6",
+      "id": "guest-001d42ac",
       "name": "Sunil Shetty",
       "episodeIds": [
         "wo_8CxZNXkM"
@@ -6828,7 +7987,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-04488d8c",
+      "id": "guest-03a8a3dd",
       "name": "Sunita Narain",
       "episodeIds": [
         "2q7-cTPwf-g"
@@ -6848,7 +8007,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01e0e4d4",
+      "id": "guest-00ccdc08",
       "name": "Surya Narayan",
       "episodeIds": [
         "58i057QXl1A"
@@ -6877,7 +8036,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0336456c",
+      "id": "guest-04208055",
       "name": "Tara Sutaria",
       "episodeIds": [
         "nGpir4oUfJI"
@@ -6902,7 +8061,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-01abd128",
+      "id": "guest-00f4419a",
       "name": "Tarun Mehta",
       "episodeIds": [
         "iuyy1bIgR1s"
@@ -6927,7 +8086,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00243249",
+      "id": "guest-0413ae21",
       "name": "Varun Mayya",
       "episodeIds": [
         "-HkBwSazZsM"
@@ -6951,7 +8110,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-044bc9b5",
+      "id": "guest-0080e613",
       "name": "Vidit Aatrey",
       "episodeIds": [
         "UKag4LVAEdU"
@@ -6972,7 +8131,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-029995c7",
+      "id": "guest-02d47f50",
       "name": "Vijay S.",
       "episodeIds": [
         "hNV6urpwrk8"
@@ -6994,7 +8153,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-00f9b5bd",
+      "id": "guest-039f28bf",
       "name": "Vijay Subramaniam",
       "episodeIds": [
         "hNV6urpwrk8"
@@ -7016,7 +8175,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-05b8b44f",
+      "id": "guest-041bde92",
       "name": "Vikas (Meesho)",
       "episodeIds": [
         "UKag4LVAEdU"
@@ -7037,7 +8196,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-055256ca",
+      "id": "guest-01021d77",
       "name": "Vikram Achanta",
       "episodeIds": [
         "0JDsFpU6pGQ"
@@ -7062,7 +8221,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0340edd7",
+      "id": "guest-0150da8f",
       "name": "Vineeta Singh",
       "episodeIds": [
         "C1pQE1aLX7A"
@@ -7078,7 +8237,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-021f0f97",
+      "id": "guest-0528662c",
       "name": "Vinod Khosla",
       "episodeIds": [
         "O7O204wD82s"
@@ -7094,7 +8253,23 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-02f85ab7",
+      "id": "guest-057af103",
+      "name": "Viren Shetty",
+      "episodeIds": [
+        "d-x7-_0vMzM"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "shantanu-deshpande"
+      ],
+      "categories": [
+        "Health"
+      ],
+      "coGuests": [],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-03254240",
       "name": "Vivek Biyani",
       "episodeIds": [
         "jHFidX2ngQs"
@@ -7118,7 +8293,23 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0307a361",
+      "id": "guest-019e006d",
+      "name": "WTFund C2/24 Founders",
+      "episodeIds": [
+        "yFyIBKK361E"
+      ],
+      "episodeCount": 1,
+      "shows": [
+        "nikhil-kamath"
+      ],
+      "categories": [
+        "Founders"
+      ],
+      "coGuests": [],
+      "isCrossShow": false
+    },
+    {
+      "id": "guest-056c2f8a",
       "name": "Yuval Noah Harari",
       "episodeIds": [
         "N0S048D2tj4"
@@ -7136,7 +8327,7 @@
       "isCrossShow": false
     },
     {
-      "id": "guest-0339f54a",
+      "id": "guest-04f67641",
       "name": "Zorawar Kalra",
       "episodeIds": [
         "M72Wu2rZE7Y"
@@ -7506,7 +8697,8 @@
       ],
       "episodeIds": [
         "I57n5qEC7dU",
-        "M72Wu2rZE7Y"
+        "M72Wu2rZE7Y",
+        "m7G0ntWxw2o"
       ],
       "verified": true
     },
@@ -7745,9 +8937,18 @@
         "nGpir4oUfJI",
         "wHQiewz8k9g",
         "5kyQU4NsOVY",
-        "of4V9JDnj7g"
+        "of4V9JDnj7g",
+        "51gRfs0RtdA",
+        "IfOIzj3aBBA",
+        "JQSADGo4Py4",
+        "VTFa3od58AE",
+        "W4VzACFtyNQ",
+        "Zh-oLOJxw8E",
+        "ZxOhZ_KgtAk",
+        "pPEBfqxE-XM",
+        "tJ0e0U-HVAE"
       ],
-      "episodeCount": 16,
+      "episodeCount": 25,
       "guests": [
         "Nikhil",
         "Shantanu Deshpande",
@@ -7758,7 +8959,7 @@
         "Dipesh Gaur",
         "Nikhil Sharma"
       ],
-      "guestCount": 63,
+      "guestCount": 64,
       "topStrategies": [
         "Trademarking 'Yoga Bar' before starting the company to secure the brand name.",
         "Iterate and improve ideas by sharing with more people, except IP exceptions.",
@@ -7773,7 +8974,7 @@
       "playbookIds": [
         "playbook-dossier-06"
       ],
-      "size": 16
+      "size": 25
     },
     {
       "id": "cluster-capital",
@@ -7790,9 +8991,12 @@
         "h-TJU3LenZk",
         "iTeZ_lEGfi8",
         "UbRzbCIMXdI",
-        "C1pQE1aLX7A"
+        "C1pQE1aLX7A",
+        "6a4TLZcYCsk",
+        "NacJTU20E-o",
+        "fyy4gJslvgI"
       ],
-      "episodeCount": 11,
+      "episodeCount": 14,
       "guests": [
         "Nikhil Kamath",
         "Rajan Anandan",
@@ -7816,7 +9020,7 @@
         "Only 8-9% of small businesses get any form of organized finance."
       ],
       "playbookIds": [],
-      "size": 11
+      "size": 14
     },
     {
       "id": "cluster-ai",
@@ -7832,9 +9036,11 @@
         "fL2wyVLX08o",
         "lJ3Wt-ng1Ls",
         "vPvnzWoK24Q",
-        "-HkBwSazZsM"
+        "-HkBwSazZsM",
+        "GAGK1iWmHlQ",
+        "X2mbi6WLPnk"
       ],
-      "episodeCount": 10,
+      "episodeCount": 12,
       "guests": [
         "Nikhil Kamath",
         "Dario Amodei",
@@ -7845,7 +9051,7 @@
         "Mati Staniszewski",
         "Brett Adcock"
       ],
-      "guestCount": 25,
+      "guestCount": 28,
       "topStrategies": [
         "Scaling laws in AI suggest that AI will surpass human intelligence within decades, requiring proactive management.",
         "AI regulation strategy in California (SB 53) aims to exempt companies with less than $500 million revenue from certain regulations.",
@@ -7858,7 +9064,7 @@
         "Opportunities in new attack vectors like AI-based analytics and real-time protection."
       ],
       "playbookIds": [],
-      "size": 10
+      "size": 12
     },
     {
       "id": "cluster-content",
@@ -7871,9 +9077,14 @@
         "JjDjDvNgkFo",
         "KJje-SUREaE",
         "hNV6urpwrk8",
-        "SkU3J2vWUK8"
+        "SkU3J2vWUK8",
+        "5v7bbjOaPOk",
+        "GvL8IP4vt9Q",
+        "SBcEAQ6U1oo",
+        "rYkbYLuuXF4",
+        "smtWjLiYn_M"
       ],
-      "episodeCount": 7,
+      "episodeCount": 12,
       "guests": [
         "Tanmay",
         "Nikhil",
@@ -7884,7 +9095,7 @@
         "Piyush Pandey",
         "Sahiba"
       ],
-      "guestCount": 24,
+      "guestCount": 25,
       "topStrategies": [
         "Creator-led content production with investment in AI and algorithm for creators' success.",
         "Turn AI into tools for creators to enhance user experience.",
@@ -7895,7 +9106,75 @@
         "The gap between English-speaking and Hindi-speaking social media audiences in India: 240 million vs. about 1.15-1.2 billion."
       ],
       "playbookIds": [],
-      "size": 7
+      "size": 12
+    },
+    {
+      "id": "cluster-founders",
+      "category": "Founders",
+      "label": "Founders",
+      "episodeIds": [
+        "jVax4DCqKT4",
+        "tlicx3KKzmQ",
+        "2nRWYJ3b7Bo",
+        "9X1vJYbtjG4",
+        "BSFoT7GQFaU",
+        "EHlzqt5UrJ8",
+        "RggvCRUVj60",
+        "YtrY0oyd-Ls",
+        "h86L4egDo9g",
+        "jUW_Ye_xLvo",
+        "jhjLaBMluts",
+        "yFyIBKK361E"
+      ],
+      "episodeCount": 12,
+      "guests": [
+        "Radhika",
+        "Gauri",
+        "Nikhil Kamath",
+        "Christopher Luxon",
+        "MILLIONS of Users REVEALS Business Fundamentals",
+        "Hiring Strategies",
+        "WTFund C2/24 Founders"
+      ],
+      "guestCount": 7,
+      "topStrategies": [],
+      "marketGaps": [],
+      "playbookIds": [],
+      "size": 12
+    },
+    {
+      "id": "cluster-health",
+      "category": "Health",
+      "label": "Health",
+      "episodeIds": [
+        "58i057QXl1A",
+        "6HE6d0lKh4o",
+        "fEUoJSTYtyc",
+        "jHFidX2ngQs",
+        "d-x7-_0vMzM"
+      ],
+      "episodeCount": 5,
+      "guests": [
+        "Nikhil",
+        "Nithin Kamath",
+        "Mukesh Bansal",
+        "John",
+        "Les Hawkins",
+        "Puran Chan Jain",
+        "Dinesh Nayak",
+        "Shri Kumar"
+      ],
+      "guestCount": 32,
+      "topStrategies": [
+        "Acquiring commercial operations to capture 100% value for Biocon.",
+        "Optimize sleep for 7-8 hours consistently, work out daily with focus on muscle training and recovery time, eat gluten-free lactose-free diet quantified in grams, consult a nutritionist regularly",
+        "Consulting with a nutritionist to manage weight and muscle, controlling portions of fruit dessert, walking after dinner for gut health, practicing pranayama for mental well-being"
+      ],
+      "marketGaps": [
+        "Only 5 million people pay for gym membership in India out of 1.4 billion population (4% penetration), growing awareness of fitness and healthy lifestyle"
+      ],
+      "playbookIds": [],
+      "size": 5
     },
     {
       "id": "cluster-platforms",
@@ -7968,34 +9247,34 @@
       "size": 4
     },
     {
-      "id": "cluster-health",
-      "category": "Health",
-      "label": "Health",
+      "id": "cluster-education",
+      "category": "Education",
+      "label": "Education",
       "episodeIds": [
-        "58i057QXl1A",
-        "6HE6d0lKh4o",
-        "fEUoJSTYtyc",
-        "jHFidX2ngQs"
+        "GYW7MeU5Lfc",
+        "01qfxLY2rhQ",
+        "QnwK7g6nLS8",
+        "kf_o6dc8vfs"
       ],
       "episodeCount": 4,
       "guests": [
+        "Divya",
+        "Arjun",
+        "Ashu",
+        "Shantana",
+        "Toshan",
         "Nikhil",
-        "Nithin Kamath",
-        "Mukesh Bansal",
-        "John",
-        "Les Hawkins",
-        "Puran Chan Jain",
-        "Dinesh Nayak",
-        "Shri Kumar"
+        "Ronnie Screwvala",
+        "Gaurav Munjal"
       ],
-      "guestCount": 31,
+      "guestCount": 9,
       "topStrategies": [
-        "Acquiring commercial operations to capture 100% value for Biocon.",
-        "Optimize sleep for 7-8 hours consistently, work out daily with focus on muscle training and recovery time, eat gluten-free lactose-free diet quantified in grams, consult a nutritionist regularly",
-        "Consulting with a nutritionist to manage weight and muscle, controlling portions of fruit dessert, walking after dinner for gut health, practicing pranayama for mental well-being"
+        "'e cubed = MC cubed' formula for Aspire for Her's growth."
       ],
       "marketGaps": [
-        "Only 5 million people pay for gym membership in India out of 1.4 billion population (4% penetration), growing awareness of fitness and healthy lifestyle"
+        "Only 18% of the economy is being unleashed by 50% of India's population (women).",
+        "Unmet demand for women's labor force participation (India: <20%, China: 44%).",
+        "Opportunity to disrupt offline coaching centers (20,000 crores annually)."
       ],
       "playbookIds": [],
       "size": 4
@@ -8030,35 +9309,30 @@
       "size": 3
     },
     {
-      "id": "cluster-education",
-      "category": "Education",
-      "label": "Education",
+      "id": "cluster-hospitality",
+      "category": "Hospitality",
+      "label": "Hospitality",
       "episodeIds": [
-        "GYW7MeU5Lfc",
-        "01qfxLY2rhQ"
+        "M72Wu2rZE7Y",
+        "I57n5qEC7dU",
+        "m7G0ntWxw2o"
       ],
-      "episodeCount": 2,
+      "episodeCount": 3,
       "guests": [
-        "Divya",
-        "Arjun",
-        "Ashu",
-        "Shantana",
-        "Toshan",
-        "Nikhil",
-        "Ronnie Screwvala",
-        "Gaurav Munjal"
+        "Pooja Dhingra",
+        "Zorawar Kalra",
+        "Riyaaz Amlani",
+        "Deven Parulekar"
       ],
-      "guestCount": 9,
+      "guestCount": 4,
       "topStrategies": [
-        "'e cubed = MC cubed' formula for Aspire for Her's growth."
+        "Expanding to 25 clusters pan India, focusing on high-quality guests over quantity."
       ],
-      "marketGaps": [
-        "Only 18% of the economy is being unleashed by 50% of India's population (women).",
-        "Unmet demand for women's labor force participation (India: <20%, China: 44%).",
-        "Opportunity to disrupt offline coaching centers (20,000 crores annually)."
+      "marketGaps": [],
+      "playbookIds": [
+        "playbook-dossier-05"
       ],
-      "playbookIds": [],
-      "size": 2
+      "size": 3
     },
     {
       "id": "cluster-manda",
@@ -8088,52 +9362,6 @@
       "size": 2
     },
     {
-      "id": "cluster-founders",
-      "category": "Founders",
-      "label": "Founders",
-      "episodeIds": [
-        "jVax4DCqKT4",
-        "tlicx3KKzmQ"
-      ],
-      "episodeCount": 2,
-      "guests": [
-        "Radhika",
-        "Gauri",
-        "Nikhil Kamath",
-        "Christopher Luxon"
-      ],
-      "guestCount": 4,
-      "topStrategies": [],
-      "marketGaps": [],
-      "playbookIds": [],
-      "size": 2
-    },
-    {
-      "id": "cluster-hospitality",
-      "category": "Hospitality",
-      "label": "Hospitality",
-      "episodeIds": [
-        "M72Wu2rZE7Y",
-        "I57n5qEC7dU"
-      ],
-      "episodeCount": 2,
-      "guests": [
-        "Pooja Dhingra",
-        "Zorawar Kalra",
-        "Riyaaz Amlani",
-        "Deven Parulekar"
-      ],
-      "guestCount": 4,
-      "topStrategies": [
-        "Expanding to 25 clusters pan India, focusing on high-quality guests over quantity."
-      ],
-      "marketGaps": [],
-      "playbookIds": [
-        "playbook-dossier-05"
-      ],
-      "size": 2
-    },
-    {
       "id": "cluster-brand-building",
       "category": "Brand Building",
       "label": "Brand Building",
@@ -8152,6 +9380,24 @@
       "playbookIds": [
         "playbook-dossier-01"
       ],
+      "size": 2
+    },
+    {
+      "id": "cluster-general",
+      "category": "General",
+      "label": "General",
+      "episodeIds": [
+        "S56OURXckEQ",
+        "lTCzIDITaac"
+      ],
+      "episodeCount": 2,
+      "guests": [
+        "Ruchir Sharma"
+      ],
+      "guestCount": 1,
+      "topStrategies": [],
+      "marketGaps": [],
+      "playbookIds": [],
       "size": 2
     },
     {
@@ -8289,7 +9535,278 @@
       "size": 1
     }
   ],
-  "founderToolsByCategory": {},
+  "founderToolsByCategory": {
+    "D2C": [
+      {
+        "name": "Shopify India",
+        "url": "https://www.shopify.com/in",
+        "description": "D2C storefront builder — most Indian D2C brands start here"
+      },
+      {
+        "name": "Razorpay",
+        "url": "https://razorpay.com/",
+        "description": "Payment gateway used by 8M+ Indian businesses"
+      },
+      {
+        "name": "Shiprocket",
+        "url": "https://www.shiprocket.in/",
+        "description": "Multi-carrier shipping aggregator for D2C logistics"
+      },
+      {
+        "name": "Unicommerce",
+        "url": "https://unicommerce.com/",
+        "description": "Warehouse and inventory management for omnichannel brands"
+      },
+      {
+        "name": "Meesho Supplier Hub",
+        "url": "https://supplier.meesho.com/",
+        "description": "Tier-2/3 marketplace — zero commission model"
+      }
+    ],
+    "Consumer": [
+      {
+        "name": "Amazon Brand Analytics",
+        "url": "https://brandservices.amazon.in/",
+        "description": "Search data and demand insights for marketplace sellers"
+      },
+      {
+        "name": "Flipkart Seller Hub",
+        "url": "https://seller.flipkart.com/",
+        "description": "India's largest domestic marketplace for consumer brands"
+      },
+      {
+        "name": "Zoho CRM",
+        "url": "https://www.zoho.com/crm/",
+        "description": "Indian-built CRM with regional language support"
+      },
+      {
+        "name": "Google Trends India",
+        "url": "https://trends.google.co.in/",
+        "description": "Free demand sensing tool — track category interest over time"
+      }
+    ],
+    "Capital": [
+      {
+        "name": "LetsVenture",
+        "url": "https://www.letsventure.com/",
+        "description": "Indian angel investing platform connecting founders with angels"
+      },
+      {
+        "name": "Qapita",
+        "url": "https://www.qapita.com/",
+        "description": "Cap table management and ESOP administration"
+      },
+      {
+        "name": "Tracxn",
+        "url": "https://tracxn.com/",
+        "description": "Startup intelligence platform — research investors and competitors"
+      },
+      {
+        "name": "Blume Ventures",
+        "url": "https://blume.vc/",
+        "description": "Early-stage VC fund — portfolio includes Unacademy, slice, Purplle"
+      },
+      {
+        "name": "Peak XV Partners",
+        "url": "https://www.peakxv.com/",
+        "description": "Formerly Sequoia India — largest India-focused VC fund"
+      }
+    ],
+    "Health": [
+      {
+        "name": "Cult.fit",
+        "url": "https://www.cult.fit/",
+        "description": "Fitness and wellness platform by Mukesh Bansal (discussed in Ep 6)"
+      },
+      {
+        "name": "Practo",
+        "url": "https://www.practo.com/",
+        "description": "India's largest health platform — doctor discovery and telemedicine"
+      },
+      {
+        "name": "PharmEasy",
+        "url": "https://pharmeasy.in/",
+        "description": "Online pharmacy and diagnostic tests at home"
+      },
+      {
+        "name": "HealthifyMe",
+        "url": "https://www.healthifyme.com/",
+        "description": "AI-powered nutrition and fitness tracking — India-specific food database"
+      }
+    ],
+    "Content": [
+      {
+        "name": "YouTube Studio",
+        "url": "https://studio.youtube.com/",
+        "description": "Analytics and content management for YouTube creators"
+      },
+      {
+        "name": "Notion",
+        "url": "https://www.notion.so/",
+        "description": "All-in-one workspace for content planning, editorial calendars"
+      },
+      {
+        "name": "ConvertKit",
+        "url": "https://convertkit.com/",
+        "description": "Email marketing for creators — newsletter-first monetization"
+      },
+      {
+        "name": "Graphy",
+        "url": "https://graphy.com/",
+        "description": "Launch and sell courses — Unacademy's creator platform"
+      }
+    ],
+    "AI": [
+      {
+        "name": "Hugging Face",
+        "url": "https://huggingface.co/",
+        "description": "Open-source AI model hub — run models locally"
+      },
+      {
+        "name": "Sarvam AI",
+        "url": "https://www.sarvam.ai/",
+        "description": "Indian-language AI foundation models — vernacular NLP"
+      },
+      {
+        "name": "Postman",
+        "url": "https://www.postman.com/",
+        "description": "API testing and development — essential for AI integration"
+      }
+    ],
+    "EV": [
+      {
+        "name": "Ather Energy",
+        "url": "https://www.atherenergy.com/",
+        "description": "Indian electric scooter maker (Tarun Mehta was a guest)"
+      },
+      {
+        "name": "Statiq",
+        "url": "https://statiq.in/",
+        "description": "EV charging network — 7000+ chargers across India"
+      },
+      {
+        "name": "ChargeZone",
+        "url": "https://chargezone.co.in/",
+        "description": "High-speed public charging infrastructure for highways"
+      },
+      {
+        "name": "Tata Power EZ Charge",
+        "url": "https://www.tatapower.com/",
+        "description": "Largest charging network by Tata — homes, offices, public"
+      }
+    ],
+    "Founders": [
+      {
+        "name": "Amaha",
+        "url": "https://www.amahahealth.com/",
+        "description": "Online therapy and mental health — founder burnout support"
+      },
+      {
+        "name": "Y Combinator Library",
+        "url": "https://www.ycombinator.com/library",
+        "description": "Free founder education — startup school and essays"
+      },
+      {
+        "name": "First Round Review",
+        "url": "https://review.firstround.com/",
+        "description": "Tactical advice from experienced operators and founders"
+      }
+    ],
+    "Education": [
+      {
+        "name": "UpGrad",
+        "url": "https://www.upgrad.com/",
+        "description": "Online higher education — outcome-linked career programs"
+      },
+      {
+        "name": "Scaler Academy",
+        "url": "https://www.scaler.com/",
+        "description": "Tech education with job guarantee — ISA model"
+      },
+      {
+        "name": "Graphy",
+        "url": "https://graphy.com/",
+        "description": "Launch and sell courses — created by Unacademy"
+      }
+    ],
+    "Hospitality": [
+      {
+        "name": "Zomato for Business",
+        "url": "https://www.zomato.com/business",
+        "description": "Restaurant listing, delivery, and advertising platform"
+      },
+      {
+        "name": "Swiggy Partner",
+        "url": "https://partner.swiggy.com/",
+        "description": "Food delivery partnership and restaurant analytics"
+      },
+      {
+        "name": "Petpooja",
+        "url": "https://www.petpooja.com/",
+        "description": "Restaurant POS and management system — Indian-built"
+      }
+    ],
+    "RealEstate": [
+      {
+        "name": "Strata",
+        "url": "https://www.strataprop.com/",
+        "description": "Fractional real estate ownership — commercial property from ₹25L"
+      },
+      {
+        "name": "hBits",
+        "url": "https://hbits.co/",
+        "description": "SEBI-regulated fractional ownership platform"
+      },
+      {
+        "name": "NoBroker",
+        "url": "https://www.nobroker.in/",
+        "description": "India's largest brokerage-free property platform"
+      }
+    ],
+    "Climate": [
+      {
+        "name": "Ecofy",
+        "url": "https://www.ecofy.in/",
+        "description": "Green loans for solar, EV, and energy efficiency projects"
+      },
+      {
+        "name": "Fourth Partner Energy",
+        "url": "https://www.fourthpartner.co/",
+        "description": "Solar energy solutions for commercial and industrial"
+      }
+    ],
+    "Gaming": [
+      {
+        "name": "Loco",
+        "url": "https://loco.gg/",
+        "description": "Indian game streaming platform — Twitch alternative for India"
+      },
+      {
+        "name": "Unity",
+        "url": "https://unity.com/",
+        "description": "Game development engine — most mobile games are built on Unity"
+      }
+    ],
+    "M&A": [
+      {
+        "name": "IndiaBizForSale",
+        "url": "https://www.indiabizforsale.com/",
+        "description": "Buy/sell businesses — acquisition marketplace for SMEs"
+      },
+      {
+        "name": "Axilor Ventures",
+        "url": "https://axilor.com/",
+        "description": "Early-stage accelerator by Infosys founders"
+      }
+    ],
+    "Platforms": [
+      {
+        "name": "Polygon",
+        "url": "https://polygon.technology/",
+        "description": "Indian-founded blockchain infrastructure — Web3 building blocks"
+      }
+    ]
+  },
   "crossShowGuests": [
     "Shantanu Deshpande",
     "Mukesh Bansal"
@@ -8793,6 +10310,199 @@
             "url": "https://www.paulgraham.com/articles.html",
             "description": "PG essay archive. Required reading: 'Do Things That Don't Scale', 'How to Start a Startup', 'Startup = Growth'.",
             "kind": "essays"
+          }
+        ]
+      },
+      {
+        "id": "open-source-stack",
+        "title": "Open-source founder stack",
+        "subtitle": "Zero-cost alternatives to paid SaaS. For bootstrapped founders who want to own their infrastructure.",
+        "icon": "code",
+        "items": [
+          {
+            "name": "ERPNext",
+            "url": "https://erpnext.com/",
+            "description": "Full-stack ERP (accounting, inventory, manufacturing, HR, CRM) built by Frappe in Mumbai. Used by 10,000+ SMEs in India. Apache-2 licensed.",
+            "kind": "open-source"
+          },
+          {
+            "name": "PostHog",
+            "url": "https://posthog.com/",
+            "description": "Open-source product analytics, session recording, feature flags, and A/B testing. Self-host or use their cloud free tier (1M events/mo).",
+            "kind": "open-source"
+          },
+          {
+            "name": "Medusa",
+            "url": "https://medusajs.com/",
+            "description": "Open-source headless commerce engine. The self-hosted Shopify alternative for founders who want full control over checkout and pricing logic.",
+            "kind": "open-source"
+          },
+          {
+            "name": "n8n",
+            "url": "https://n8n.io/",
+            "description": "Open-source workflow automation (Zapier alternative). Self-host and connect 400+ integrations — payment webhooks, CRM syncs, Slack alerts.",
+            "kind": "open-source"
+          },
+          {
+            "name": "Supabase",
+            "url": "https://supabase.com/",
+            "description": "Open-source Firebase alternative. Postgres database, auth, storage, real-time. Free tier runs a production-grade MVP backend.",
+            "kind": "open-source"
+          },
+          {
+            "name": "Plausible Analytics",
+            "url": "https://plausible.io/",
+            "description": "Lightweight, privacy-first web analytics. No cookies, GDPR-compliant by default. Self-host or cloud — replaces Google Analytics.",
+            "kind": "open-source"
+          },
+          {
+            "name": "Ollama",
+            "url": "https://ollama.com/",
+            "description": "Run open-source LLMs (Llama 3, Mistral, Gemma) locally on your laptop. Zero cloud cost for prototyping AI features offline.",
+            "kind": "open-source"
+          },
+          {
+            "name": "Twenty",
+            "url": "https://twenty.com/",
+            "description": "Open-source CRM inspired by Salesforce. Modern UI, self-hosted, free. Viable alternative to Zoho CRM for early-stage teams.",
+            "kind": "open-source"
+          },
+          {
+            "name": "Chatwoot",
+            "url": "https://www.chatwoot.com/",
+            "description": "Open-source customer engagement (Intercom alternative). Live chat, email, WhatsApp, Instagram DMs in one inbox. Self-host free.",
+            "kind": "open-source"
+          },
+          {
+            "name": "Cal.com",
+            "url": "https://cal.com/",
+            "description": "Open-source scheduling infrastructure (Calendly alternative). Self-host or cloud. Useful for sales demos, consultation booking.",
+            "kind": "open-source"
+          },
+          {
+            "name": "Windmill",
+            "url": "https://www.windmill.dev/",
+            "description": "Open-source developer platform for scripts, workflows, and UIs. Self-host internal tools without paying Retool.",
+            "kind": "open-source"
+          },
+          {
+            "name": "Saleor",
+            "url": "https://saleor.io/",
+            "description": "Open-source headless commerce platform built on GraphQL. Enterprise-grade, for D2C brands that outgrow Shopify's customization limits.",
+            "kind": "open-source"
+          }
+        ]
+      },
+      {
+        "id": "market-intel",
+        "title": "India market intelligence",
+        "subtitle": "Free and freemium data sources for sizing markets, tracking trends, and validating demand before you build.",
+        "icon": "bar-chart",
+        "items": [
+          {
+            "name": "Inc42 · Startup Reports",
+            "url": "https://inc42.com/reports/",
+            "description": "Free quarterly state-of-Indian-startup reports. Funding data, sector breakdowns, and trend analysis. The default first-read for ecosystem context.",
+            "kind": "research"
+          },
+          {
+            "name": "IBEF · India Brand Equity Foundation",
+            "url": "https://www.ibef.org/",
+            "description": "Government-backed sector reports (80+ industries). Free PDF downloads with TAM estimates, growth projections, and FDI data.",
+            "kind": "research"
+          },
+          {
+            "name": "Tracxn · Free Tier",
+            "url": "https://tracxn.com/",
+            "description": "Startup intelligence platform. Free tier gives basic company profiles, funding rounds, and competitor lists. Essential for DD and pitch decks.",
+            "kind": "research"
+          },
+          {
+            "name": "Google Trends · India",
+            "url": "https://trends.google.co.in/",
+            "description": "Free demand-sensing tool. Compare category interest over time, by region, and by related queries. The cheapest PMF signal before spending a rupee.",
+            "kind": "research"
+          },
+          {
+            "name": "RBI · DBIE (Data for Indian Economy)",
+            "url": "https://data.rbi.org.in/",
+            "description": "RBI's open data portal — credit growth, sector-wise lending, forex flows, inflation data. Ground-truth macroeconomic data for pitch decks.",
+            "kind": "research"
+          },
+          {
+            "name": "MOSPI · National Statistical Office",
+            "url": "https://www.mospi.gov.in/",
+            "description": "GDP, CPI, industrial production, household consumption data. The base layer for any India-market TAM calculation.",
+            "kind": "research"
+          },
+          {
+            "name": "Venture Intelligence",
+            "url": "https://www.ventureintelligence.com/",
+            "description": "Indian PE/VC deal database. Tracks fundraises, valuations, exits. Free newsletter; paid access for detailed deal terms.",
+            "kind": "research"
+          },
+          {
+            "name": "NASSCOM · AI Landscape",
+            "url": "https://nasscom.in/knowledge-center",
+            "description": "Reports on India's tech landscape — AI adoption, SaaS benchmarks, GCC growth. Free downloads for NASSCOM members.",
+            "kind": "research"
+          }
+        ]
+      },
+      {
+        "id": "additional-learning",
+        "title": "Operator playbooks",
+        "subtitle": "Long-form reading and structured programs that turn podcast insights into executable frameworks.",
+        "icon": "book-marked",
+        "items": [
+          {
+            "name": "Y Combinator · Startup School",
+            "url": "https://www.startupschool.org/",
+            "description": "Free 8-week program. Weekly group sessions, curriculum from YC partners. The closest thing to an MBA for builders who won't stop building.",
+            "kind": "course"
+          },
+          {
+            "name": "Lenny's Newsletter",
+            "url": "https://www.lennysnewsletter.com/",
+            "description": "Product management and growth essays. Tactical frameworks on retention, pricing, and GTM that map directly to WTF strategy discussions.",
+            "kind": "essays"
+          },
+          {
+            "name": "Reforge",
+            "url": "https://www.reforge.com/",
+            "description": "Growth, product, and marketing programs by operators from Hubspot, Eventbrite, Pinterest. India cohort runs annually.",
+            "kind": "course"
+          },
+          {
+            "name": "The Generalist",
+            "url": "https://www.generalist.com/",
+            "description": "Deep-dive company and sector profiles. Long-form analysis on market structure, competitive dynamics, and operator playbooks.",
+            "kind": "essays"
+          },
+          {
+            "name": "Stratechery",
+            "url": "https://stratechery.com/",
+            "description": "Ben Thompson's tech strategy analysis. Aggregation theory, platform economics, and distribution moats — the intellectual backbone for WTF's platform episodes.",
+            "kind": "essays"
+          },
+          {
+            "name": "Zerodha · Rainmatter Blog",
+            "url": "https://rainmatter.com/blog/",
+            "description": "Investment theses and portfolio learnings from Nikhil Kamath's fund. Direct window into how the WTF host thinks about deploying capital.",
+            "kind": "essays",
+            "tag": "WTF host project"
+          },
+          {
+            "name": "Blume Day Zero",
+            "url": "https://www.blumedayzero.com/",
+            "description": "Blume Ventures' annual founder conference. Recordings, slides, and playbooks from India's most active seed fund.",
+            "kind": "event"
+          },
+          {
+            "name": "India Stack · Public Documentation",
+            "url": "https://indiastack.org/",
+            "description": "Technical documentation for Aadhaar, UPI, DigiLocker, ONDC, Account Aggregator. The rails every Indian fintech, identity, and commerce product builds on.",
+            "kind": "infrastructure"
           }
         ]
       }

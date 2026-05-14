@@ -499,6 +499,199 @@
           "kind": "essays"
         }
       ]
+    },
+    {
+      "id": "open-source-stack",
+      "title": "Open-source founder stack",
+      "subtitle": "Zero-cost alternatives to paid SaaS. For bootstrapped founders who want to own their infrastructure.",
+      "icon": "code",
+      "items": [
+        {
+          "name": "ERPNext",
+          "url": "https://erpnext.com/",
+          "description": "Full-stack ERP (accounting, inventory, manufacturing, HR, CRM) built by Frappe in Mumbai. Used by 10,000+ SMEs in India. Apache-2 licensed.",
+          "kind": "open-source"
+        },
+        {
+          "name": "PostHog",
+          "url": "https://posthog.com/",
+          "description": "Open-source product analytics, session recording, feature flags, and A/B testing. Self-host or use their cloud free tier (1M events/mo).",
+          "kind": "open-source"
+        },
+        {
+          "name": "Medusa",
+          "url": "https://medusajs.com/",
+          "description": "Open-source headless commerce engine. The self-hosted Shopify alternative for founders who want full control over checkout and pricing logic.",
+          "kind": "open-source"
+        },
+        {
+          "name": "n8n",
+          "url": "https://n8n.io/",
+          "description": "Open-source workflow automation (Zapier alternative). Self-host and connect 400+ integrations — payment webhooks, CRM syncs, Slack alerts.",
+          "kind": "open-source"
+        },
+        {
+          "name": "Supabase",
+          "url": "https://supabase.com/",
+          "description": "Open-source Firebase alternative. Postgres database, auth, storage, real-time. Free tier runs a production-grade MVP backend.",
+          "kind": "open-source"
+        },
+        {
+          "name": "Plausible Analytics",
+          "url": "https://plausible.io/",
+          "description": "Lightweight, privacy-first web analytics. No cookies, GDPR-compliant by default. Self-host or cloud — replaces Google Analytics.",
+          "kind": "open-source"
+        },
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com/",
+          "description": "Run open-source LLMs (Llama 3, Mistral, Gemma) locally on your laptop. Zero cloud cost for prototyping AI features offline.",
+          "kind": "open-source"
+        },
+        {
+          "name": "Twenty",
+          "url": "https://twenty.com/",
+          "description": "Open-source CRM inspired by Salesforce. Modern UI, self-hosted, free. Viable alternative to Zoho CRM for early-stage teams.",
+          "kind": "open-source"
+        },
+        {
+          "name": "Chatwoot",
+          "url": "https://www.chatwoot.com/",
+          "description": "Open-source customer engagement (Intercom alternative). Live chat, email, WhatsApp, Instagram DMs in one inbox. Self-host free.",
+          "kind": "open-source"
+        },
+        {
+          "name": "Cal.com",
+          "url": "https://cal.com/",
+          "description": "Open-source scheduling infrastructure (Calendly alternative). Self-host or cloud. Useful for sales demos, consultation booking.",
+          "kind": "open-source"
+        },
+        {
+          "name": "Windmill",
+          "url": "https://www.windmill.dev/",
+          "description": "Open-source developer platform for scripts, workflows, and UIs. Self-host internal tools without paying Retool.",
+          "kind": "open-source"
+        },
+        {
+          "name": "Saleor",
+          "url": "https://saleor.io/",
+          "description": "Open-source headless commerce platform built on GraphQL. Enterprise-grade, for D2C brands that outgrow Shopify's customization limits.",
+          "kind": "open-source"
+        }
+      ]
+    },
+    {
+      "id": "market-intel",
+      "title": "India market intelligence",
+      "subtitle": "Free and freemium data sources for sizing markets, tracking trends, and validating demand before you build.",
+      "icon": "bar-chart",
+      "items": [
+        {
+          "name": "Inc42 · Startup Reports",
+          "url": "https://inc42.com/reports/",
+          "description": "Free quarterly state-of-Indian-startup reports. Funding data, sector breakdowns, and trend analysis. The default first-read for ecosystem context.",
+          "kind": "research"
+        },
+        {
+          "name": "IBEF · India Brand Equity Foundation",
+          "url": "https://www.ibef.org/",
+          "description": "Government-backed sector reports (80+ industries). Free PDF downloads with TAM estimates, growth projections, and FDI data.",
+          "kind": "research"
+        },
+        {
+          "name": "Tracxn · Free Tier",
+          "url": "https://tracxn.com/",
+          "description": "Startup intelligence platform. Free tier gives basic company profiles, funding rounds, and competitor lists. Essential for DD and pitch decks.",
+          "kind": "research"
+        },
+        {
+          "name": "Google Trends · India",
+          "url": "https://trends.google.co.in/",
+          "description": "Free demand-sensing tool. Compare category interest over time, by region, and by related queries. The cheapest PMF signal before spending a rupee.",
+          "kind": "research"
+        },
+        {
+          "name": "RBI · DBIE (Data for Indian Economy)",
+          "url": "https://data.rbi.org.in/",
+          "description": "RBI's open data portal — credit growth, sector-wise lending, forex flows, inflation data. Ground-truth macroeconomic data for pitch decks.",
+          "kind": "research"
+        },
+        {
+          "name": "MOSPI · National Statistical Office",
+          "url": "https://www.mospi.gov.in/",
+          "description": "GDP, CPI, industrial production, household consumption data. The base layer for any India-market TAM calculation.",
+          "kind": "research"
+        },
+        {
+          "name": "Venture Intelligence",
+          "url": "https://www.ventureintelligence.com/",
+          "description": "Indian PE/VC deal database. Tracks fundraises, valuations, exits. Free newsletter; paid access for detailed deal terms.",
+          "kind": "research"
+        },
+        {
+          "name": "NASSCOM · AI Landscape",
+          "url": "https://nasscom.in/knowledge-center",
+          "description": "Reports on India's tech landscape — AI adoption, SaaS benchmarks, GCC growth. Free downloads for NASSCOM members.",
+          "kind": "research"
+        }
+      ]
+    },
+    {
+      "id": "additional-learning",
+      "title": "Operator playbooks",
+      "subtitle": "Long-form reading and structured programs that turn podcast insights into executable frameworks.",
+      "icon": "book-marked",
+      "items": [
+        {
+          "name": "Y Combinator · Startup School",
+          "url": "https://www.startupschool.org/",
+          "description": "Free 8-week program. Weekly group sessions, curriculum from YC partners. The closest thing to an MBA for builders who won't stop building.",
+          "kind": "course"
+        },
+        {
+          "name": "Lenny's Newsletter",
+          "url": "https://www.lennysnewsletter.com/",
+          "description": "Product management and growth essays. Tactical frameworks on retention, pricing, and GTM that map directly to WTF strategy discussions.",
+          "kind": "essays"
+        },
+        {
+          "name": "Reforge",
+          "url": "https://www.reforge.com/",
+          "description": "Growth, product, and marketing programs by operators from Hubspot, Eventbrite, Pinterest. India cohort runs annually.",
+          "kind": "course"
+        },
+        {
+          "name": "The Generalist",
+          "url": "https://www.generalist.com/",
+          "description": "Deep-dive company and sector profiles. Long-form analysis on market structure, competitive dynamics, and operator playbooks.",
+          "kind": "essays"
+        },
+        {
+          "name": "Stratechery",
+          "url": "https://stratechery.com/",
+          "description": "Ben Thompson's tech strategy analysis. Aggregation theory, platform economics, and distribution moats — the intellectual backbone for WTF's platform episodes.",
+          "kind": "essays"
+        },
+        {
+          "name": "Zerodha · Rainmatter Blog",
+          "url": "https://rainmatter.com/blog/",
+          "description": "Investment theses and portfolio learnings from Nikhil Kamath's fund. Direct window into how the WTF host thinks about deploying capital.",
+          "kind": "essays",
+          "tag": "WTF host project"
+        },
+        {
+          "name": "Blume Day Zero",
+          "url": "https://www.blumedayzero.com/",
+          "description": "Blume Ventures' annual founder conference. Recordings, slides, and playbooks from India's most active seed fund.",
+          "kind": "event"
+        },
+        {
+          "name": "India Stack · Public Documentation",
+          "url": "https://indiastack.org/",
+          "description": "Technical documentation for Aadhaar, UPI, DigiLocker, ONDC, Account Aggregator. The rails every Indian fintech, identity, and commerce product builds on.",
+          "kind": "infrastructure"
+        }
+      ]
     }
   ]
 }

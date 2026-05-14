@@ -752,6 +752,50 @@ def clean_founder_tools(tools_by_cat: dict[str, list[dict[str, Any]]]) -> dict[s
 
 
 # ---------------------------------------------------------------------------
+# Fallback tool loader — pulls FOUNDER_TOOLS from build_brain_v2.py
+# ---------------------------------------------------------------------------
+
+def _load_founder_tools_from_v2() -> dict[str, list[dict[str, Any]]]:
+    """Load the verified FOUNDER_TOOLS dict from build_brain_v2.py.
+    
+    Rather than maintaining a duplicate, we exec-parse the relevant
+    portion of the sibling script. This keeps the canonical list in one
+    place while ensuring synthesize_pitch_brain.py can hydrate an empty
+    founderToolsByCategory.
+    """
+    v2_path = ROOT / "scripts" / "build_brain_v2.py"
+    if not v2_path.exists():
+        return {}
+    
+    src = v2_path.read_text()
+    # Extract FOUNDER_TOOLS block
+    start = src.find("FOUNDER_TOOLS = {")
+    if start < 0:
+        return {}
+    
+    # Find matching closing brace by counting nesting
+    depth = 0
+    end = start
+    for i, ch in enumerate(src[start:], start):
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                end = i + 1
+                break
+    
+    block = src[start:end]
+    local_ns: dict[str, Any] = {}
+    try:
+        exec(block, {}, local_ns)
+    except Exception:
+        return {}
+    
+    return local_ns.get("FOUNDER_TOOLS", {})
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -809,8 +853,12 @@ def main() -> None:
     guest_network = rebuild_guest_network(cleaned_catalog)
     cross_show_guests = [g["name"] for g in guest_network if g.get("isCrossShow")]
 
-    # 6.  Clean founderToolsByCategory
-    tools_clean = clean_founder_tools(brain.get("founderToolsByCategory", {}))
+    # 6.  Clean founderToolsByCategory — if empty, hydrate from build_brain_v2
+    raw_tools = brain.get("founderToolsByCategory", {})
+    if not raw_tools:
+        # Import the verified tool list from build_brain_v2
+        raw_tools = _load_founder_tools_from_v2()
+    tools_clean = clean_founder_tools(raw_tools)
 
     # 7.  Load curated founder library
     library_path = CURATED_DIR / "founder_library.json"

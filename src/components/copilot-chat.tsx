@@ -1,14 +1,27 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
-import { Bot, User, X, Send, Sparkles } from "lucide-react";
-import { searchTranscripts, detectNative } from "@/lib/tauri-client";
+import { useState, useRef, useEffect, useMemo, useCallback } from "react";
+import { Bot, User, X, Send, Sparkles, ExternalLink, ArrowRight, RotateCcw } from "lucide-react";
+import { detectNative } from "@/lib/tauri-client";
 import type { BrainData, Episode, GuestNode, MasterPlaybook } from "@/lib/brain-types";
+import {
+  CopilotSession,
+  synthesize as engineSynthesize,
+  corpusStats,
+  type CopilotResponse,
+} from "@/lib/copilot-engine";
 
 type Message = {
   id: string;
   role: "user" | "assistant";
   content: string;
+  followups?: string[];
+  sourceStats?: {
+    episodes: number;
+    strategies: number;
+    transcriptChunks: number;
+    libraryResources: number;
+  };
 };
 
 const SUGGESTED_QUERIES = [
@@ -35,6 +48,7 @@ export function CopilotChat({
   const [input, setInput] = useState("");
   const [isTyping, setIsTyping] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const session = useMemo(() => new CopilotSession(), []);
 
   useEffect(() => {
     if (scrollRef.current) {
@@ -51,37 +65,30 @@ export function CopilotChat({
     setInput("");
     setIsTyping(true);
 
-    // Concurrently: native FTS query against the SQLite index AND a structured
-    // synthesis from the curated brain JSON. Combine them deterministically so
-    // the answer is grounded in BOTH the raw transcript and the curated layer.
-    const [native, synthesised] = await Promise.all([
-      searchTranscripts(text, 4),
-      Promise.resolve(synthesise(text, data)),
-    ]);
+    try {
+      // Use the new copilot engine with session context + multi-source retrieval
+      const response: CopilotResponse = await engineSynthesize(text, data, session);
 
-    const sections: string[] = [];
-    if (synthesised) sections.push(synthesised);
-    if (native.length > 0) {
-      const lines = ["", "### Verified Transcript Excerpts", ""];
-      native.forEach((r) => {
-        lines.push(`**${r.title}** _· ${r.category}_`);
-        lines.push(`> ${r.snippet.replace(/<\/?mark>/g, "**")}`);
-        lines.push("");
-      });
-      sections.push(lines.join("\n"));
+      const reply: Message = {
+        id: `a-${Date.now()}`,
+        role: "assistant",
+        content: response.answer,
+        followups: response.suggestedFollowups,
+        sourceStats: response.searchedSources,
+      };
+      setMessages((prev) => [...prev, reply]);
+    } catch (err) {
+      // Fallback: use the legacy synthesise function
+      const synthesised = synthesise(text, data);
+      const reply: Message = {
+        id: `a-${Date.now()}`,
+        role: "assistant",
+        content:
+          synthesised ||
+          `I searched all ${data.sourceCatalog.length} indexed episodes locally but found nothing for **${text}**. Try a category (D2C, Capital, AI), a guest name, or ask for a playbook.`,
+      };
+      setMessages((prev) => [...prev, reply]);
     }
-    if (sections.length === 0) {
-      sections.push(
-        `I searched all ${data.sourceCatalog.length} indexed episodes locally but found nothing for **${text}**. Try a category (D2C, Capital, AI), a guest name, or ask for a playbook.`,
-      );
-    }
-
-    const reply: Message = {
-      id: `a-${Date.now()}`,
-      role: "assistant",
-      content: sections.join("\n"),
-    };
-    setMessages((prev) => [...prev, reply]);
     setIsTyping(false);
   };
 
@@ -97,18 +104,29 @@ export function CopilotChat({
             <Bot className="w-3.5 h-3.5 text-white" />
           </div>
           <div>
-            <h3 className="text-[13px] font-semibold text-white tracking-tight">Alpha Copilot</h3>
+            <h3 className="text-[13px] font-semibold text-white tracking-tight">Alpha</h3>
             <p className="text-[9px] font-bold tracking-[0.15em] uppercase text-emerald-300/80">
-              {native === "native" ? "Native · Local Synthesis" : "Web Edition · JSON Synthesis"}
+              {native === "native" ? "Sovereign · Local Intelligence" : "Web · Offline Brain"} · {data.sourceCatalog?.length ?? 0} episodes
             </p>
           </div>
         </div>
-        <button
-          onClick={onClose}
-          className="p-1.5 rounded-md hover:bg-white/[0.05] text-stone-500 hover:text-white transition-colors"
-        >
-          <X className="w-4 h-4" />
-        </button>
+        <div className="flex items-center gap-1.5">
+          {messages.length > 0 && (
+            <button
+              onClick={() => { setMessages([]); session.clear(); }}
+              className="p-1.5 rounded-md hover:bg-white/[0.05] text-stone-600 hover:text-stone-300 transition-colors"
+              title="New conversation"
+            >
+              <RotateCcw className="w-3.5 h-3.5" />
+            </button>
+          )}
+          <button
+            onClick={onClose}
+            className="p-1.5 rounded-md hover:bg-white/[0.05] text-stone-500 hover:text-white transition-colors"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        </div>
       </div>
 
       <div ref={scrollRef} className="flex-1 overflow-y-auto p-4 space-y-4 custom-scrollbar">
@@ -118,13 +136,10 @@ export function CopilotChat({
               <Sparkles className="w-5 h-5 text-indigo-300" />
             </div>
             <h3 className="text-[14px] font-semibold text-white mb-1 tracking-tight">
-              Ask the Sovereign Brain
+              I'm Alpha
             </h3>
-            <p className="text-[11px] text-stone-500 mb-6 leading-relaxed">
-              Cross-references {data.sourceCatalog.length} episodes, {data.guestNetwork.length}{" "}
-              operators, {data.masterPlaybooks.length} verified playbooks, and{" "}
-              {data.founderLibrary?.sections.reduce((a, s) => a + s.items.length, 0) ?? 0}{" "}
-              link-verified founder resources — entirely on this machine.
+            <p className="text-[11px] text-stone-500 mb-6 leading-relaxed whitespace-pre-wrap">
+              {corpusStats(data)}
             </p>
             <div className="w-full space-y-1.5">
               {SUGGESTED_QUERIES.map((q, i) => (
@@ -157,11 +172,7 @@ export function CopilotChat({
               <div
                 className="text-[12px] leading-relaxed text-stone-200 whitespace-pre-wrap [&>h3]:text-[13px] [&>h3]:font-semibold [&>h3]:text-indigo-200 [&>h3]:mt-2 [&>h3]:mb-1 [&>b]:text-indigo-100"
                 dangerouslySetInnerHTML={{
-                  __html: m.content
-                    .replace(/^### (.*)$/gm, "<h3>$1</h3>")
-                    .replace(/\*\*(.*?)\*\*/g, "<b>$1</b>")
-                    .replace(/^---$/gm, '<hr class="border-white/5 my-3" />')
-                    .replace(/^> (.*)$/gm, '<div class="pl-3 border-l-2 border-indigo-500/30 my-1.5 italic text-stone-300">$1</div>'),
+                  __html: renderMarkdown(m.content),
                 }}
               />
               {m.role === "assistant" && onSelectEpisode && extractEpisodeRefs(m.content, data).length > 0 && (
@@ -170,11 +181,32 @@ export function CopilotChat({
                     <button
                       key={ep.id}
                       onClick={() => onSelectEpisode(ep.id)}
-                      className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/20 hover:bg-indigo-500/30 text-indigo-200 border border-indigo-500/30 transition-colors"
+                      className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/20 hover:bg-indigo-500/30 text-indigo-200 border border-indigo-500/30 transition-colors inline-flex items-center gap-1"
                     >
-                      Open episode →
+                      <ExternalLink className="w-2.5 h-2.5" />
+                      {ep.title.slice(0, 40)}…
                     </button>
                   ))}
+                </div>
+              )}
+              {m.role === "assistant" && m.followups && m.followups.length > 0 && (
+                <div className="mt-3 pt-2 border-t border-white/[0.04] space-y-1">
+                  <p className="text-[9px] font-bold tracking-[0.1em] uppercase text-stone-600 mb-1.5">Follow up</p>
+                  {m.followups.map((fu, fi) => (
+                    <button
+                      key={fi}
+                      onClick={() => handleSend(fu)}
+                      className="w-full text-left px-2.5 py-1.5 rounded-md bg-white/[0.02] hover:bg-white/[0.05] border border-white/[0.04] hover:border-indigo-500/20 text-[10px] text-stone-400 hover:text-indigo-200 transition-colors flex items-center gap-1.5"
+                    >
+                      <ArrowRight className="w-2.5 h-2.5 text-indigo-400/60" />
+                      {fu}
+                    </button>
+                  ))}
+                </div>
+              )}
+              {m.role === "assistant" && m.sourceStats && (
+                <div className="mt-2 text-[9px] text-stone-600">
+                  Searched {m.sourceStats.episodes} episodes · {m.sourceStats.strategies} strategies · {m.sourceStats.transcriptChunks} transcript excerpts · {m.sourceStats.libraryResources} library resources
                 </div>
               )}
             </div>
@@ -225,7 +257,32 @@ export function CopilotChat({
 }
 
 // ---------------------------------------------------------------------------
-//  Offline synthesis engine
+//  Markdown-to-HTML for copilot bubbles
+// ---------------------------------------------------------------------------
+
+function renderMarkdown(raw: string): string {
+  return raw
+    // Headers
+    .replace(/^### (.*)$/gm, '<h3>$1</h3>')
+    // Bold
+    .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')
+    // Markdown links [text](url) → clickable
+    .replace(
+      /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
+      '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-indigo-300 hover:text-indigo-200 underline underline-offset-2 decoration-indigo-500/30">$1</a>'
+    )
+    // HR
+    .replace(/^---$/gm, '<hr class="border-white/5 my-3" />')
+    // Blockquotes
+    .replace(/^> (.*)$/gm, '<div class="pl-3 border-l-2 border-indigo-500/30 my-1.5 italic text-stone-300">$1</div>')
+    // Bullet items
+    .replace(/^[•·] (.*)$/gm, '<div class="flex gap-1.5 my-0.5"><span class="text-indigo-400/60 shrink-0">·</span><span>$1</span></div>')
+    // Numbered items
+    .replace(/^(\d+)\. (.*)$/gm, '<div class="flex gap-1.5 my-0.5"><span class="text-indigo-400/60 font-mono text-[10px] shrink-0 mt-px">$1.</span><span>$2</span></div>');
+}
+
+// ---------------------------------------------------------------------------
+//  Offline synthesis engine (legacy fallback)
 // ---------------------------------------------------------------------------
 //
 // The brain JSON already contains hand-curated, high-signal intelligence
